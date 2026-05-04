@@ -252,6 +252,24 @@
   "serviceDetail": {
     "labelPrefix": "Servicio",
     "keyParams": "Parámetros clave",
+    "processEyebrow": "Cómo trabajamos",
+    "processTitle": "Tres pasos para un transporte seguro",
+    "processSteps": [
+      {
+        "title": "Consulta y presupuesto",
+        "body": "Nuestra central de operaciones recibe la consulta, valida los parámetros del envío y envía un presupuesto en pocas horas."
+      },
+      {
+        "title": "Planificación y coordinación",
+        "body": "Planificamos la ruta y asignamos conductor y vehículo según la carga. El cliente recibe información en cada paso."
+      },
+      {
+        "title": "Transporte y entrega",
+        "body": "Seguimiento 24/7. Entregamos en la franja acordada y devolvemos la documentación completa."
+      }
+    ],
+    "relatedEyebrow": "Otros servicios",
+    "relatedTitle": "También podría interesarte",
     "items": {
       "velkoobjemova-preprava": {
         "lede": "Transporte internacional de mercancía de gran volumen con la máxima calidad y en el mínimo tiempo.",
@@ -340,6 +358,13 @@
       "Anclaje seguro de la carga",
       "Lonas con certificado DIN EN 12642 Code XL",
       "Seguro de la mercancía transportada"
+    ],
+    "statsEyebrow": "La flota en cifras",
+    "stats": [
+      { "value": "100", "label": "camiones en flota", "sub": "DAF y Mercedes" },
+      { "value": "120", "unit": "m³", "label": "volumen de carga", "sub": "hasta 38 europalets" },
+      { "value": "24", "unit": "t", "label": "carga útil", "sub": "por camión" },
+      { "value": "8.5", "unit": "M km", "label": "recorridos al año", "sub": "por toda Europa" }
     ]
   },
   "referencesPage": {

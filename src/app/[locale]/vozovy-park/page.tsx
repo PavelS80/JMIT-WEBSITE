@@ -25,9 +25,12 @@ export default async function FleetPage({ params }: Props) {
   return <FleetContent />;
 }
 
+type FleetStat = { value: string; unit?: string; label: string; sub: string };
+
 function FleetContent() {
   const t = useTranslations("fleetPage");
   const equipment = t.raw("equipment") as string[];
+  const stats = t.raw("stats") as FleetStat[];
 
   return (
     <>
@@ -42,6 +45,34 @@ function FleetContent() {
         }
         description={t("heroDescription")}
       />
+
+      <section className="-mt-16 md:-mt-20 pb-4 relative z-10">
+        <Container>
+          <div className="bg-white border border-line rounded-2xl shadow-soft p-2">
+            <p className="px-6 pt-5 eyebrow">{t("statsEyebrow")}</p>
+            <dl className="mt-3 grid grid-cols-2 lg:grid-cols-4 divide-y lg:divide-y-0 lg:divide-x divide-line">
+              {stats.map((s) => (
+                <div key={s.label} className="px-6 py-6 md:py-7">
+                  <dt className="text-[12px] font-semibold tracking-[0.18em] uppercase text-ink-muted">
+                    {s.label}
+                  </dt>
+                  <dd className="mt-2 flex items-baseline gap-1.5 text-ink">
+                    <span className="text-[40px] md:text-[48px] leading-none font-semibold tracking-tight tnum">
+                      {s.value}
+                    </span>
+                    {s.unit && (
+                      <span className="text-[16px] md:text-[18px] font-semibold text-brand-red tnum">
+                        {s.unit}
+                      </span>
+                    )}
+                  </dd>
+                  <p className="mt-2 text-[13px] text-ink-muted">{s.sub}</p>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </Container>
+      </section>
 
       <section className="py-20 md:py-28">
         <Container>

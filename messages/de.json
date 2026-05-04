@@ -252,6 +252,24 @@
   "serviceDetail": {
     "labelPrefix": "Leistung",
     "keyParams": "Schlüsselparameter",
+    "processEyebrow": "So arbeiten wir",
+    "processTitle": "Drei Schritte zum sicheren Transport",
+    "processSteps": [
+      {
+        "title": "Anfrage & Angebot",
+        "body": "Unsere Disposition prüft die Anfrage, validiert die Sendungsparameter und sendet innerhalb weniger Stunden ein Angebot."
+      },
+      {
+        "title": "Planung & Koordination",
+        "body": "Wir planen die Route und stellen Fahrer und Sattelzug passend zur Ladung bereit. Sie werden bei jedem Schritt informiert."
+      },
+      {
+        "title": "Transport & Zustellung",
+        "body": "Wir tracken rund um die Uhr, liefern im vereinbarten Fenster und übergeben die vollständige Dokumentation."
+      }
+    ],
+    "relatedEyebrow": "Weitere Leistungen",
+    "relatedTitle": "Das könnte Sie interessieren",
     "items": {
       "velkoobjemova-preprava": {
         "lede": "Internationaler Transport voluminöser Güter in höchster Qualität und kürzester Zeit.",
@@ -340,6 +358,13 @@
       "Sichere Ladungssicherung",
       "Planen mit Zertifikat DIN EN 12642 Code XL",
       "Versicherung der transportierten Ladung"
+    ],
+    "statsEyebrow": "Flotte in Zahlen",
+    "stats": [
+      { "value": "100", "label": "Sattelzüge im Bestand", "sub": "DAF & Mercedes" },
+      { "value": "120", "unit": "m³", "label": "Ladevolumen", "sub": "bis 38 Europaletten" },
+      { "value": "24", "unit": "t", "label": "Nutzlast", "sub": "pro Sattelzug" },
+      { "value": "8.5", "unit": "Mio. km", "label": "pro Jahr gefahren", "sub": "in ganz Europa" }
     ]
   },
   "referencesPage": {

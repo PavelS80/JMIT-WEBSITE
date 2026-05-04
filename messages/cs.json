@@ -252,6 +252,24 @@
   "serviceDetail": {
     "labelPrefix": "Služba",
     "keyParams": "Klíčové parametry",
+    "processEyebrow": "Jak postupujeme",
+    "processTitle": "Tři kroky k bezpečné přepravě",
+    "processSteps": [
+      {
+        "title": "Poptávka a nabídka",
+        "body": "Přijmeme poptávku na dispečinku, prověříme parametry zásilky a do několika hodin posíláme cenovou kalkulaci."
+      },
+      {
+        "title": "Plánování a koordinace",
+        "body": "Naplánujeme trasu, přidělíme řidiče a soupravu odpovídající nákladu. O každém kroku informujeme zákazníka."
+      },
+      {
+        "title": "Přeprava a doručení",
+        "body": "Náklad sledujeme online 24/7. Doručujeme v dohodnutém okně a vracíme úplnou dokumentaci."
+      }
+    ],
+    "relatedEyebrow": "Další služby",
+    "relatedTitle": "Mohlo by vás zajímat",
     "items": {
       "velkoobjemova-preprava": {
         "lede": "Mezinárodní doprava velkoobjemového zboží v maximální kvalitě a v minimálním čase.",
@@ -340,6 +358,13 @@
       "Bezpečné ukotvení nákladu",
       "Plachty s certifikátem DIN EN 12642 Code XL",
       "Pojištění přepravovaného nákladu"
+    ],
+    "statsEyebrow": "Naše čísla",
+    "stats": [
+      { "value": "100", "label": "souprav ve flotile", "sub": "DAF a Mercedes" },
+      { "value": "120", "unit": "m³", "label": "objem nákladu", "sub": "až 38 europalet" },
+      { "value": "24", "unit": "t", "label": "užitečná hmotnost", "sub": "na soupravu" },
+      { "value": "8.5", "unit": "M km", "label": "ujetých ročně", "sub": "po celé Evropě" }
     ]
   },
   "referencesPage": {

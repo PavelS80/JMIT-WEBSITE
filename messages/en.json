@@ -252,6 +252,24 @@
   "serviceDetail": {
     "labelPrefix": "Service",
     "keyParams": "Key parameters",
+    "processEyebrow": "How we work",
+    "processTitle": "Three steps to a safe shipment",
+    "processSteps": [
+      {
+        "title": "Inquiry & quote",
+        "body": "Our dispatch desk takes the inquiry, validates the shipment parameters and sends a quote within hours."
+      },
+      {
+        "title": "Planning & coordination",
+        "body": "We plan the route and assign a driver and a rig that fits the cargo. The customer is notified at every step."
+      },
+      {
+        "title": "Transport & delivery",
+        "body": "Tracking runs 24/7. We deliver inside the agreed window and return complete documentation."
+      }
+    ],
+    "relatedEyebrow": "More services",
+    "relatedTitle": "You might also like",
     "items": {
       "velkoobjemova-preprava": {
         "lede": "International transport of high-volume goods at the highest quality and the shortest time.",
@@ -340,6 +358,13 @@
       "Secure cargo anchoring",
       "Tarpaulins certified to DIN EN 12642 Code XL",
       "Insurance of the transported cargo"
+    ],
+    "statsEyebrow": "Fleet by the numbers",
+    "stats": [
+      { "value": "100", "label": "rigs in the fleet", "sub": "DAF & Mercedes" },
+      { "value": "120", "unit": "m³", "label": "cargo volume", "sub": "up to 38 europallets" },
+      { "value": "24", "unit": "t", "label": "payload", "sub": "per rig" },
+      { "value": "8.5", "unit": "M km", "label": "driven per year", "sub": "across Europe" }
     ]
   },
   "referencesPage": {
