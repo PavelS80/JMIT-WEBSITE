@@ -215,6 +215,22 @@
     "p2": "J.M.I.T. cuenta con 150 empleados en dos divisiones — la clásica de camión y la división para socios europeos. Nuestros conductores recorren más de 8,5 millones de kilómetros al año, equivalente a más de 220 vueltas al ecuador.",
     "p3": "Nuestra sede se encuentra en Hlubočky, cerca de Olomouc. La central cuenta con un despacho con línea directa las veinticuatro horas. Los coordinadores hablan varios idiomas con fluidez y dominan a la perfección la logística por carretera.",
     "p4": "Mantenemos un alto estándar gracias a conductores y técnicos formados. No es excepcional que nuestros conductores lleven más de veinte años con nosotros.",
+    "valuesEyebrow": "Valores",
+    "valuesTitle": "Tres pilares sobre los que construimos.",
+    "values": [
+      {
+        "title": "Fiabilidad",
+        "body": "Despacho 24/7, seguimiento continuo de la flota y entregas puntuales. Lo que prometemos, lo cumplimos."
+      },
+      {
+        "title": "Calidad",
+        "body": "ISO 9001:2015, certificación ADR, flota moderna DAF y Mercedes y formación continua de los conductores."
+      },
+      {
+        "title": "Tradición",
+        "body": "Empresa puramente checa desde 1991. Base sólida, nave propia en Hlubočky y un equipo de más de 150 personas."
+      }
+    ],
     "historyEyebrow": "Historia",
     "historyTitle": "Más de tres décadas en la carretera.",
     "timeline": [

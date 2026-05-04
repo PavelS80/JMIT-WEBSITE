@@ -215,6 +215,22 @@
     "p2": "Firma J.M.I.T. má 150 zaměstnanců ve dvou divizích — klasické kamionové a divizi pro evropské partnery. Naši řidiči ujedou ročně přes 8,5 milionu kilometrů, což odpovídá více než 220 obkroužením Země po rovníku.",
     "p3": "Sídlíme v Hlubočkách u Olomouce. V centrále funguje dispečink s „hot linkou\" čtyřiadvacet hodin denně. Koordinátoři mluví plynně několika světovými jazyky a mají dokonalý přehled v autodopravě.",
     "p4": "Vysoký standard služeb udržujeme díky proškoleným řidičům a technikům. Není výjimkou, že u nás řidiči jezdí přes dvacet let.",
+    "valuesEyebrow": "Hodnoty",
+    "valuesTitle": "Tři pilíře, na kterých stavíme.",
+    "values": [
+      {
+        "title": "Spolehlivost",
+        "body": "Dispečink 24/7, kontinuální sledování souprav a přesné termíny. Co slíbíme, splníme."
+      },
+      {
+        "title": "Kvalita",
+        "body": "ISO 9001:2015, certifikace ADR, moderní flotila DAF a Mercedes a stálé proškolování řidičů."
+      },
+      {
+        "title": "Tradice",
+        "body": "Ryze česká firma od roku 1991. Stabilní zázemí, vlastní areál v Hlubočkách, přes 150 lidí v týmu."
+      }
+    ],
     "historyEyebrow": "Historie",
     "historyTitle": "Více než tři dekády na cestách.",
     "timeline": [

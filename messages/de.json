@@ -215,6 +215,22 @@
     "p2": "Die Firma J.M.I.T. beschäftigt 150 Mitarbeiter in zwei Divisionen — klassischer LKW-Verkehr und einer Division für europäische Partner. Unsere Fahrer legen jährlich über 8,5 Millionen Kilometer zurück, was mehr als 220 Erdumrundungen am Äquator entspricht.",
     "p3": "Unser Sitz ist in Hlubočky bei Olomouc. In der Zentrale ist die Disposition rund um die Uhr per Hotline erreichbar. Die Koordinatoren sprechen mehrere Weltsprachen fließend und haben einen perfekten Überblick im Straßentransport.",
     "p4": "Unseren hohen Servicestandard halten wir dank geschulter Fahrer und Techniker. Es ist keine Ausnahme, dass Fahrer bei uns über zwanzig Jahre lang fahren.",
+    "valuesEyebrow": "Werte",
+    "valuesTitle": "Drei Säulen, auf denen wir bauen.",
+    "values": [
+      {
+        "title": "Zuverlässigkeit",
+        "body": "Disposition rund um die Uhr, kontinuierliches Tracking und pünktliche Zustellung. Was wir versprechen, halten wir."
+      },
+      {
+        "title": "Qualität",
+        "body": "ISO 9001:2015, ADR-Zertifizierung, moderne DAF- und Mercedes-Flotte und laufende Schulungen der Fahrer."
+      },
+      {
+        "title": "Tradition",
+        "body": "Rein tschechisches Unternehmen seit 1991. Solide Basis, eigener Hof in Hlubočky und ein Team von über 150 Mitarbeitenden."
+      }
+    ],
     "historyEyebrow": "Historie",
     "historyTitle": "Mehr als drei Jahrzehnte unterwegs.",
     "timeline": [

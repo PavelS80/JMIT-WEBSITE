@@ -24,6 +24,8 @@ export default async function AboutPage({ params }: Props) {
   return <AboutContent />;
 }
 
+type Value = { title: string; body: string };
+
 function AboutContent() {
   const t = useTranslations("aboutPage");
   const years = site.yearsInBusiness;
@@ -32,6 +34,7 @@ function AboutContent() {
     name: string;
     body: string;
   }>;
+  const values = t.raw("values") as Value[];
 
   return (
     <>
@@ -64,6 +67,39 @@ function AboutContent() {
               <p>{t("p4")}</p>
             </div>
           </div>
+        </Container>
+      </section>
+
+      <section className="py-20 md:py-24 bg-navy text-white">
+        <Container>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-end">
+            <div className="lg:col-span-5">
+              <p className="text-[12px] font-semibold tracking-[0.18em] uppercase text-brand-red">
+                {t("valuesEyebrow")}
+              </p>
+              <h2 className="mt-4 text-[32px] md:text-[40px] font-semibold tracking-tight leading-[1.05]">
+                {t("valuesTitle")}
+              </h2>
+            </div>
+          </div>
+          <ol className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-px bg-white/10 border border-white/10 rounded-2xl overflow-hidden">
+            {values.map((v, i) => (
+              <li
+                key={v.title}
+                className="bg-navy p-8 md:p-10 hover:bg-navy-soft transition-colors"
+              >
+                <span className="text-[12px] font-semibold tracking-[0.18em] uppercase text-brand-red tnum">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <h3 className="mt-3 text-[24px] font-semibold tracking-tight">
+                  {v.title}
+                </h3>
+                <p className="mt-3 text-[15px] leading-relaxed text-white/70 max-w-sm">
+                  {v.body}
+                </p>
+              </li>
+            ))}
+          </ol>
         </Container>
       </section>
 

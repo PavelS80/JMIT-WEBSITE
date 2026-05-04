@@ -215,6 +215,22 @@
     "p2": "J.M.I.T. employs 150 people across two divisions — classic trucking and a division for European partners. Our drivers cover more than 8.5 million kilometres a year — the equivalent of more than 220 trips around the Equator.",
     "p3": "Our headquarters are in Hlubočky near Olomouc. The dispatch hotline runs twenty-four hours a day. Our coordinators speak several world languages fluently and have unparalleled command of road logistics.",
     "p4": "We sustain our high service standards through trained drivers and technicians. It is not unusual for our drivers to stay with us for over twenty years.",
+    "valuesEyebrow": "Values",
+    "valuesTitle": "Three pillars we build on.",
+    "values": [
+      {
+        "title": "Reliability",
+        "body": "24/7 dispatch, continuous fleet tracking and on-time delivery. What we promise, we keep."
+      },
+      {
+        "title": "Quality",
+        "body": "ISO 9001:2015, ADR certification, a modern DAF and Mercedes fleet, and continuous driver training."
+      },
+      {
+        "title": "Tradition",
+        "body": "A purely Czech company since 1991. A solid base, our own yard in Hlubočky, and a team of more than 150."
+      }
+    ],
     "historyEyebrow": "History",
     "historyTitle": "More than three decades on the road.",
     "timeline": [
