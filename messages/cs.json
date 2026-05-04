@@ -168,6 +168,10 @@
     "ctaHome": "Zpátky domů",
     "ctaContact": "Kontaktovat dispečink"
   },
+  "ticker": {
+    "ariaLabel": "Aktivní přepravní trasy",
+    "live": "Vyjelo"
+  },
   "contactForm": {
     "eyebrow": "Poptávka",
     "title": "Pošlete poptávku",

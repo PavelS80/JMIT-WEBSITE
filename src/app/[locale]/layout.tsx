@@ -9,6 +9,7 @@ import { DrivingTruck } from "@/components/DrivingTruck";
 import { CookieBanner } from "@/components/CookieBanner";
 import { ScrollProgress } from "@/components/ScrollProgress";
 import { RevealObserver } from "@/components/Reveal";
+import { StructuredData } from "@/components/StructuredData";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 
@@ -87,6 +88,7 @@ export default async function LocaleLayout({
           <DrivingTruck />
           <CookieBanner />
           <RevealObserver />
+          <StructuredData />
         </NextIntlClientProvider>
       </body>
     </html>

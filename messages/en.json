@@ -168,6 +168,10 @@
     "ctaHome": "Back home",
     "ctaContact": "Contact dispatch"
   },
+  "ticker": {
+    "ariaLabel": "Active transport routes",
+    "live": "Departed"
+  },
   "contactForm": {
     "eyebrow": "Request a quote",
     "title": "Send us your enquiry",

@@ -168,6 +168,10 @@
     "ctaHome": "Volver al inicio",
     "ctaContact": "Contactar con central"
   },
+  "ticker": {
+    "ariaLabel": "Rutas de transporte activas",
+    "live": "En ruta"
+  },
   "contactForm": {
     "eyebrow": "Solicitar presupuesto",
     "title": "Envíanos tu consulta",

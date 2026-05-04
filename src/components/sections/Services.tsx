@@ -30,7 +30,7 @@ export function Services() {
               key={slug}
               href={`/sluzby/${slug}`}
               data-delay={String((i % 4) + 1)}
-              className="group relative overflow-hidden rounded-2xl bg-navy text-white aspect-[4/5] md:aspect-[5/6] block reveal"
+              className="group service-card relative overflow-hidden rounded-2xl bg-navy text-white aspect-[4/5] md:aspect-[5/6] block reveal"
             >
               <Image
                 src={serviceImages[slug]}
@@ -40,6 +40,7 @@ export function Services() {
                 className="object-cover transition-transform duration-700 group-hover:scale-[1.04]"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy via-navy/30 to-transparent" />
+              <span aria-hidden className="service-card__trace" />
               <div className="absolute inset-0 p-6 md:p-7 flex flex-col justify-between">
                 <span className="text-[11px] font-semibold tracking-[0.18em] uppercase text-white/60 tnum">
                   0{i + 1}

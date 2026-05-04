@@ -168,6 +168,10 @@
     "ctaHome": "Zur Startseite",
     "ctaContact": "Disposition kontaktieren"
   },
+  "ticker": {
+    "ariaLabel": "Aktive Transportrouten",
+    "live": "Abgefahren"
+  },
   "contactForm": {
     "eyebrow": "Anfrage",
     "title": "Senden Sie uns Ihre Anfrage",

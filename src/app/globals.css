@@ -247,6 +247,74 @@ body {
   opacity: 1;
 }
 
+/* Route ticker marquee */
+.ticker-mask {
+  mask-image: linear-gradient(
+    90deg,
+    transparent 0,
+    #000 8%,
+    #000 92%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent 0,
+    #000 8%,
+    #000 92%,
+    transparent 100%
+  );
+}
+.ticker-track {
+  width: max-content;
+  animation: ticker-scroll 60s linear infinite;
+}
+@keyframes ticker-scroll {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+/* Service card tracing border */
+.service-card__trace {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: conic-gradient(
+    from var(--angle, 0deg),
+    transparent 0deg,
+    rgba(201, 169, 106, 0.7) 45deg,
+    rgba(200, 16, 46, 0.85) 90deg,
+    transparent 180deg,
+    transparent 360deg
+  );
+  -webkit-mask:
+    linear-gradient(#000, #000) content-box,
+    linear-gradient(#000, #000);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.45s ease;
+  pointer-events: none;
+}
+.service-card:hover .service-card__trace {
+  opacity: 1;
+  animation: trace-spin 4s linear infinite;
+}
+@property --angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+@keyframes trace-spin {
+  to {
+    --angle: 360deg;
+  }
+}
+
 /* Reveal stagger helper */
 .reveal[data-delay="1"] {
   transition-delay: 60ms;
@@ -275,5 +343,11 @@ body {
   }
   .cursor-glow {
     display: none !important;
+  }
+  .service-card:hover .service-card__trace {
+    animation: none !important;
+  }
+  .ticker-track {
+    animation: none !important;
   }
 }
