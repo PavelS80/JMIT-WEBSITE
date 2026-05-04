@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
 import { navigation, site } from "@/lib/site";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { cn } from "@/lib/cn";
@@ -13,6 +13,7 @@ export function Header() {
   const [open, setOpen] = useState(false);
   const t = useTranslations("nav");
   const tc = useTranslations("common");
+  const pathname = usePathname();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -20,6 +21,19 @@ export function Header() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  useEffect(() => {
+    if (open) {
+      const prev = document.body.style.overflow;
+      document.body.style.overflow = "hidden";
+      return () => {
+        document.body.style.overflow = prev;
+      };
+    }
+  }, [open]);
+
+  const isActive = (href: string) =>
+    href === "/" ? pathname === "/" : pathname === href || pathname.startsWith(`${href}/`);
 
   return (
     <header
@@ -43,15 +57,22 @@ export function Header() {
         </Link>
 
         <nav className="hidden lg:flex items-center gap-8" aria-label="Main">
-          {navigation.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="nav-link text-[14px] font-medium text-ink hover:text-brand-red transition-colors"
-            >
-              {t(item.key)}
-            </Link>
-          ))}
+          {navigation.map((item) => {
+            const active = isActive(item.href);
+            return (
+              <Link
+                key={item.href}
+                href={item.href}
+                aria-current={active ? "page" : undefined}
+                className={cn(
+                  "nav-link text-[14px] font-medium transition-colors",
+                  active ? "text-brand-red" : "text-ink hover:text-brand-red"
+                )}
+              >
+                {t(item.key)}
+              </Link>
+            );
+          })}
         </nav>
 
         <div className="hidden lg:flex items-center gap-4">
@@ -84,16 +105,23 @@ export function Header() {
       {open && (
         <div className="lg:hidden border-t border-line bg-white">
           <nav className="flex flex-col px-6 py-4">
-            {navigation.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                onClick={() => setOpen(false)}
-                className="py-3 text-[15px] font-medium text-ink border-b border-line/60"
-              >
-                {t(item.key)}
-              </Link>
-            ))}
+            {navigation.map((item) => {
+              const active = isActive(item.href);
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setOpen(false)}
+                  aria-current={active ? "page" : undefined}
+                  className={cn(
+                    "py-3 text-[15px] font-medium border-b border-line/60",
+                    active ? "text-brand-red" : "text-ink"
+                  )}
+                >
+                  {t(item.key)}
+                </Link>
+              );
+            })}
             <a
               href={`tel:${site.phones.mainHref}`}
               className="py-4 text-[15px] font-semibold text-brand-red tnum border-b border-line/60"

@@ -67,23 +67,36 @@ function AboutContent() {
         </Container>
       </section>
 
-      <section className="py-20 md:py-24 bg-surface">
+      <section className="py-20 md:py-28 bg-surface">
         <Container>
           <p className="eyebrow">{t("historyEyebrow")}</p>
           <h2 className="mt-4 text-[32px] md:text-[44px] font-semibold leading-[1.05] tracking-tight max-w-2xl">
             {t("historyTitle")}
           </h2>
 
-          <ol className="mt-14 relative border-l border-line ml-3">
-            {timeline.map((row) => (
-              <li key={row.year} className="ml-8 mb-10 last:mb-0">
-                <span className="absolute -left-1.5 mt-1.5 inline-block w-3 h-3 rounded-full bg-brand-red" />
-                <div className="text-[14px] font-semibold tracking-wider text-brand-red tnum">
-                  {row.year}
+          <ol className="mt-16 relative pl-8 md:pl-12">
+            <span
+              aria-hidden
+              className="absolute left-2 md:left-3 top-2 bottom-2 w-px bg-gradient-to-b from-brand-red via-gold/40 to-transparent"
+            />
+            {timeline.map((row, i) => (
+              <li
+                key={row.year}
+                data-delay={String((i % 4) + 1)}
+                className="relative mb-12 last:mb-0 reveal"
+              >
+                <span
+                  aria-hidden
+                  className="absolute -left-[26px] md:-left-[34px] top-3 inline-block w-3 h-3 rounded-full bg-brand-red ring-4 ring-surface shadow-[0_0_0_1px_rgba(200,16,46,0.35)]"
+                />
+                <div className="grid grid-cols-1 md:grid-cols-12 gap-3 md:gap-8">
+                  <div className="md:col-span-3 text-[28px] md:text-[34px] font-semibold tracking-tight text-brand-red tnum leading-none">
+                    {row.year}
+                  </div>
+                  <p className="md:col-span-9 text-[16px] md:text-[17px] leading-relaxed text-ink/85 max-w-2xl">
+                    {row.text.replace("{years}", String(years))}
+                  </p>
                 </div>
-                <p className="mt-1 text-[16px] text-ink/85 max-w-2xl">
-                  {row.text.replace("{years}", String(years))}
-                </p>
               </li>
             ))}
           </ol>
