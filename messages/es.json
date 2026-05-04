@@ -23,7 +23,8 @@
     "viewDetail": "Ver detalle",
     "readMore": "Leer más",
     "scrollHint": "Desplazar",
-    "language": "Idioma"
+    "language": "Idioma",
+    "backToTop": "Volver arriba"
   },
   "hero": {
     "eyebrow": "Desde {year} · {years} años de tradición",

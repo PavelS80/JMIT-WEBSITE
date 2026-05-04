@@ -23,7 +23,8 @@
     "viewDetail": "View detail",
     "readMore": "Read more",
     "scrollHint": "Scroll",
-    "language": "Language"
+    "language": "Language",
+    "backToTop": "Back to top"
   },
   "hero": {
     "eyebrow": "Since {year} · {years} years of heritage",

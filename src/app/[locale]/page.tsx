@@ -7,6 +7,7 @@ import { WhyJMIT } from "@/components/sections/WhyJMIT";
 import { Coverage } from "@/components/sections/Coverage";
 import { RouteTicker } from "@/components/sections/RouteTicker";
 import { FleetTeaser } from "@/components/sections/FleetTeaser";
+import { SectionDivider } from "@/components/SectionDivider";
 import { References } from "@/components/sections/References";
 import { CareerCTA } from "@/components/sections/CareerCTA";
 import { ContactCTA } from "@/components/sections/ContactCTA";
@@ -26,6 +27,7 @@ export default async function Home({ params }: Props) {
       <Coverage />
       <RouteTicker />
       <FleetTeaser />
+      <SectionDivider label="VI · Trust" />
       <References />
       <CareerCTA />
       <ContactCTA />

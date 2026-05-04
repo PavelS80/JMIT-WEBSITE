@@ -10,7 +10,7 @@ export function Hero() {
 
   return (
     <section className="relative isolate overflow-hidden bg-navy text-white">
-      <div className="absolute inset-0 -z-10">
+      <div className="absolute -inset-y-16 inset-x-0 -z-10 hero-parallax">
         <Image
           src="/assets/hero/hero-1.jpg"
           alt=""
