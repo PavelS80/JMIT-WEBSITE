@@ -1,26 +1,195 @@
 @import "tailwindcss";
 
+@theme {
+  --color-brand-red: #c8102e;
+  --color-brand-red-dark: #a30c24;
+  --color-brand-blue: #0b3d91;
+  --color-brand-blue-dark: #082c69;
+  --color-navy: #0a1b2e;
+  --color-navy-soft: #14283f;
+  --color-ink: #101624;
+  --color-ink-muted: #5b6678;
+  --color-line: #e4e7ec;
+  --color-surface: #f7f8fa;
+  --color-surface-2: #eef0f4;
+  --color-gold: #c9a96a;
+  --color-gold-soft: #e6d3a3;
+
+  --font-sans: var(--font-inter), system-ui, -apple-system, "Segoe UI", Roboto,
+    sans-serif;
+  --font-display: var(--font-fraunces), "Cormorant Garamond", Georgia, serif;
+
+  --shadow-soft: 0 1px 2px rgb(16 22 36 / 0.04), 0 8px 24px rgb(16 22 36 / 0.06);
+  --shadow-lift: 0 4px 12px rgb(16 22 36 / 0.08),
+    0 24px 48px rgb(16 22 36 / 0.12);
+  --shadow-luxe: 0 1px 0 rgb(255 255 255 / 0.6) inset,
+    0 30px 60px -20px rgb(10 27 46 / 0.35);
+}
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: var(--color-ink);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-brand-red);
+  color: white;
+}
+
+.eyebrow {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-brand-red);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.eyebrow::before {
+  content: "";
+  display: inline-block;
+  width: 1.6rem;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    var(--color-gold) 0%,
+    var(--color-brand-red) 100%
+  );
+}
+
+.serif {
+  font-family: var(--font-display);
+  font-feature-settings: "ss01", "ss02";
+  letter-spacing: -0.01em;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.gold-rule {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-gold) 30%,
+    var(--color-gold) 70%,
+    transparent
+  );
+  height: 1px;
+  width: 100%;
+}
+
+.luxe-card {
+  background: white;
+  border: 1px solid var(--color-line);
+  border-radius: 20px;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.luxe-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lift);
+}
+
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 1px;
+  background: var(--color-brand-red);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.nav-link:hover::after,
+.nav-link[aria-current="page"]::after {
+  transform: scaleX(1);
+}
+
+.tnum {
+  font-feature-settings: "tnum";
+  font-variant-numeric: tabular-nums;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes hero-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.08);
+  }
+}
+.hero-bg {
+  animation: hero-zoom 14s ease-out forwards;
+}
+
+/* Driving truck — luxury cinematic intro */
+@keyframes truck-drive {
+  0% {
+    transform: translateX(-30vw);
+  }
+  100% {
+    transform: translateX(110vw);
+  }
+}
+@keyframes truck-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.8px);
+  }
+}
+@keyframes truck-wheel {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.driving-truck__rig {
+  width: max-content;
+  transform: translateX(-30vw);
+  will-change: transform;
+}
+.driving-truck.is-driving .driving-truck__rig {
+  animation: truck-drive 8.4s cubic-bezier(0.45, 0, 0.45, 1) forwards,
+    truck-bounce 0.18s linear infinite;
+}
+.driving-truck__wheel {
+  animation: truck-wheel 0.55s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-bg,
+  .driving-truck.is-driving .driving-truck__rig,
+  .driving-truck__wheel {
+    animation: none !important;
+  }
 }

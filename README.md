@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# jmit.cz — redesign
 
-## Getting Started
+Premium redesign of the J.M.I.T. a.s. corporate website (logistics + transport, Hlubočky / Olomouc).
 
-First, run the development server:
+## Stack
+
+- **Next.js 16** (App Router, Turbopack) · React 19 · TypeScript
+- **Tailwind CSS v4** with custom design tokens (`src/app/globals.css`)
+- **next-intl 4** — `cs` (default, no prefix), `en` / `de` / `es` / `ru` (prefixed)
+- Static-first: 68 prerendered pages (5 locales × 13 routes).
+
+## Run
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev      # http://localhost:3000
+npm run build    # production build
+npm start        # serve the build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+src/
+├── app/
+│   ├── globals.css          Tokens, keyframes, eyebrow/serif/luxe utilities
+│   └── [locale]/            Locale-segmented routes
+│       ├── layout.tsx       Header + Footer + DrivingTruck + i18n provider
+│       ├── page.tsx         Homepage (composes 10 section components)
+│       ├── o-firme/         About + 14-step history timeline
+│       ├── sluzby/          Services hub + dynamic [slug] detail (×6)
+│       ├── vozovy-park/     Fleet gallery + spec list
+│       ├── reference/       Client logo grid (16 brands)
+│       ├── kariera/         Two open driver positions
+│       └── kontakty/        Full team directory + Google Maps embed
+├── components/
+│   ├── Header.tsx           Sticky nav, scroll-aware, mobile drawer
+│   ├── Footer.tsx           4-col footer with full contact block
+│   ├── DrivingTruck.tsx     Cinematic SVG truck (once per session,
+│   │                        respects prefers-reduced-motion)
+│   ├── LanguageSwitcher.tsx CS / EN / DE / ES / RU dropdown
+│   ├── Container.tsx · Button.tsx · PageHero.tsx
+│   └── sections/            Hero, StatBar, Intro, Services, WhyJMIT,
+│                            Coverage (custom Europe SVG), FleetTeaser,
+│                            References, CareerCTA, ContactCTA
+├── i18n/
+│   ├── routing.ts           Locale list + `as-needed` prefix strategy
+│   ├── navigation.ts        Locale-aware Link / useRouter / usePathname
+│   └── request.ts           Loads `messages/<locale>.json` per request
+├── middleware.ts            next-intl locale detection
+└── lib/
+    ├── site.ts              Structural data: contacts, slugs, stats,
+    │                        references, team portraits, GPS, IČ/DIČ
+    └── cn.ts                className merge helper
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+messages/
+├── cs.json    Master copy (verbatim from live jmit.cz)
+├── en.json
+├── de.json
+├── es.json
+└── ru.json    Includes Cyrillic subset in fonts
 
-## Learn More
+public/assets/
+├── brand/      Logo (full + mono) + 35-let mark
+├── hero/       6 hero/slider photos
+├── fleet/      6 detail-quality 2024 fleet photos
+├── services/   5 service hero shots (2024)
+└── team/       3 of 14 available 2025 staff portraits
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Brand tokens
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Defined in `src/app/globals.css` under `@theme`:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Token | Hex | Use |
+|---|---|---|
+| `brand-red` | `#c8102e` | Primary CTAs, accents |
+| `gold` / `gold-soft` | `#c9a96a` / `#e6d3a3` | Luxury hairlines, hero glow |
+| `navy` | `#0a1b2e` | Dark sections, footer, contact CTA |
+| `ink` / `ink-muted` | `#101624` / `#5b6678` | Body / secondary text |
+| `surface` / `line` | `#f7f8fa` / `#e4e7ec` | Alt backgrounds, borders |
 
-## Deploy on Vercel
+Typography: Inter (latin + latin-ext + cyrillic) + Fraunces serif (SOFT, WONK
+axes) for hero/section title accents via the `.serif` utility.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Localisation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Czech is the master language and serves from `/`. Other locales serve from
+`/en`, `/de`, `/es`, `/ru`. Route slugs (`/sluzby`, `/o-firme`, etc.) remain
+in Czech across all locales by design — only UI copy is translated.
+
+To edit copy, change the relevant key in `messages/<locale>.json`. Structural
+data (contact emails, GPS, IČ/DIČ, service slugs, image paths) lives in
+`src/lib/site.ts` and is locale-agnostic.
+
+## Content source
+
+All Czech copy extracted verbatim from the live `jmit.cz` site. EN/DE/ES/RU
+translations were authored against the CZ master and reviewed for industry
+terminology. See `PROPOSAL.md` for the full extraction summary and design
+rationale.
+
+## Known TODOs
+
+- Renew SSL certificate on the production domain (P0)
+- Cookie consent banner (legal, GTM is loaded)
+- Re-vectorise client logos as monochrome SVGs
+- Replace iframe HQ map with branded MapLibre/Mapbox
+- Production photography: drone shot of Hlubočky HQ + driver day-in-the-life series
+- Migrate `middleware.ts` to `proxy.ts` (Next.js 16 deprecation notice)

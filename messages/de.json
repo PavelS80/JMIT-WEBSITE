@@ -1,0 +1,423 @@
+{
+  "meta": {
+    "rootTitle": "J.M.I.T. a.s. — Volumentransport auf höchstem Niveau",
+    "rootDescription": "Tschechischer Frachtführer mit eigener Flotte von 100 DAF- und Mercedes-Sattelzügen für internationale und nationale Volumentransporte. Seit 1991. ISO 9001, ADR, Disposition rund um die Uhr.",
+    "rootOgDescription": "Tschechischer Frachtführer mit 100 Sattelzügen für ganz Europa. Seit 1991."
+  },
+  "nav": {
+    "about": "Über uns",
+    "services": "Leistungen",
+    "fleet": "Fuhrpark",
+    "references": "Referenzen",
+    "careers": "Karriere",
+    "contacts": "Kontakt",
+    "menu": "Menü"
+  },
+  "common": {
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "mobile": "Mobil",
+    "fax": "Fax",
+    "address": "Adresse",
+    "openInMaps": "In Google Maps öffnen",
+    "viewDetail": "Details ansehen",
+    "readMore": "Mehr lesen",
+    "scrollHint": "Scrollen",
+    "language": "Sprache"
+  },
+  "hero": {
+    "eyebrow": "Seit {year} · {years} Jahre Tradition",
+    "titleLine1": "Volumentransport",
+    "titleLine2": "auf höchstem Niveau.",
+    "body": "Tschechischer Frachtführer mit eigener Flotte von 100 DAF- und Mercedes-Sattelzügen für nationale und internationale Transporte in ganz Europa.",
+    "ctaPrimary": "Transport anfragen",
+    "ctaSecondary": "Unsere Leistungen"
+  },
+  "stats": {
+    "ariaLabel": "Kennzahlen",
+    "items": [
+      { "label": "Jahre am Markt", "since": "seit 1991" },
+      { "label": "Fahrzeuge im Fuhrpark", "since": "DAF · Mercedes" },
+      { "label": "km pro Jahr", "since": "≈ 220× um den Äquator" },
+      { "label": "Europaletten", "since": "Sattelzug-Kapazität" },
+      { "label": "max. Ladung", "since": "bis 120 m³" },
+      { "label": "Mitarbeiter", "since": "zwei Divisionen" }
+    ]
+  },
+  "intro": {
+    "eyebrow": "01 — Wer wir sind",
+    "titleLine1": "Stabiler tschechischer",
+    "titleLine2": "Frachtführer.",
+    "lede": "Wir erfüllen anspruchsvolle Kundenwünsche beim Transport voluminöser Materialien und Waren in ganz Europa.",
+    "p1": "Wir spezialisieren uns auf Volumentransporte zwischen den EU-Mitgliedstaaten. Wir betreiben eine eigene Flotte von fast 100 DAF- und Mercedes-Benz-Sattelzügen, die wir regelmäßig erneuern. Unsere Fahrer legen jährlich über 8,5 Millionen Kilometer zurück.",
+    "p2": "Unser Sitz ist in Hlubočky bei Olomouc. In der Zentrale ist die Disposition rund um die Uhr per Hotline erreichbar. Die Koordinatoren sprechen mehrere Weltsprachen fließend."
+  },
+  "servicesSection": {
+    "eyebrow": "02 — Leistungen",
+    "titleLine1": "Sechs Säulen",
+    "titleLine2": "unseres Transports.",
+    "intro": "Wir konzentrieren uns auf voluminöse Sendungen, beherrschen aber auch klassische LKW-Logistik in ganz Europa.",
+    "labelPrefix": "Leistung"
+  },
+  "services": {
+    "velkoobjemova-preprava": {
+      "title": "Volumentransport",
+      "excerpt": "Internationaler Transport großer Volumen — bis 120 m³, 24 t, 38 Europaletten."
+    },
+    "mezinarodni-doprava": {
+      "title": "Internationaler Transport",
+      "excerpt": "Verlässlichkeit im internationalen Straßengüterverkehr in der EU. ADR, Disposition 24/7."
+    },
+    "vnitrostatni-doprava": {
+      "title": "Nationaler Transport",
+      "excerpt": "Wir liefern Waren oder Material überall in der Tschechischen Republik."
+    },
+    "spedice": {
+      "title": "Spedition",
+      "excerpt": "Wir liefern Ihre Sendung schnell an den gewünschten Ort."
+    },
+    "logistika": {
+      "title": "Logistik",
+      "excerpt": "Volle Servicepalette in Logistik und Lagerung."
+    },
+    "pojisteni": {
+      "title": "Frachtversicherung",
+      "excerpt": "Jede Sendung ist durch eine Versicherung bis zu 10.000.000 CZK abgedeckt."
+    }
+  },
+  "why": {
+    "eyebrow": "03 — Warum J.M.I.T.",
+    "title": "Sechs Gründe, warum Unternehmen uns langfristig vertrauen.",
+    "items": [
+      { "title": "ISO 9001:2015", "body": "Zertifizierte Servicequalität seit 1997. Regelmäßig auditiert." },
+      { "title": "Disposition 24/7", "body": "Online-Fahrzeugüberwachung. Koordinatoren sprechen Tschechisch, Englisch und Deutsch." },
+      { "title": "Eigene Flotte", "body": "Fast 100 moderne DAF- und Mercedes-Sattelzüge. Laufende Erneuerung." },
+      { "title": "ADR-Zertifizierung", "body": "Transport gefährlicher Güter (außer Sprengstoffen). Geschulte Fahrer." },
+      { "title": "Versicherung 10 Mio. CZK", "body": "Jede Sendung voll abgedeckt. Ohne Kleingedrucktes." },
+      { "title": "35 Jahre Tradition", "body": "Rein tschechisches Unternehmen. Hunderte treuer Kunden und langjährige Fahrer." }
+    ]
+  },
+  "coverage": {
+    "eyebrow": "04 — Abdeckung",
+    "titleLine1": "Von Hlubočky",
+    "titleLine2": "in ganz Europa.",
+    "body": "Deutschland ist unser dominanter Markt — sowohl Transitland als auch Zielort der meisten unserer Transporte. Wir fahren regelmäßig auch in die Benelux-Staaten, nach Skandinavien, Großbritannien und Südosteuropa.",
+    "mapAria": "Karte Europas mit Transportkorridoren aus der Tschechischen Republik",
+    "items": [
+      { "country": "Deutschland", "note": "täglich, dominanter Markt" },
+      { "country": "Benelux", "note": "regelmäßig" },
+      { "country": "Großbritannien", "note": "Zollabwicklung inklusive" },
+      { "country": "Ungarn", "note": "Automotive" },
+      { "country": "Rumänien", "note": "Bauwesen" },
+      { "country": "Skandinavien", "note": "neu" },
+      { "country": "Italien", "note": "EU-Rotation" },
+      { "country": "Tschechien", "note": "nationales Rückgrat" }
+    ]
+  },
+  "fleetTeaser": {
+    "eyebrow": "05 — Fuhrpark",
+    "titleLine1": "Fast 100 Fahrzeuge.",
+    "titleLine2": "Stets in perfektem Zustand.",
+    "body": "DAF- und Mercedes-Benz-Zugmaschinen und Pritschenwagen mit GPS-Ortung, verschiebbaren Rungen und Planen mit DIN EN 12642 Code XL. Wir betreiben auch eine eigene Werkstatt — erfahrene Techniker kümmern sich um die Flotte.",
+    "cta": "Fuhrpark ansehen",
+    "captions": {
+      "1": "DAF — Volumen-Sattelzug",
+      "2": "Mercedes-Benz Sattelzugmaschine",
+      "3": "Auflieger mit DIN EN 12642 XL Plane"
+    }
+  },
+  "referencesSection": {
+    "eyebrow": "06 — Referenzen",
+    "titleLine1": "Wir transportieren für",
+    "titleLine2": "die Besten der Branche.",
+    "body": "Zu unseren langjährigen Partnern gehören Hersteller von Automobilkomponenten, Reifen, Weißer Ware und Dämmstoffen.",
+    "quote": "„Ein zufriedener Kunde, dem wir so gut dienen, dass er von der Logistik gar nichts mitbekommt.\"",
+    "quoteAuthor": "— Philosophie von J.M.I.T."
+  },
+  "careerCta": {
+    "eyebrow": "07 — Karriere",
+    "titleLine1": "Wir suchen Fahrer",
+    "titleLine2": "für den internationalen Transport.",
+    "body": "Stabiles Umfeld eines verlässlichen tschechischen Unternehmens. Festes zugewiesenes Fahrzeug, Einzelbesatzungen, überdurchschnittliches Gehalt und eine eingespielte Mannschaft — viele unserer Fahrer sind seit über 20 Jahren bei uns.",
+    "salaryTitle": "Lohn 28.000 CZK",
+    "salaryNote": "+ 56 €/Tag Diäten",
+    "rosterTitle": "Turnus 22+12",
+    "rosterNote": "EU-Rotation",
+    "cta": "Offene Stellen"
+  },
+  "contactCta": {
+    "eyebrow": "08 — Anfrage",
+    "titleLine1": "Brauchen Sie einen Transport?",
+    "titleLine2": "Wir melden uns binnen einer Stunde.",
+    "phoneLabel": "Telefon · 24/7-Disposition",
+    "emailLabel": "E-Mail",
+    "cta": "Schreiben Sie uns"
+  },
+  "footer": {
+    "tagline": "Tschechischer Frachtführer mit 100 Sattelzügen für ganz Europa.\nSeit {year}.",
+    "company": "Unternehmen",
+    "services": "Leistungen",
+    "contact": "Kontakt",
+    "rights": "© {year} {name} · IČ {ico} · USt-IdNr. {dic} · alle Rechte vorbehalten",
+    "gdpr": "DSGVO",
+    "cookies": "Cookies",
+    "imprint": "Impressum"
+  },
+  "aboutPage": {
+    "metaTitle": "Über uns",
+    "metaDescription": "Stabiler, rein tschechischer Frachtführer seit 1991. Spezialisiert auf Volumentransporte zwischen EU-Staaten. 150 Mitarbeiter, 100 Fahrzeuge, ISO 9001.",
+    "heroEyebrow": "Über uns",
+    "heroTitleLine1": "Stabiler tschechischer",
+    "heroTitleLine2": "Frachtführer seit",
+    "heroTitleYear": "1991.",
+    "heroDescription": "Unsere Hauptaufgabe ist es, Kundenwünsche in kürzester Zeit und zu möglichst geringen Kosten zu erfüllen. Unser Lohn sind hunderte zufriedener Kunden.",
+    "philosophyEyebrow": "Philosophie",
+    "philosophyTitle": "So gut zu dienen, dass der Kunde von der Logistik gar nichts mitbekommt.",
+    "p1": "Wir sind ein stabiler, rein tschechischer Straßenfrachtführer. Unser Unternehmen ist seit 1991 aktiv. Über mehr als ein Vierteljahrhundert haben wir uns Schritt für Schritt auf den Transport voluminöser Ladung spezialisiert.",
+    "p2": "Die Firma J.M.I.T. beschäftigt 150 Mitarbeiter in zwei Divisionen — klassischer LKW-Verkehr und einer Division für europäische Partner. Unsere Fahrer legen jährlich über 8,5 Millionen Kilometer zurück, was mehr als 220 Erdumrundungen am Äquator entspricht.",
+    "p3": "Unser Sitz ist in Hlubočky bei Olomouc. In der Zentrale ist die Disposition rund um die Uhr per Hotline erreichbar. Die Koordinatoren sprechen mehrere Weltsprachen fließend und haben einen perfekten Überblick im Straßentransport.",
+    "p4": "Unseren hohen Servicestandard halten wir dank geschulter Fahrer und Techniker. Es ist keine Ausnahme, dass Fahrer bei uns über zwanzig Jahre lang fahren.",
+    "historyEyebrow": "Historie",
+    "historyTitle": "Mehr als drei Jahrzehnte unterwegs.",
+    "timeline": [
+      { "year": "1991", "text": "Erteilung der Genehmigung für den internationalen Transport." },
+      { "year": "1992", "text": "Anschaffung spezieller Transporttechnik." },
+      { "year": "1993", "text": "Beginn der Zusammenarbeit mit einem bedeutenden luxemburgischen Partner im Luftfrachtgeschäft." },
+      { "year": "1994", "text": "Einführung eines satellitengestützten Online-Kommunikationssystems." },
+      { "year": "1997", "text": "Erlangung des Qualitätszertifikats ISO 9002." },
+      { "year": "2000", "text": "Erweiterung der Leistungen um Lagerung, Warendistribution und Zollabwicklung." },
+      { "year": "2001", "text": "Eröffnung einer Zweigstelle in Nürnberg, Deutschland. Kauf und Umbau eigener Räumlichkeiten." },
+      { "year": "2003", "text": "Audit durch Lloyd's Register Quality Assurance und Zertifizierung nach ISO 9001:2000." },
+      { "year": "2009", "text": "Erweiterung des Fuhrparks um 10 DAF-Zugmaschinen. Einführung des Ortungssystems ECHOTRACK." },
+      { "year": "2010", "text": "Änderung der Rechtsform — Umwandlung von einer natürlichen Person zur Aktiengesellschaft." },
+      { "year": "2012—2016", "text": "Erweiterung der Flotte um die Marke Mercedes-Benz, schrittweise Erneuerung der DAF-Volumen-Sattelzüge." },
+      { "year": "2016", "text": "25 Jahre seit der Gründung des Unternehmens." },
+      { "year": "2024", "text": "Neue Beklebung der LKWs." },
+      { "year": "2026", "text": "{years} Jahre am Markt." }
+    ],
+    "certificateLabel": "Zertifikat",
+    "certificates": [
+      { "name": "ISO 9001:2015", "body": "Servicequalität auditiert durch Lloyd's Register Quality Assurance." },
+      { "name": "ADR", "body": "Zertifikat als Sicherheitsberater für den Transport gefährlicher Güter." },
+      { "name": "Shell", "body": "Qualitätsbescheinigung für den Fuhrpark." }
+    ]
+  },
+  "servicesPage": {
+    "metaTitle": "Unsere Leistungen",
+    "metaDescription": "Volumentransport, internationaler und nationaler Straßengüterverkehr, Spedition, Logistik und Frachtversicherung.",
+    "heroEyebrow": "Leistungen",
+    "heroTitleLine1": "Sechs Säulen",
+    "heroTitleLine2Prefix": "unseres",
+    "heroTitleLine2Suffix": "Transports.",
+    "heroDescription": "Wir spezialisieren uns auf Volumentransporte zwischen EU-Staaten, übernehmen aber auch nationale Aufträge und komplette Logistik."
+  },
+  "serviceDetail": {
+    "labelPrefix": "Leistung",
+    "keyParams": "Schlüsselparameter",
+    "items": {
+      "velkoobjemova-preprava": {
+        "lede": "Internationaler Transport voluminöser Güter in höchster Qualität und kürzester Zeit.",
+        "bullets": [
+          "Dutzende moderner DAF- und Mercedes-Sattelzüge",
+          "Eigene Disposition rund um die Uhr",
+          "Koordinatoren fließend CZ / DE / EN",
+          "Sofortige Information über die Fahrzeugposition",
+          "Volumen bis 120 m³",
+          "Ladegewicht bis 24 t",
+          "Kapazität bis 38 Europaletten",
+          "Stabiles Umfeld — seit 1991"
+        ],
+        "body": [
+          "Zu unseren Partnern zählen Hersteller von Automobilkomponenten, Reifenhersteller sowie Hersteller von Weißer Ware oder Dämmstoffen. Wir setzen Sattelzüge mit dem größtmöglichen Laderaum ein, der auf der Straße zugelassen ist — unsere Fahrzeuge fassen bis zu 38 Europaletten.",
+          "Wir betreiben überwiegend internationalen Verkehr und fahren in ganz Europa. Dominant ist Deutschland — sowohl Transitland als auch Zielort eines großen Teils unserer Transporte. Voluminöse Güter befördern wir auch nach England, Ungarn, Rumänien und in die Benelux-Staaten. Vor einiger Zeit haben wir auch regelmäßig Skandinavien aufgenommen."
+        ]
+      },
+      "mezinarodni-doprava": {
+        "lede": "Rein tschechische Gesellschaft J.M.I.T. — Verlässlichkeit im internationalen Straßengüterverkehr.",
+        "bullets": [
+          "Moderne LKW-Flotte",
+          "Disposition rund um die Uhr (CZ / DE / EN)",
+          "Volumen bis 120 m³",
+          "Kapazität bis 38 Europaletten",
+          "Zertifizierung für Gefahrgut (ADR)",
+          "Über 8,5 Millionen Kilometer pro Jahr"
+        ],
+        "body": [
+          "Wir transportieren Material und Waren in Mittel-, West- und Nordeuropa. Am häufigsten organisieren wir Volumentransporte. Bei Bedarf liefern wir Waren auch im Eilverkehr in andere Teile der Europäischen Union.",
+          "Wir können Sendungen von einem Kilogramm bis zu 24 Tonnen abwickeln. Zudem verfügen wir über zertifizierte Fahrer für den Transport gefährlicher Stoffe — entzündliche Materialien. Priorität ist die termingerechte Lieferung und der bestmögliche Service."
+        ]
+      },
+      "vnitrostatni-doprava": {
+        "lede": "Die LKWs von J.M.I.T. queren die Straßen der gesamten Tschechischen Republik.",
+        "bullets": [
+          "Transport bis 24 t überall in Tschechien",
+          "Dutzende moderne LKWs",
+          "Erfahrene Fahrer",
+          "Hunderte zufriedener Kunden",
+          "Online-Sendungsverfolgung"
+        ],
+        "body": [
+          "Wir gehören zu den größten Frachtführern der Region Olomouc und bieten seit Jahren Transportleistungen auf höchstem Niveau. Unsere Hauptspezialisierung ist der Transport voluminöser Güter.",
+          "Wir verfügen über spezielle Sattelzüge mit einer Kapazität von bis zu achtunddreißig Europaletten. So liefern wir voluminöse Waren ans andere Ende des Landes, ohne eine Genehmigung für Schwertransporte beantragen zu müssen — das senkt die Kosten und spart Zeit.",
+          "Neben Volumengütern transportieren wir auch Gefahrgut (außer Sprengstoffe). Unsere Fahrer absolvieren regelmäßig die erforderlichen Schulungen."
+        ]
+      },
+      "spedice": {
+        "lede": "Wir liefern Ihre Sendung schnell an den gewünschten Ort.",
+        "bullets": ["Netz geprüfter Partner", "Sendungsverfolgung", "Schnelle Reaktionszeiten"],
+        "body": [
+          "Wir bringen Ihre Sendung dorthin, wo unsere eigenen Fahrzeuge nicht hinkommen. Wir arbeiten ausschließlich mit geprüften Partnern, um den Standard zu halten, den unsere Kunden gewohnt sind."
+        ]
+      },
+      "logistika": {
+        "lede": "Volle Servicepalette in Logistik und Lagerung.",
+        "bullets": ["Lagerung von Waren", "Distribution in Tschechien und der EU", "Zollabwicklung", "Eigener Standort in Hlubočky"],
+        "body": [
+          "Für unsere Kunden übernehmen wir die Lagerung von Waren und auf Wunsch auch Zollformalitäten bei Import oder Export. In der Zentrale in Hlubočky betreiben wir ein eigenes Logistikgelände."
+        ]
+      },
+      "pojisteni": {
+        "lede": "Die transportierte Ladung ist mit bis zu 10.000.000 CZK versichert.",
+        "bullets": ["CMR-Versicherung", "Limit 10 Mio. CZK pro Sendung", "Gesamte Flotte versichert"],
+        "body": [
+          "Jede Sendung in unserem Netzwerk ist versichert. Die Versicherungssumme beträgt 10 Millionen CZK pro Transport. Die Details der Police senden wir Kunden gerne auf Anfrage zu."
+        ]
+      }
+    }
+  },
+  "fleetPage": {
+    "metaTitle": "Fuhrpark",
+    "metaDescription": "Fast 100 moderne DAF- und Mercedes-Benz-Sattelzüge mit GPS-Ortung. Auflieger mit Planen DIN EN 12642 Code XL.",
+    "heroEyebrow": "Fuhrpark",
+    "heroTitleLine1": "Fast 100 Fahrzeuge.",
+    "heroTitleLine2": "Stets in perfektem Zustand.",
+    "heroDescription": "DAF- und Mercedes-Benz-Zugmaschinen und Pritschenwagen mit GPS-Ortung und Planen nach DIN EN 12642 Code XL.",
+    "p1": "Wir verfügen über fast 100 moderne Volumen- und Aufliegerzüge. Es handelt sich überwiegend um Zugmaschinen oder Pritschenwagen der Marken DAF und Mercedes-Benz. Auflieger und Anhänger erfüllen strenge EU-Normen und fassen bis zu 38 Europaletten. Für die schnelle Beförderung kleinerer Sendungen setzen wir Transporter ein.",
+    "p2": "Den effizienten Einsatz der Fahrzeuge steuert unsere Disposition. Die Koordinatoren arbeiten 24 Stunden am Tag, sieben Tage die Woche. Die ständige Überwachung der LKWs im Einsatz übernehmen Ortungssysteme — verfügbar sind Online-Daten zu Position, Fahrstil oder Geschwindigkeit.",
+    "p3": "Erfahrene Techniker sorgen für den guten Zustand unserer Flotte. Sattelzüge in Topform sind die Grundvoraussetzung für eine erfolgreiche Auslieferung. Auch die Versicherung der transportierten Ladung gehört dazu.",
+    "equipmentTitle": "Ausstattung der Sattelzüge",
+    "equipment": [
+      "GPS-Ortungssysteme",
+      "Verschiebbare Rungen",
+      "Sichere Ladungssicherung",
+      "Planen mit Zertifikat DIN EN 12642 Code XL",
+      "Versicherung der transportierten Ladung"
+    ]
+  },
+  "referencesPage": {
+    "metaTitle": "Referenzen",
+    "metaDescription": "Wir transportieren für Mora Moravia, Shell, Bridgestone, Whirlpool, Nokian Tyres, Barum, Baumit und weitere.",
+    "heroEyebrow": "Referenzen",
+    "heroTitleLine1": "Wir fahren für die Besten",
+    "heroTitleLine2Prefix": "der",
+    "heroTitleLine2Suffix": "Branche.",
+    "heroDescription": "Zu unseren langjährigen Partnern gehören Hersteller von Automobilkomponenten, Reifen, Weißer Ware und Dämmstoffen.",
+    "quote": "„Warentransport in höchster Qualität und kürzester Zeit. Vertretung der Tschechischen Republik in Europa.\"",
+    "quoteAuthor": "— Philosophie von J.M.I.T."
+  },
+  "careerPage": {
+    "metaTitle": "Karriere — Fahrer im internationalen Fernverkehr",
+    "metaDescription": "Wir suchen Fahrer für den internationalen Fernverkehr. Stabiles tschechisches Unternehmen, festes zugewiesenes Fahrzeug, überdurchschnittliches Gehalt.",
+    "heroEyebrow": "Karriere",
+    "heroTitleLine1": "Wir suchen Fahrer",
+    "heroTitleLine2": "für den internationalen Transport.",
+    "heroDescription": "Unsere Fahrer legen jährlich knapp 9 Millionen Kilometer zurück — das entspricht etwa zwölf Reisen zum Mond und zurück. Wir haben ein eingespieltes Team — viele Fahrer sind 10, 20 oder mehr Jahre bei uns.",
+    "openPosition": "Offene Stelle",
+    "requirements": "Anforderungen",
+    "offers": "Wir bieten",
+    "contactUs": "Kontaktieren Sie uns",
+    "applyCta": "Auf Position bewerben",
+    "destinationsTitle": "Wohin werden Sie fahren?",
+    "destinations": "Italien · Deutschland · Ungarn · Großbritannien",
+    "destinationsBody": "Am häufigsten in EU-Staaten. Welchen LKW werden Sie fahren? Das erfahren Sie im Bereich Fuhrpark — wir erneuern unsere DAF- und Mercedes-Benz-Flotte regelmäßig.",
+    "headquartersLabel": "Zentrale",
+    "positions": [
+      {
+        "title": "Internationaler Fahrer / Fahrerin",
+        "subtitle": "Internationaler Straßengüterverkehr",
+        "requirements": [
+          "Führerschein C+E",
+          "Berufskraftfahrer-Qualifikation",
+          "Flexibilität, Sorgfalt und Selbstständigkeit",
+          "Orientierungsfähigkeit im Ausland"
+        ],
+        "offers": [
+          "Stabiles Umfeld eines verlässlichen tschechischen Unternehmens",
+          "Festes zugewiesenes Fahrzeug",
+          "Einzelbesatzungen",
+          "Überdurchschnittliches Gehalt"
+        ]
+      },
+      {
+        "title": "EU-Rotationsfahrer / Fahrerin",
+        "subtitle": "Turnus-Betrieb in der EU",
+        "requirements": [
+          "Führerschein C+E",
+          "Berufskraftfahrer-Qualifikation",
+          "ADR-Grundschulung (kann ergänzt werden)",
+          "Orientierung und Grundkommunikation im Ausland"
+        ],
+        "offers": [
+          "Turnus 22 Tage + 12 Tage frei (auch 5 Tage möglich)",
+          "Einzel- oder Doppelbesatzung",
+          "Lohn 28.000 CZK",
+          "Diäten 56 EUR pro Tag"
+        ]
+      }
+    ]
+  },
+  "contactsPage": {
+    "metaTitle": "Kontakt",
+    "metaDescription": "Sitz J.M.I.T. a.s.: Olomoucká 15, 783 65 Hlubočky. Telefon +420 585 206 140. Disposition 24/7.",
+    "heroEyebrow": "Kontakt",
+    "heroTitleLine1": "Immer jemanden erreichen.",
+    "heroTitleLine2": "Disposition 24/7.",
+    "phoneLabel": "Telefon",
+    "phoneSub": "Disposition 24/7",
+    "emailLabel": "E-Mail",
+    "emailSub": "Antwort innerhalb einer Stunde",
+    "addressLabel": "Adresse",
+    "addressSub": "Firmensitz",
+    "officeEyebrow": "Firmensitz",
+    "departments": [
+      {
+        "title": "Geschäftsleitung",
+        "members": [
+          { "name": "Jaromír Musil", "role": "Vorstandsvorsitzender" },
+          { "name": "Jarmila Musilová", "role": "Vorstandsmitglied" },
+          { "name": "Ondřej Musil, Bc.", "role": "Vorstandsmitglied, Techniker" }
+        ]
+      },
+      {
+        "title": "Vertrieb",
+        "description": "Wir erstellen Angebote und individuelle Lösungen nach Ihren Bedürfnissen.",
+        "members": [
+          { "name": "Sabina Artnerová, Ing.", "role": "Vertriebsleiterin" }
+        ]
+      },
+      {
+        "title": "Disposition",
+        "description": "Wir sorgen täglich für reibungslose Transporte. Wir sprechen drei Sprachen und meistern komplexe Situationen.",
+        "members": [
+          { "name": "David Vlček, Ing.", "role": "Leiter der Disposition" },
+          { "name": "Radomír Ohera, Ing.", "role": "EU-Disponent" },
+          { "name": "Tomáš Smékal, Ing.", "role": "Disponent" },
+          { "name": "Jiří Jordán", "role": "Disponent" },
+          { "name": "Helena Lokajíčková", "role": "EU-Disponentin" },
+          { "name": "Tomasz Siudut", "role": "EU-Disponent" },
+          { "name": "Mína Mungunzul", "role": "Disponent" }
+        ]
+      },
+      {
+        "title": "Verwaltung",
+        "description": "Weniger sichtbar, aber ein wichtiger Teil des Teams. Abrechnungen und sämtlicher Papierkram.",
+        "members": [
+          { "name": "Eva Palinková, Bc.", "role": "Buchhaltung" },
+          { "name": "Jana Čečatková", "role": "Fakturierung" },
+          { "name": "Eva Navrátilová", "role": "Kasse" },
+          { "name": "Hana Čapková, Ing.", "role": "Lohnbuchhaltung" }
+        ]
+      }
+    ]
+  }
+}

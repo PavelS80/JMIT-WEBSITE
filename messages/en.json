@@ -1,0 +1,423 @@
+{
+  "meta": {
+    "rootTitle": "J.M.I.T. a.s. — High-volume road freight at the highest level",
+    "rootDescription": "Czech carrier with a fleet of 100 DAF and Mercedes rigs for international and domestic high-volume transport. Since 1991. ISO 9001, ADR, 24/7 dispatch.",
+    "rootOgDescription": "Czech carrier with a fleet of 100 rigs across Europe. Since 1991."
+  },
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "fleet": "Fleet",
+    "references": "References",
+    "careers": "Careers",
+    "contacts": "Contacts",
+    "menu": "Menu"
+  },
+  "common": {
+    "phone": "Phone",
+    "email": "Email",
+    "mobile": "Mobile",
+    "fax": "Fax",
+    "address": "Address",
+    "openInMaps": "Open in Google Maps",
+    "viewDetail": "View detail",
+    "readMore": "Read more",
+    "scrollHint": "Scroll",
+    "language": "Language"
+  },
+  "hero": {
+    "eyebrow": "Since {year} · {years} years of heritage",
+    "titleLine1": "High-volume road freight",
+    "titleLine2": "at the highest level.",
+    "body": "Czech carrier with a fleet of 100 DAF and Mercedes rigs serving international and domestic transport across all of Europe.",
+    "ctaPrimary": "Request transport",
+    "ctaSecondary": "Our services"
+  },
+  "stats": {
+    "ariaLabel": "Key indicators",
+    "items": [
+      { "label": "years on the market", "since": "since 1991" },
+      { "label": "vehicles in the fleet", "since": "DAF · Mercedes" },
+      { "label": "km per year", "since": "≈ 220× around the Equator" },
+      { "label": "Euro pallets", "since": "rig capacity" },
+      { "label": "max. load", "since": "up to 120 m³" },
+      { "label": "employees", "since": "two divisions" }
+    ]
+  },
+  "intro": {
+    "eyebrow": "01 — Who we are",
+    "titleLine1": "A solid Czech",
+    "titleLine2": "carrier.",
+    "lede": "We meet the most demanding customer needs in the transport of high-volume material and goods across Europe.",
+    "p1": "We specialise in high-volume transport between EU member states. We operate our own fleet of nearly 100 DAF and Mercedes-Benz rigs, which we renew regularly. Our drivers cover more than 8.5 million kilometres each year.",
+    "p2": "Our headquarters are in Hlubočky near Olomouc. The dispatch hotline runs twenty-four hours a day. Our coordinators speak several world languages fluently."
+  },
+  "servicesSection": {
+    "eyebrow": "02 — Services",
+    "titleLine1": "Six pillars of",
+    "titleLine2": "our transport.",
+    "intro": "We specialise in high-volume shipments, but we also handle classic truck logistics across the whole of Europe.",
+    "labelPrefix": "Service"
+  },
+  "services": {
+    "velkoobjemova-preprava": {
+      "title": "High-volume transport",
+      "excerpt": "International transport of large volumes — up to 120 m³, 24 t, 38 Euro pallets."
+    },
+    "mezinarodni-doprava": {
+      "title": "International transport",
+      "excerpt": "Reliability in international road haulage across the EU. ADR, 24/7 dispatch."
+    },
+    "vnitrostatni-doprava": {
+      "title": "Domestic transport",
+      "excerpt": "We deliver goods or material anywhere in the Czech Republic."
+    },
+    "spedice": {
+      "title": "Forwarding",
+      "excerpt": "We deliver your shipment to the required destination quickly."
+    },
+    "logistika": {
+      "title": "Logistics",
+      "excerpt": "Full-service logistics and warehousing."
+    },
+    "pojisteni": {
+      "title": "Cargo insurance",
+      "excerpt": "Every shipment is covered by insurance up to CZK 10 million."
+    }
+  },
+  "why": {
+    "eyebrow": "03 — Why J.M.I.T.",
+    "title": "Six reasons why companies trust us long-term.",
+    "items": [
+      { "title": "ISO 9001:2015", "body": "Certified service quality since 1997. Regularly re-audited." },
+      { "title": "24/7 dispatch", "body": "Online vehicle monitoring. Coordinators speak Czech, English and German." },
+      { "title": "Own fleet", "body": "Nearly 100 modern DAF and Mercedes rigs. Continuous renewal." },
+      { "title": "ADR certified", "body": "Transport of dangerous goods (excluding explosives). Trained drivers." },
+      { "title": "CZK 10M insurance", "body": "Every shipment fully covered. No fine print." },
+      { "title": "35 years of heritage", "body": "Purely Czech company. Hundreds of loyal customers and long-tenured drivers." }
+    ]
+  },
+  "coverage": {
+    "eyebrow": "04 — Coverage",
+    "titleLine1": "From Hlubočky",
+    "titleLine2": "across all of Europe.",
+    "body": "Germany is our dominant market — both as a transit country and as the destination for the majority of our shipments. We also run regular routes to the Benelux, Scandinavia, the United Kingdom and South-East Europe.",
+    "mapAria": "Map of Europe showing transport corridors from the Czech Republic",
+    "items": [
+      { "country": "Germany", "note": "daily, dominant market" },
+      { "country": "Benelux", "note": "regular routes" },
+      { "country": "United Kingdom", "note": "customs clearance included" },
+      { "country": "Hungary", "note": "automotive" },
+      { "country": "Romania", "note": "construction" },
+      { "country": "Scandinavia", "note": "newly added" },
+      { "country": "Italy", "note": "EU rotation" },
+      { "country": "Czech Republic", "note": "domestic backbone" }
+    ]
+  },
+  "fleetTeaser": {
+    "eyebrow": "05 — Fleet",
+    "titleLine1": "Almost 100 vehicles.",
+    "titleLine2": "Always in perfect condition.",
+    "body": "DAF and Mercedes-Benz tractors and flatbeds with GPS tracking, sliding stanchions and tarpaulins certified to DIN EN 12642 Code XL. We also run our own service centre — and the fleet is looked after by experienced technicians.",
+    "cta": "Browse the fleet",
+    "captions": {
+      "1": "DAF — high-volume rig",
+      "2": "Mercedes-Benz tractor unit",
+      "3": "Trailer with DIN EN 12642 XL tarpaulin"
+    }
+  },
+  "referencesSection": {
+    "eyebrow": "06 — References",
+    "titleLine1": "We carry for",
+    "titleLine2": "the best in the field.",
+    "body": "Our long-term partners include manufacturers of automotive components, tyres, white goods and insulation materials.",
+    "quote": "\"A satisfied customer for whom we serve so well that they never need to think about logistics at all.\"",
+    "quoteAuthor": "— J.M.I.T. philosophy"
+  },
+  "careerCta": {
+    "eyebrow": "07 — Careers",
+    "titleLine1": "We're hiring drivers",
+    "titleLine2": "for international transport.",
+    "body": "The stable backing of a reliable Czech company. Dedicated assigned vehicle, single-driver crews, above-standard pay and a steady team — many of our drivers have been with us for over 20 years.",
+    "salaryTitle": "Salary CZK 28,000",
+    "salaryNote": "+ €56/day per diem",
+    "rosterTitle": "Roster 22+12",
+    "rosterNote": "EU rotation schedule",
+    "cta": "Open positions"
+  },
+  "contactCta": {
+    "eyebrow": "08 — Enquiry",
+    "titleLine1": "Need a transport solution?",
+    "titleLine2": "We'll get back to you within an hour.",
+    "phoneLabel": "Phone · 24/7 dispatch",
+    "emailLabel": "Email",
+    "cta": "Write to us"
+  },
+  "footer": {
+    "tagline": "Czech carrier with a fleet of 100 rigs across Europe.\nSince {year}.",
+    "company": "Company",
+    "services": "Services",
+    "contact": "Contact",
+    "rights": "© {year} {name} · Reg. No. {ico} · VAT {dic} · all rights reserved",
+    "gdpr": "GDPR",
+    "cookies": "Cookies",
+    "imprint": "Imprint"
+  },
+  "aboutPage": {
+    "metaTitle": "About",
+    "metaDescription": "A solid, purely Czech road carrier since 1991. Specialising in high-volume transport between EU states. 150 employees, 100 vehicles, ISO 9001.",
+    "heroEyebrow": "About",
+    "heroTitleLine1": "A solid Czech carrier",
+    "heroTitleLine2": "since",
+    "heroTitleYear": "1991.",
+    "heroDescription": "Our core mission is to fulfil our customers' needs in the shortest time and at the lowest cost. Our reward: hundreds of satisfied clients.",
+    "philosophyEyebrow": "Philosophy",
+    "philosophyTitle": "To serve so well that the customer never has to think about logistics at all.",
+    "p1": "We are a stable, purely Czech road carrier. The company has been operating since 1991. Over more than a quarter of a century, we have gradually specialised in the transport of high-volume cargo.",
+    "p2": "J.M.I.T. employs 150 people across two divisions — classic trucking and a division for European partners. Our drivers cover more than 8.5 million kilometres a year — the equivalent of more than 220 trips around the Equator.",
+    "p3": "Our headquarters are in Hlubočky near Olomouc. The dispatch hotline runs twenty-four hours a day. Our coordinators speak several world languages fluently and have unparalleled command of road logistics.",
+    "p4": "We sustain our high service standards through trained drivers and technicians. It is not unusual for our drivers to stay with us for over twenty years.",
+    "historyEyebrow": "History",
+    "historyTitle": "More than three decades on the road.",
+    "timeline": [
+      { "year": "1991", "text": "Granted a permit for international transport." },
+      { "year": "1992", "text": "Acquisition of specialised transport equipment." },
+      { "year": "1993", "text": "Beginning of cooperation with a major Luxembourg partner in air freight." },
+      { "year": "1994", "text": "Online satellite communication system introduced." },
+      { "year": "1997", "text": "ISO 9002 quality certificate awarded." },
+      { "year": "2000", "text": "Services extended to include warehousing, distribution and customs clearance." },
+      { "year": "2001", "text": "Branch office opened in Nuremberg, Germany. Purchase and renovation of our own facilities." },
+      { "year": "2003", "text": "Lloyd's Register Quality Assurance audit and ISO 9001:2000 certification." },
+      { "year": "2009", "text": "Fleet expanded with 10 DAF tractors. ECHOTRACK tracking system deployed." },
+      { "year": "2010", "text": "Change of legal form — transformed from a sole proprietor to a joint-stock company." },
+      { "year": "2012—2016", "text": "Fleet extended with the Mercedes-Benz brand and gradual renewal of high-volume DAF rigs." },
+      { "year": "2016", "text": "25 years since the company's founding." },
+      { "year": "2024", "text": "New livery design across the trucks." },
+      { "year": "2026", "text": "{years} years on the market." }
+    ],
+    "certificateLabel": "Certificate",
+    "certificates": [
+      { "name": "ISO 9001:2015", "body": "Service quality audited by Lloyd's Register Quality Assurance." },
+      { "name": "ADR", "body": "Safety advisor certificate for the transport of dangerous goods." },
+      { "name": "Shell", "body": "Fleet quality endorsement." }
+    ]
+  },
+  "servicesPage": {
+    "metaTitle": "Our services",
+    "metaDescription": "High-volume transport, international and domestic road freight, forwarding, logistics and cargo insurance.",
+    "heroEyebrow": "Services",
+    "heroTitleLine1": "Six pillars",
+    "heroTitleLine2Prefix": "of our",
+    "heroTitleLine2Suffix": "transport.",
+    "heroDescription": "We specialise in high-volume transport between EU states, but we also handle domestic shipments and complete logistics."
+  },
+  "serviceDetail": {
+    "labelPrefix": "Service",
+    "keyParams": "Key parameters",
+    "items": {
+      "velkoobjemova-preprava": {
+        "lede": "International transport of high-volume goods at the highest quality and the shortest time.",
+        "bullets": [
+          "Dozens of modern DAF and Mercedes rigs",
+          "Own dispatch 24 hours a day",
+          "Coordinators fluent in CZ / DE / EN",
+          "Real-time vehicle position information",
+          "Volume up to 120 m³",
+          "Cargo weight up to 24 t",
+          "Capacity up to 38 Euro pallets",
+          "Solid backing — since 1991"
+        ],
+        "body": [
+          "Our partners include manufacturers of automotive components, tyres, white goods and insulation materials. We use rigs with the largest possible cargo space allowed on the road — our trucks have a capacity of up to 38 Euro pallets.",
+          "We operate primarily in international transport across all of Europe. Germany is dominant — both as a transit country and as the destination for a large share of our shipments. We also deliver high-volume goods to the UK, Hungary, Romania and the Benelux. We have recently begun running regular routes to Scandinavia."
+        ]
+      },
+      "mezinarodni-doprava": {
+        "lede": "Purely Czech company J.M.I.T. — reliability in international road haulage.",
+        "bullets": [
+          "Modern truck fleet",
+          "24-hour dispatch (CZ / DE / EN)",
+          "Loads up to 120 m³",
+          "Capacity up to 38 Euro pallets",
+          "ADR certification for dangerous goods",
+          "More than 8.5 million km per year"
+        ],
+        "body": [
+          "We provide transport of material and goods across central, western and northern Europe. Most often we handle high-volume shipments, but when needed we deliver goods on an express basis to other parts of the European Union.",
+          "We can arrange shipments from one kilogram up to 24 tonnes. We also have certified drivers for transporting dangerous materials — flammables. Our priority is to deliver the goods at the agreed time and to provide maximum service."
+        ]
+      },
+      "vnitrostatni-doprava": {
+        "lede": "J.M.I.T. trucks crossing the roads throughout the Czech Republic.",
+        "bullets": [
+          "Transport up to 24 t anywhere in CZ",
+          "Dozens of modern trucks",
+          "Experienced drivers",
+          "Hundreds of satisfied customers",
+          "Online shipment tracking"
+        ],
+        "body": [
+          "We are among the largest road carriers in the Olomouc Region and have provided top-tier transport services for many years. Our main specialisation is high-volume goods.",
+          "We operate special cargo rigs with a capacity of up to thirty-eight Euro pallets. We can carry bulky goods to the other end of the country without needing oversize-cargo permits — saving costs and time on domestic transport.",
+          "In addition to high-volume cargo, we also handle dangerous goods (excluding explosives). Our drivers regularly attend the necessary training."
+        ]
+      },
+      "spedice": {
+        "lede": "We deliver your shipment quickly to the required destination.",
+        "bullets": ["Network of vetted partners", "Shipment tracking", "Fast response times"],
+        "body": [
+          "We arrange shipments to places our own vehicles do not reach. We work only with vetted partners to maintain the standard our customers are used to."
+        ]
+      },
+      "logistika": {
+        "lede": "Full-service logistics and warehousing.",
+        "bullets": ["Warehousing", "Distribution across CZ and EU", "Customs clearance", "Own facility in Hlubočky"],
+        "body": [
+          "We arrange warehousing for our customers and, where required, customs formalities for imports and exports. We operate our own logistics centre at the Hlubočky headquarters."
+        ]
+      },
+      "pojisteni": {
+        "lede": "Every shipment we move is covered by up to CZK 10,000,000 of insurance.",
+        "bullets": ["CMR insurance", "Limit CZK 10M per shipment", "Whole fleet insured"],
+        "body": [
+          "Every shipment moving through our network is insured. The insurance limit is CZK 10 million per transport. We are happy to send the policy details to customers on request."
+        ]
+      }
+    }
+  },
+  "fleetPage": {
+    "metaTitle": "Fleet",
+    "metaDescription": "Almost 100 modern DAF and Mercedes-Benz rigs with GPS tracking. Trailers with DIN EN 12642 Code XL tarpaulins.",
+    "heroEyebrow": "Fleet",
+    "heroTitleLine1": "Almost 100 vehicles.",
+    "heroTitleLine2": "Always in perfect condition.",
+    "heroDescription": "DAF and Mercedes-Benz tractors and flatbeds with GPS tracking and DIN EN 12642 Code XL certified tarpaulins.",
+    "p1": "We run nearly 100 modern high-volume and trailer rigs. They are mostly tractors or flatbeds from DAF and Mercedes-Benz. Our trailers and semi-trailers meet strict EU standards and have a capacity of up to 38 Euro pallets. For quick delivery of smaller cargo we use vans.",
+    "p2": "Effective fleet utilisation is the responsibility of our dispatch team. The coordinators work 24 hours a day, seven days a week. Tracking systems provide constant supervision over trucks in the field — real-time data on position, driving style and speed.",
+    "p3": "Experienced technicians look after the condition of our fleet. Keeping the rigs in perfect shape is a basic prerequisite for successfully delivering the shipment. Cargo insurance is also included.",
+    "equipmentTitle": "Rig equipment",
+    "equipment": [
+      "GPS tracking systems",
+      "Sliding stanchions",
+      "Secure cargo anchoring",
+      "Tarpaulins certified to DIN EN 12642 Code XL",
+      "Insurance of the transported cargo"
+    ]
+  },
+  "referencesPage": {
+    "metaTitle": "References",
+    "metaDescription": "We transport for Mora Moravia, Shell, Bridgestone, Whirlpool, Nokian Tyres, Barum, Baumit and others.",
+    "heroEyebrow": "References",
+    "heroTitleLine1": "We carry for the best",
+    "heroTitleLine2Prefix": "in the",
+    "heroTitleLine2Suffix": "industry.",
+    "heroDescription": "Our long-term partners include manufacturers of automotive components, tyres, white goods and insulation materials.",
+    "quote": "\"Transport of goods at the highest quality and the shortest time. Representing the Czech Republic across Europe.\"",
+    "quoteAuthor": "— J.M.I.T. philosophy"
+  },
+  "careerPage": {
+    "metaTitle": "Careers — international truck driver",
+    "metaDescription": "We're hiring international truck drivers. Stable Czech company, dedicated assigned vehicle, above-standard pay.",
+    "heroEyebrow": "Careers",
+    "heroTitleLine1": "We're hiring drivers",
+    "heroTitleLine2": "for international transport.",
+    "heroDescription": "Our drivers cover almost 9 million kilometres a year — roughly twelve trips to the Moon and back. We have a stable team and many drivers stay with us for 10, 20 or more years.",
+    "openPosition": "Open position",
+    "requirements": "Requirements",
+    "offers": "We offer",
+    "contactUs": "Contact us",
+    "applyCta": "Apply for the position",
+    "destinationsTitle": "Where will you drive?",
+    "destinations": "Italy · Germany · Hungary · United Kingdom",
+    "destinationsBody": "Most often within the EU. Which truck will you drive? Find out in the Fleet section — we regularly renew our DAF and Mercedes-Benz fleet.",
+    "headquartersLabel": "Headquarters",
+    "positions": [
+      {
+        "title": "International driver",
+        "subtitle": "International road haulage",
+        "requirements": [
+          "C+E driving licence",
+          "Driver qualification card (CPC)",
+          "Flexibility, attention to detail and independence",
+          "Ability to navigate abroad"
+        ],
+        "offers": [
+          "Stable backing of a reliable Czech company",
+          "Dedicated assigned vehicle",
+          "Single-driver crews",
+          "Above-standard pay"
+        ]
+      },
+      {
+        "title": "EU rotation driver",
+        "subtitle": "Roster service across the EU",
+        "requirements": [
+          "C+E driving licence",
+          "Driver qualification card (CPC)",
+          "Basic ADR training (can be added)",
+          "Ability to navigate and basic communication abroad"
+        ],
+        "offers": [
+          "Roster of 22 days + 12 days off (option of 5 days)",
+          "Single- or two-driver crews",
+          "Salary CZK 28,000",
+          "Per diem €56 daily"
+        ]
+      }
+    ]
+  },
+  "contactsPage": {
+    "metaTitle": "Contacts",
+    "metaDescription": "Headquarters of J.M.I.T. a.s.: Olomoucká 15, 783 65 Hlubočky. Phone +420 585 206 140. 24/7 dispatch.",
+    "heroEyebrow": "Contacts",
+    "heroTitleLine1": "Always within reach.",
+    "heroTitleLine2": "Dispatch is 24/7.",
+    "phoneLabel": "Phone",
+    "phoneSub": "24/7 dispatch",
+    "emailLabel": "Email",
+    "emailSub": "We respond within an hour",
+    "addressLabel": "Address",
+    "addressSub": "Headquarters",
+    "officeEyebrow": "Headquarters",
+    "departments": [
+      {
+        "title": "Management",
+        "members": [
+          { "name": "Jaromír Musil", "role": "Chairman of the Board" },
+          { "name": "Jarmila Musilová", "role": "Board Member" },
+          { "name": "Ondřej Musil, Bc.", "role": "Board Member, Technician" }
+        ]
+      },
+      {
+        "title": "Sales",
+        "description": "We prepare quotations and tailored solutions to your needs.",
+        "members": [
+          { "name": "Sabina Artnerová, Ing.", "role": "Sales Director" }
+        ]
+      },
+      {
+        "title": "Dispatch",
+        "description": "We ensure smooth daily operations. We speak three languages and handle complex situations.",
+        "members": [
+          { "name": "David Vlček, Ing.", "role": "Head of Dispatch" },
+          { "name": "Radomír Ohera, Ing.", "role": "EU dispatcher" },
+          { "name": "Tomáš Smékal, Ing.", "role": "Dispatcher" },
+          { "name": "Jiří Jordán", "role": "Dispatcher" },
+          { "name": "Helena Lokajíčková", "role": "EU dispatcher" },
+          { "name": "Tomasz Siudut", "role": "EU dispatcher" },
+          { "name": "Mína Mungunzul", "role": "Dispatcher" }
+        ]
+      },
+      {
+        "title": "Administration",
+        "description": "Less visible but a vital part of the team. Settlements and all the paperwork.",
+        "members": [
+          { "name": "Eva Palinková, Bc.", "role": "Accountant" },
+          { "name": "Jana Čečatková", "role": "Invoicing" },
+          { "name": "Eva Navrátilová", "role": "Cashier" },
+          { "name": "Hana Čapková, Ing.", "role": "Payroll Accountant" }
+        ]
+      }
+    ]
+  }
+}

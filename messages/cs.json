@@ -1,0 +1,423 @@
+{
+  "meta": {
+    "rootTitle": "J.M.I.T. a.s. — Velkoobjemová přeprava na špičkové úrovni",
+    "rootDescription": "Český dopravce s vlastní flotilou 100 souprav DAF a Mercedes pro mezinárodní a vnitrostátní velkoobjemovou přepravu. Od roku 1991. ISO 9001, ADR, dispečink 24/7.",
+    "rootOgDescription": "Český dopravce s vlastní flotilou 100 souprav pro celou Evropu. Od roku 1991."
+  },
+  "nav": {
+    "about": "O firmě",
+    "services": "Služby",
+    "fleet": "Vozový park",
+    "references": "Reference",
+    "careers": "Kariéra",
+    "contacts": "Kontakty",
+    "menu": "Menu"
+  },
+  "common": {
+    "phone": "Telefon",
+    "email": "Email",
+    "mobile": "Mobil",
+    "fax": "Fax",
+    "address": "Adresa",
+    "openInMaps": "Otevřít v Google Maps",
+    "viewDetail": "Zobrazit detail",
+    "readMore": "Číst více",
+    "scrollHint": "Posuňte",
+    "language": "Jazyk"
+  },
+  "hero": {
+    "eyebrow": "Od roku {year} · {years} let tradice",
+    "titleLine1": "Velkoobjemová přeprava",
+    "titleLine2": "na špičkové úrovni.",
+    "body": "Český dopravce s vlastní flotilou 100 souprav DAF a Mercedes pro mezinárodní i vnitrostátní přepravu po celé Evropě.",
+    "ctaPrimary": "Poptat přepravu",
+    "ctaSecondary": "Naše služby"
+  },
+  "stats": {
+    "ariaLabel": "Klíčové ukazatele",
+    "items": [
+      { "label": "let na trhu", "since": "od roku 1991" },
+      { "label": "vozidel ve flotile", "since": "DAF · Mercedes" },
+      { "label": "km ročně", "since": "≈ 220× kolem rovníku" },
+      { "label": "europalet", "since": "kapacita soupravy" },
+      { "label": "max. náklad", "since": "do 120 m³" },
+      { "label": "zaměstnanců", "since": "dvě divize" }
+    ]
+  },
+  "intro": {
+    "eyebrow": "01 — Kdo jsme",
+    "titleLine1": "Stabilní český",
+    "titleLine2": "dopravce.",
+    "lede": "Splňujeme náročná přání zákazníků při přepravě velkoobjemového materiálu a zboží po celé Evropě.",
+    "p1": "Specializujeme se na velkoobjemovou přepravu mezi státy Evropské unie. Provozujeme vlastní flotilu téměř 100 souprav DAF a Mercedes-Benz, kterou pravidelně obnovujeme. Naši řidiči ujedou ročně více než 8,5 milionu kilometrů.",
+    "p2": "Sídlíme v Hlubočkách u Olomouce. V centrále funguje dispečink s „hot linkou\" čtyřiadvacet hodin denně. Koordinátoři mluví plynule několika světovými jazyky."
+  },
+  "servicesSection": {
+    "eyebrow": "02 — Služby",
+    "titleLine1": "Šest pilířů naší",
+    "titleLine2": "dopravy.",
+    "intro": "Specializujeme se zejména na přepravu velkoobjemových zásilek, ale zvládneme i klasickou kamionovou logistiku napříč Evropou.",
+    "labelPrefix": "Služba"
+  },
+  "services": {
+    "velkoobjemova-preprava": {
+      "title": "Velkoobjemová přeprava",
+      "excerpt": "Mezinárodní přeprava velkých objemů — až 120 m³, 24 t, 38 europalet."
+    },
+    "mezinarodni-doprava": {
+      "title": "Mezinárodní doprava",
+      "excerpt": "Jistota v mezinárodní kamionové dopravě po EU. ADR, dispečink 24/7."
+    },
+    "vnitrostatni-doprava": {
+      "title": "Vnitrostátní doprava",
+      "excerpt": "Dopravíme zboží či materiál kamkoliv v České republice."
+    },
+    "spedice": {
+      "title": "Spedice",
+      "excerpt": "Rychle doručíme zásilku na požadované místo."
+    },
+    "logistika": {
+      "title": "Logistika",
+      "excerpt": "Plný servis v oblasti logistiky a skladování."
+    },
+    "pojisteni": {
+      "title": "Pojištění nákladu",
+      "excerpt": "Přepravovaný náklad chrání pojištění až 10 000 000 Kč."
+    }
+  },
+  "why": {
+    "eyebrow": "03 — Proč J.M.I.T.",
+    "title": "Šest důvodů, proč nám firmy věří dlouhodobě.",
+    "items": [
+      { "title": "ISO 9001:2015", "body": "Certifikovaná kvalita služeb od roku 1997. Pravidelně reauditováno." },
+      { "title": "Dispečink 24/7", "body": "Online monitoring vozidel. Koordinátoři mluví česky, anglicky a německy." },
+      { "title": "Vlastní flotila", "body": "Téměř 100 moderních souprav DAF a Mercedes. Pravidelná obnova." },
+      { "title": "ADR certifikace", "body": "Přeprava nebezpečných látek (kromě výbušnin). Školení řidiči." },
+      { "title": "Pojištění 10 mil. Kč", "body": "Každá zásilka v plném krytí. Bez schované záminky." },
+      { "title": "35 let tradice", "body": "Ryze česká firma. Stovky stálých zákazníků a dlouholetí řidiči." }
+    ]
+  },
+  "coverage": {
+    "eyebrow": "04 — Pokrytí",
+    "titleLine1": "Z Hluboček",
+    "titleLine2": "do celé Evropy.",
+    "body": "Dominantním trhem je Německo — jednak tranzitní země, jednak cílové místo většiny našich přeprav. Pravidelně jezdíme také do Beneluxu, Skandinávie, Velké Británie i jihovýchodní Evropy.",
+    "mapAria": "Mapa Evropy se znázorněním přepravních koridorů z České republiky",
+    "items": [
+      { "country": "Německo", "note": "denně, dominantní trh" },
+      { "country": "Benelux", "note": "pravidelně" },
+      { "country": "Velká Británie", "note": "celní řízení v ceně" },
+      { "country": "Maďarsko", "note": "automotive" },
+      { "country": "Rumunsko", "note": "stavebnictví" },
+      { "country": "Skandinávie", "note": "nově" },
+      { "country": "Itálie", "note": "EU rotace" },
+      { "country": "Česká republika", "note": "vnitrostátní páteř" }
+    ]
+  },
+  "fleetTeaser": {
+    "eyebrow": "05 — Vozový park",
+    "titleLine1": "Téměř 100 vozidel.",
+    "titleLine2": "Vždy v perfektní kondici.",
+    "body": "Tahače a valníky DAF a Mercedes-Benz s GPS sledováním, posuvnými sloupky a plachtami s certifikátem DIN EN 12642 Code XL. Náleží nám i vlastní servis — a o flotilu se starají zkušení technici.",
+    "cta": "Prohlédnout vozový park",
+    "captions": {
+      "1": "DAF — velkoobjemová souprava",
+      "2": "Mercedes-Benz tahač",
+      "3": "Návěs s plachtou DIN EN 12642 XL"
+    }
+  },
+  "referencesSection": {
+    "eyebrow": "06 — Reference",
+    "titleLine1": "Vozíme pro",
+    "titleLine2": "nejlepší v oboru.",
+    "body": "Mezi naše dlouhodobé partnery patří výrobci komponentů pro automobilový průmysl, výrobci pneumatik, bílé techniky i izolačních hmot.",
+    "quote": "„Spokojený zákazník, kterému budeme sloužit tak dobře, že o logistice nebude vůbec vědět.\"",
+    "quoteAuthor": "— Filozofie J.M.I.T."
+  },
+  "careerCta": {
+    "eyebrow": "07 — Kariéra",
+    "titleLine1": "Hledáme řidiče",
+    "titleLine2": "mezinárodní dopravy.",
+    "body": "Stabilní zázemí spolehlivé české firmy. Přidělené stálé vozidlo, jednočlenné posádky, nadstandardní platové ohodnocení a stálý kolektiv — mnoho našich řidičů u nás jezdí přes 20 let.",
+    "salaryTitle": "Mzda 28 000 Kč",
+    "salaryNote": "+ diety 56 €/den",
+    "rosterTitle": "Turnus 22+12",
+    "rosterNote": "režim EU rotace",
+    "cta": "Volné pozice"
+  },
+  "contactCta": {
+    "eyebrow": "08 — Poptávka",
+    "titleLine1": "Potřebujete přepravu?",
+    "titleLine2": "Ozveme se do hodiny.",
+    "phoneLabel": "Telefon · 24/7 dispečink",
+    "emailLabel": "Email",
+    "cta": "Napište nám"
+  },
+  "footer": {
+    "tagline": "Český dopravce s vlastní flotilou 100 souprav pro celou Evropu.\nOd roku {year}.",
+    "company": "Společnost",
+    "services": "Služby",
+    "contact": "Kontakt",
+    "rights": "© {year} {name} · IČ {ico} · DIČ {dic} · všechna práva vyhrazena",
+    "gdpr": "GDPR",
+    "cookies": "Cookies",
+    "imprint": "Imprint"
+  },
+  "aboutPage": {
+    "metaTitle": "O firmě",
+    "metaDescription": "Stabilní ryze český autodopravce od roku 1991. Specializujeme se na velkoobjemovou přepravu mezi státy EU. 150 zaměstnanců, 100 vozidel, ISO 9001.",
+    "heroEyebrow": "O firmě",
+    "heroTitleLine1": "Stabilní český",
+    "heroTitleLine2": "dopravce od roku",
+    "heroTitleYear": "1991.",
+    "heroDescription": "Naše hlavní poslání je splnit přání zákazníků v co nejkratším čase a za co nejnižší náklady. Naší odměnou jsou stovky spokojených klientů.",
+    "philosophyEyebrow": "Filozofie",
+    "philosophyTitle": "Sloužit tak dobře, že o logistice nebude zákazník vůbec vědět.",
+    "p1": "Jsme stabilní ryze český autodopravce. Naše společnost funguje už od roku 1991. Za více než čtvrtstoletí jsme se postupně začali specializovat zejména na přepravu velkoobjemových nákladů.",
+    "p2": "Firma J.M.I.T. má 150 zaměstnanců ve dvou divizích — klasické kamionové a divizi pro evropské partnery. Naši řidiči ujedou ročně přes 8,5 milionu kilometrů, což odpovídá více než 220 obkroužením Země po rovníku.",
+    "p3": "Sídlíme v Hlubočkách u Olomouce. V centrále funguje dispečink s „hot linkou\" čtyřiadvacet hodin denně. Koordinátoři mluví plynně několika světovými jazyky a mají dokonalý přehled v autodopravě.",
+    "p4": "Vysoký standard služeb udržujeme díky proškoleným řidičům a technikům. Není výjimkou, že u nás řidiči jezdí přes dvacet let.",
+    "historyEyebrow": "Historie",
+    "historyTitle": "Více než tři dekády na cestách.",
+    "timeline": [
+      { "year": "1991", "text": "Získání povolení k provádění mezinárodní přepravy." },
+      { "year": "1992", "text": "Pořízení speciální přepravní techniky." },
+      { "year": "1993", "text": "Zahájení spolupráce s významným lucemburským partnerem v leteckých přepravách." },
+      { "year": "1994", "text": "Zavedení satelitního komunikačního systému online." },
+      { "year": "1997", "text": "Získání certifikátu kvality ISO 9002." },
+      { "year": "2000", "text": "Rozšíření služeb na skladování, distribuci zboží a celní řízení." },
+      { "year": "2001", "text": "Založena pobočka v Norimberku, SRN. Nákup a rekonstrukce vlastního zázemí firmy." },
+      { "year": "2003", "text": "Audit Lloyd's Register Quality Assurance a získání certifikátu ISO 9001:2000." },
+      { "year": "2009", "text": "Rozšíření vozového parku o 10 tahačů DAF. Zavedení sledovacího systému ECHOTRACK." },
+      { "year": "2010", "text": "Změna právní formy — z fyzické osoby jsme se transformovali na akciovou společnost." },
+      { "year": "2012—2016", "text": "Rozšíření flotily o značku Mercedes-Benz, postupná obnova velkoobjemových souprav DAF." },
+      { "year": "2016", "text": "25 let od založení firmy." },
+      { "year": "2024", "text": "Nová grafika polepu kamionů." },
+      { "year": "2026", "text": "{years} let na trhu." }
+    ],
+    "certificateLabel": "Certifikát",
+    "certificates": [
+      { "name": "ISO 9001:2015", "body": "Kvalita služeb auditovaná Lloyd's Register Quality Assurance." },
+      { "name": "ADR", "body": "Certifikát poradce pro přepravu nebezpečných látek." },
+      { "name": "Shell", "body": "Doložka kvality vozového parku." }
+    ]
+  },
+  "servicesPage": {
+    "metaTitle": "Naše služby",
+    "metaDescription": "Velkoobjemová přeprava, mezinárodní a vnitrostátní kamionová doprava, spedice, logistika a pojištění nákladu.",
+    "heroEyebrow": "Služby",
+    "heroTitleLine1": "Šest pilířů",
+    "heroTitleLine2Prefix": "naší",
+    "heroTitleLine2Suffix": "dopravy.",
+    "heroDescription": "Specializujeme se na velkoobjemovou přepravu mezi státy EU, ale poradíme si i s vnitrostátními zakázkami a kompletní logistikou."
+  },
+  "serviceDetail": {
+    "labelPrefix": "Služba",
+    "keyParams": "Klíčové parametry",
+    "items": {
+      "velkoobjemova-preprava": {
+        "lede": "Mezinárodní doprava velkoobjemového zboží v maximální kvalitě a v minimálním čase.",
+        "bullets": [
+          "Desítky moderních souprav DAF a Mercedes",
+          "Vlastní dispečink 24 hodin denně",
+          "Koordinátoři plynně CZ / DE / EN",
+          "Okamžité informace o poloze vozidel",
+          "Objem až 120 m³",
+          "Hmotnost nákladu až 24 t",
+          "Kapacita až 38 europalet",
+          "Stabilní zázemí — od roku 1991"
+        ],
+        "body": [
+          "Mezi naše partnery patří výrobci komponentů pro automobilový průmysl, výrobci pneumatik, bílé techniky nebo izolačních hmot. Využíváme soupravy s největším možným úložným prostorem, které mohou jezdit po silnicích — naše auta mají kapacitu až 38 europalet.",
+          "Provozujeme především mezinárodní dopravu a jezdíme po celé Evropě. Dominantní je Německo, jednak tranzitní země, jednak cílové místo velké části přeprav. Velkoobjemové zboží však dopravujeme také do Anglie, Maďarska, Rumunska a států Beneluxu. Před časem jsme začali také pravidelně jezdit do Skandinávie."
+        ]
+      },
+      "mezinarodni-doprava": {
+        "lede": "Ryze česká společnost J.M.I.T. — jistota v mezinárodní kamionové dopravě.",
+        "bullets": [
+          "Moderní flotila kamionů",
+          "Dispečink 24 hodin denně (CZ / DE / EN)",
+          "Objem pro náklady až 120 m³",
+          "Kapacita až 38 europalet",
+          "Certifikace pro převoz nebezpečných látek (ADR)",
+          "Více než 8,5 milionu kilometrů ročně"
+        ],
+        "body": [
+          "Poskytujeme přepravu materiálu a zboží po střední, západní a severní Evropě. Nejčastěji zajišťujeme velkoobjemové přepravy. V případě potřeby však zboží dopravíme expresně i do jiných částí Evropské unie.",
+          "Dokážeme zařídit transport zásilky od jednoho kilogramu až po 24 tun. K dispozici máme také certifikované řidiče pro převoz nebezpečných materiálů — hořlavin. Prioritou je doručit zboží v předem dohodnutý čas a poskytnout maximální servis."
+        ]
+      },
+      "vnitrostatni-doprava": {
+        "lede": "Kamiony J.M.I.T. křižují silnice po celé České republice.",
+        "bullets": [
+          "Přeprava až 24 t kamkoli v ČR",
+          "Desítky moderních kamionů",
+          "Zkušení řidiči",
+          "Stovky spokojených zákazníků",
+          "Online sledování zásilky"
+        ],
+        "body": [
+          "Patříme mezi největší autodopravce v Olomouckém kraji a dlouhodobě poskytujeme přepravní služby na nejvyšší úrovni. Hlavní specializací je velkoobjemová doprava zboží.",
+          "Máme speciální nákladní soupravy s kapacitou až osmatřicet europalet. Dostaneme objemné zboží na druhý konec republiky bez nutnosti žádat o povolení pro přesun nadrozměrného nákladu — snižujeme tím náklady na vnitrostátní přepravu a šetříme čas.",
+          "Kromě přeprav objemného zboží zabezpečujeme také převoz nebezpečného nákladu (kromě výbušnin). Naši řidiči pravidelně absolvují potřebná školení."
+        ]
+      },
+      "spedice": {
+        "lede": "Rychle doručíme zásilku na požadované místo.",
+        "bullets": ["Síť ověřených partnerů", "Sledování zásilky", "Rychlé reakční časy"],
+        "body": [
+          "Zajistíme zásilku tam, kam vlastní vozidla nedosáhnou. Spolupracujeme jen s ověřenými partnery, abychom udrželi standard, na který jsou naši zákazníci zvyklí."
+        ]
+      },
+      "logistika": {
+        "lede": "Plný servis v oblasti logistiky a skladování.",
+        "bullets": ["Skladování zboží", "Distribuce po ČR i EU", "Celní řízení", "Vlastní zázemí v Hlubočkách"],
+        "body": [
+          "Pro naše zákazníky zajišťujeme skladování zboží a v případě potřeby i celní formality při dovozu či vývozu. V centrále v Hlubočkách provozujeme vlastní logistický areál."
+        ]
+      },
+      "pojisteni": {
+        "lede": "Přepravovaný náklad chrání pojištění až 10 000 000 Kč.",
+        "bullets": ["Pojištění CMR", "Limit 10 mil. Kč na zásilku", "Pojištěna celá flotila"],
+        "body": [
+          "Každá zásilka pohybující se v naší síti je pojištěna. Limit pojištění činí 10 milionů Kč na jednu přepravu. Detaily pojistné smlouvy zákazníkovi rádi zašleme na vyžádání."
+        ]
+      }
+    }
+  },
+  "fleetPage": {
+    "metaTitle": "Vozový park",
+    "metaDescription": "Téměř 100 moderních souprav DAF a Mercedes-Benz s GPS sledováním. Návěsy s plachtami DIN EN 12642 Code XL.",
+    "heroEyebrow": "Vozový park",
+    "heroTitleLine1": "Téměř 100 vozidel.",
+    "heroTitleLine2": "Vždy v perfektní kondici.",
+    "heroDescription": "Tahače a valníky DAF a Mercedes-Benz s GPS sledováním a plachtami s certifikátem DIN EN 12642 Code XL.",
+    "p1": "Máme téměř 100 moderních velkoobjemových a návěsových souprav. Převážně se jedná o tahače, nebo valníky značek DAF a Mercedes-Benz. Návěsy a přívěsy splňují přísné normy Evropské unie a mají kapacitu až 38 europalet. Pro rychlý převoz menšího zboží používáme dodávky.",
+    "p2": "Efektivní využití aut má na starosti dispečink. Koordinátoři pracují 24 hodin denně, sedm dní v týdnu. Stálý dohled nad kamiony v terénu zajišťují sledovací systémy — k dispozici jsou online informace o poloze, stylu jízdy nebo rychlosti.",
+    "p3": "O dobrý stav naší flotily se starají zkušení technici. Mít soupravy v perfektním stavu je základní předpoklad k úspěšnému doručení zásilky. Nechybí ani pojištění přepravovaného nákladu.",
+    "equipmentTitle": "Vybavení souprav",
+    "equipment": [
+      "GPS sledovací systémy",
+      "Posuvné sloupky",
+      "Bezpečné ukotvení nákladu",
+      "Plachty s certifikátem DIN EN 12642 Code XL",
+      "Pojištění přepravovaného nákladu"
+    ]
+  },
+  "referencesPage": {
+    "metaTitle": "Reference",
+    "metaDescription": "Přepravujeme pro Mora Moravia, Shell, Bridgestone, Whirlpool, Nokian Tyres, Barum, Baumit a další.",
+    "heroEyebrow": "Reference",
+    "heroTitleLine1": "Vozíme pro nejlepší",
+    "heroTitleLine2Prefix": "v",
+    "heroTitleLine2Suffix": "oboru.",
+    "heroDescription": "Mezi naše dlouhodobé partnery patří výrobci komponentů pro automobilový průmysl, výrobci pneumatik, bílé techniky i izolačních hmot.",
+    "quote": "„Přeprava zboží v maximální kvalitě a v minimálním čase. Reprezentace České republiky v Evropě.\"",
+    "quoteAuthor": "— Filozofie J.M.I.T."
+  },
+  "careerPage": {
+    "metaTitle": "Kariéra — řidič mezinárodní kamionové dopravy",
+    "metaDescription": "Hledáme řidiče mezinárodní kamionové dopravy. Stabilní česká firma, přidělené stálé vozidlo, nadstandardní platové ohodnocení.",
+    "heroEyebrow": "Kariéra",
+    "heroTitleLine1": "Hledáme řidiče",
+    "heroTitleLine2": "mezinárodní dopravy.",
+    "heroDescription": "Naši řidiči ujedou ročně necelých 9 milionů kilometrů — to odpovídá zhruba dvanácti cestám na Měsíc a zpět. Máme stabilní kolektiv a mnoho řidičů u nás jezdí 10, 20 i více let.",
+    "openPosition": "Volná pozice",
+    "requirements": "Požadujeme",
+    "offers": "Nabízíme",
+    "contactUs": "Kontaktujte nás",
+    "applyCta": "Reagovat na pozici",
+    "destinationsTitle": "Kam budete jezdit?",
+    "destinations": "Itálie · Německo · Maďarsko · Velká Británie",
+    "destinationsBody": "Nejčastěji do států Evropské unie. Jaký kamion budete řídit? To zjistíte v sekci Vozový park — pravidelně obnovujeme flotilu značek DAF a Mercedes-Benz.",
+    "headquartersLabel": "Centrála",
+    "positions": [
+      {
+        "title": "Řidič / Řidička MKD",
+        "subtitle": "Mezinárodní kamionová doprava",
+        "requirements": [
+          "Řidičský průkaz C+E",
+          "Profesní průkaz",
+          "Flexibilita, pečlivost a samostatnost",
+          "Schopnost orientace v zahraničí"
+        ],
+        "offers": [
+          "Stabilní zázemí spolehlivé české společnosti",
+          "Přidělené stálé vozidlo",
+          "Jednočlenné posádky vozidel",
+          "Nadstandardní platové ohodnocení"
+        ]
+      },
+      {
+        "title": "Řidič / Řidička UNIE",
+        "subtitle": "Turnusový provoz po EU",
+        "requirements": [
+          "Řidičský průkaz C+E",
+          "Profesní průkaz",
+          "Základní školení ADR (možno doplnit)",
+          "Schopnost orientace a základní komunikace v zahraničí"
+        ],
+        "offers": [
+          "Turnus 22 dní + 12 dní volno (možnost zkrácení na 5 dní)",
+          "Jednočlenné i dvoučlenné posádky",
+          "Mzda 28 000 Kč",
+          "Diety 56 EUR denně"
+        ]
+      }
+    ]
+  },
+  "contactsPage": {
+    "metaTitle": "Kontakty",
+    "metaDescription": "Sídlo J.M.I.T. a.s.: Olomoucká 15, 783 65 Hlubočky. Telefon +420 585 206 140. Dispečink 24/7.",
+    "heroEyebrow": "Kontakty",
+    "heroTitleLine1": "Vždy někoho zastihnete.",
+    "heroTitleLine2": "Dispečink je 24/7.",
+    "phoneLabel": "Telefon",
+    "phoneSub": "Dispečink 24/7",
+    "emailLabel": "Email",
+    "emailSub": "Odpovídáme do hodiny",
+    "addressLabel": "Adresa",
+    "addressSub": "Sídlo společnosti",
+    "officeEyebrow": "Sídlo",
+    "departments": [
+      {
+        "title": "Vedení společnosti",
+        "members": [
+          { "name": "Jaromír Musil", "role": "Předseda představenstva" },
+          { "name": "Jarmila Musilová", "role": "Člen představenstva" },
+          { "name": "Ondřej Musil, Bc.", "role": "Člen představenstva, technik" }
+        ]
+      },
+      {
+        "title": "Obchodní oddělení",
+        "description": "Zpracováváme cenové nabídky a řešení na míru dle vašich potřeb.",
+        "members": [
+          { "name": "Sabina Artnerová, Ing.", "role": "Obchodní ředitelka" }
+        ]
+      },
+      {
+        "title": "Dispečink",
+        "description": "Denně zajišťujeme hladký průběh přeprav. Mluvíme třemi jazyky a zvládneme složité situace.",
+        "members": [
+          { "name": "David Vlček, Ing.", "role": "Vedoucí dispečinku" },
+          { "name": "Radomír Ohera, Ing.", "role": "EU dispečer" },
+          { "name": "Tomáš Smékal, Ing.", "role": "Dispečer" },
+          { "name": "Jiří Jordán", "role": "Dispečer" },
+          { "name": "Helena Lokajíčková", "role": "EU dispečer" },
+          { "name": "Tomasz Siudut", "role": "EU dispečer" },
+          { "name": "Mína Mungunzul", "role": "Dispečer" }
+        ]
+      },
+      {
+        "title": "Administrativa",
+        "description": "Není nás tolik vidět, ale jsme důležitá část týmu. Vyúčtování a veškeré další papírování.",
+        "members": [
+          { "name": "Eva Palinková, Bc.", "role": "Účetní" },
+          { "name": "Jana Čečatková", "role": "Fakturantka" },
+          { "name": "Eva Navrátilová", "role": "Pokladní" },
+          { "name": "Hana Čapková, Ing.", "role": "Mzdová účetní" }
+        ]
+      }
+    ]
+  }
+}

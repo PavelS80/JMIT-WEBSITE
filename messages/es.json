@@ -1,0 +1,423 @@
+{
+  "meta": {
+    "rootTitle": "J.M.I.T. a.s. — Transporte de gran volumen al más alto nivel",
+    "rootDescription": "Transportista checo con flota propia de 100 camiones DAF y Mercedes para transporte internacional y nacional de gran volumen. Desde 1991. ISO 9001, ADR, despacho 24/7.",
+    "rootOgDescription": "Transportista checo con flota de 100 camiones por toda Europa. Desde 1991."
+  },
+  "nav": {
+    "about": "Empresa",
+    "services": "Servicios",
+    "fleet": "Flota",
+    "references": "Referencias",
+    "careers": "Empleo",
+    "contacts": "Contacto",
+    "menu": "Menú"
+  },
+  "common": {
+    "phone": "Teléfono",
+    "email": "Correo",
+    "mobile": "Móvil",
+    "fax": "Fax",
+    "address": "Dirección",
+    "openInMaps": "Abrir en Google Maps",
+    "viewDetail": "Ver detalle",
+    "readMore": "Leer más",
+    "scrollHint": "Desplazar",
+    "language": "Idioma"
+  },
+  "hero": {
+    "eyebrow": "Desde {year} · {years} años de tradición",
+    "titleLine1": "Transporte de gran volumen",
+    "titleLine2": "al más alto nivel.",
+    "body": "Transportista checo con flota propia de 100 camiones DAF y Mercedes para transporte internacional y nacional por toda Europa.",
+    "ctaPrimary": "Solicitar transporte",
+    "ctaSecondary": "Nuestros servicios"
+  },
+  "stats": {
+    "ariaLabel": "Indicadores clave",
+    "items": [
+      { "label": "años en el mercado", "since": "desde 1991" },
+      { "label": "vehículos en flota", "since": "DAF · Mercedes" },
+      { "label": "km al año", "since": "≈ 220× la vuelta al ecuador" },
+      { "label": "europalets", "since": "capacidad por camión" },
+      { "label": "carga máx.", "since": "hasta 120 m³" },
+      { "label": "empleados", "since": "dos divisiones" }
+    ]
+  },
+  "intro": {
+    "eyebrow": "01 — Quiénes somos",
+    "titleLine1": "Transportista checo",
+    "titleLine2": "estable.",
+    "lede": "Cumplimos con las exigencias más altas en el transporte de mercancía y materiales de gran volumen por toda Europa.",
+    "p1": "Nos especializamos en transporte de gran volumen entre los Estados miembros de la UE. Operamos una flota propia de casi 100 camiones DAF y Mercedes-Benz que renovamos regularmente. Nuestros conductores recorren más de 8,5 millones de kilómetros al año.",
+    "p2": "Nuestra sede se encuentra en Hlubočky, cerca de Olomouc. La central cuenta con un despacho con „línea directa\" las veinticuatro horas. Los coordinadores hablan varios idiomas con fluidez."
+  },
+  "servicesSection": {
+    "eyebrow": "02 — Servicios",
+    "titleLine1": "Seis pilares",
+    "titleLine2": "de nuestro transporte.",
+    "intro": "Nos especializamos en envíos de gran volumen, pero también gestionamos logística de camión clásica por toda Europa.",
+    "labelPrefix": "Servicio"
+  },
+  "services": {
+    "velkoobjemova-preprava": {
+      "title": "Transporte de gran volumen",
+      "excerpt": "Transporte internacional de grandes volúmenes — hasta 120 m³, 24 t, 38 europalets."
+    },
+    "mezinarodni-doprava": {
+      "title": "Transporte internacional",
+      "excerpt": "Fiabilidad en el transporte por carretera por la UE. ADR, despacho 24/7."
+    },
+    "vnitrostatni-doprava": {
+      "title": "Transporte nacional",
+      "excerpt": "Llevamos mercancía o material a cualquier lugar de la República Checa."
+    },
+    "spedice": {
+      "title": "Tránsito",
+      "excerpt": "Entregamos su envío rápidamente al destino requerido."
+    },
+    "logistika": {
+      "title": "Logística",
+      "excerpt": "Servicio integral en logística y almacenamiento."
+    },
+    "pojisteni": {
+      "title": "Seguro de mercancía",
+      "excerpt": "Cada envío está cubierto por un seguro de hasta 10.000.000 CZK."
+    }
+  },
+  "why": {
+    "eyebrow": "03 — Por qué J.M.I.T.",
+    "title": "Seis razones por las que las empresas confían en nosotros a largo plazo.",
+    "items": [
+      { "title": "ISO 9001:2015", "body": "Calidad de servicio certificada desde 1997. Auditada periódicamente." },
+      { "title": "Despacho 24/7", "body": "Monitorización online de los vehículos. Coordinadores en checo, inglés y alemán." },
+      { "title": "Flota propia", "body": "Casi 100 camiones DAF y Mercedes modernos. Renovación continua." },
+      { "title": "Certificación ADR", "body": "Transporte de mercancías peligrosas (excepto explosivos). Conductores formados." },
+      { "title": "Seguro 10 M CZK", "body": "Cada envío con cobertura íntegra. Sin letra pequeña." },
+      { "title": "35 años de tradición", "body": "Empresa puramente checa. Cientos de clientes fieles y conductores veteranos." }
+    ]
+  },
+  "coverage": {
+    "eyebrow": "04 — Cobertura",
+    "titleLine1": "Desde Hlubočky",
+    "titleLine2": "a toda Europa.",
+    "body": "Alemania es nuestro mercado dominante — tanto país de tránsito como destino de la mayoría de nuestros envíos. También viajamos regularmente a Benelux, Escandinavia, Reino Unido y el sureste de Europa.",
+    "mapAria": "Mapa de Europa con los corredores de transporte desde la República Checa",
+    "items": [
+      { "country": "Alemania", "note": "diario, mercado dominante" },
+      { "country": "Benelux", "note": "regular" },
+      { "country": "Reino Unido", "note": "trámite aduanero incluido" },
+      { "country": "Hungría", "note": "automoción" },
+      { "country": "Rumanía", "note": "construcción" },
+      { "country": "Escandinavia", "note": "novedad" },
+      { "country": "Italia", "note": "rotación UE" },
+      { "country": "República Checa", "note": "columna vertebral nacional" }
+    ]
+  },
+  "fleetTeaser": {
+    "eyebrow": "05 — Flota",
+    "titleLine1": "Casi 100 vehículos.",
+    "titleLine2": "Siempre en estado perfecto.",
+    "body": "Cabezas tractoras y plataformas DAF y Mercedes-Benz con seguimiento GPS, postes deslizantes y lonas con certificado DIN EN 12642 Code XL. Disponemos de taller propio — y técnicos experimentados cuidan de la flota.",
+    "cta": "Ver la flota",
+    "captions": {
+      "1": "DAF — camión de gran volumen",
+      "2": "Cabeza tractora Mercedes-Benz",
+      "3": "Semirremolque con lona DIN EN 12642 XL"
+    }
+  },
+  "referencesSection": {
+    "eyebrow": "06 — Referencias",
+    "titleLine1": "Transportamos para",
+    "titleLine2": "los mejores del sector.",
+    "body": "Entre nuestros socios a largo plazo se encuentran fabricantes de componentes de automoción, neumáticos, electrodomésticos y materiales aislantes.",
+    "quote": "„Un cliente satisfecho al que serviremos tan bien que ni siquiera tendrá que pensar en la logística.\"",
+    "quoteAuthor": "— Filosofía de J.M.I.T."
+  },
+  "careerCta": {
+    "eyebrow": "07 — Empleo",
+    "titleLine1": "Buscamos conductores",
+    "titleLine2": "para transporte internacional.",
+    "body": "Respaldo estable de una empresa checa fiable. Vehículo asignado fijo, conductor único, sueldo por encima del estándar y un equipo consolidado — muchos de nuestros conductores llevan más de 20 años con nosotros.",
+    "salaryTitle": "Salario 28.000 CZK",
+    "salaryNote": "+ dietas 56 €/día",
+    "rosterTitle": "Turno 22+12",
+    "rosterNote": "régimen rotación UE",
+    "cta": "Puestos vacantes"
+  },
+  "contactCta": {
+    "eyebrow": "08 — Solicitud",
+    "titleLine1": "¿Necesita un transporte?",
+    "titleLine2": "Le respondemos en menos de una hora.",
+    "phoneLabel": "Teléfono · despacho 24/7",
+    "emailLabel": "Correo",
+    "cta": "Escríbanos"
+  },
+  "footer": {
+    "tagline": "Transportista checo con flota de 100 camiones por toda Europa.\nDesde {year}.",
+    "company": "Empresa",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "rights": "© {year} {name} · IČ {ico} · NIF {dic} · todos los derechos reservados",
+    "gdpr": "RGPD",
+    "cookies": "Cookies",
+    "imprint": "Aviso legal"
+  },
+  "aboutPage": {
+    "metaTitle": "Empresa",
+    "metaDescription": "Transportista por carretera puramente checo y estable desde 1991. Especializado en transporte de gran volumen entre los Estados de la UE. 150 empleados, 100 vehículos, ISO 9001.",
+    "heroEyebrow": "Empresa",
+    "heroTitleLine1": "Transportista checo estable",
+    "heroTitleLine2": "desde",
+    "heroTitleYear": "1991.",
+    "heroDescription": "Nuestra misión principal es satisfacer los deseos de los clientes en el menor tiempo y al menor coste posible. Nuestra recompensa: cientos de clientes satisfechos.",
+    "philosophyEyebrow": "Filosofía",
+    "philosophyTitle": "Servir tan bien que el cliente ni siquiera tenga que pensar en la logística.",
+    "p1": "Somos un transportista por carretera estable y puramente checo. La empresa funciona desde 1991. A lo largo de más de un cuarto de siglo, nos hemos especializado progresivamente en el transporte de cargas de gran volumen.",
+    "p2": "J.M.I.T. cuenta con 150 empleados en dos divisiones — la clásica de camión y la división para socios europeos. Nuestros conductores recorren más de 8,5 millones de kilómetros al año, equivalente a más de 220 vueltas al ecuador.",
+    "p3": "Nuestra sede se encuentra en Hlubočky, cerca de Olomouc. La central cuenta con un despacho con línea directa las veinticuatro horas. Los coordinadores hablan varios idiomas con fluidez y dominan a la perfección la logística por carretera.",
+    "p4": "Mantenemos un alto estándar gracias a conductores y técnicos formados. No es excepcional que nuestros conductores lleven más de veinte años con nosotros.",
+    "historyEyebrow": "Historia",
+    "historyTitle": "Más de tres décadas en la carretera.",
+    "timeline": [
+      { "year": "1991", "text": "Obtención del permiso para realizar transporte internacional." },
+      { "year": "1992", "text": "Adquisición de equipos de transporte especializados." },
+      { "year": "1993", "text": "Inicio de la cooperación con un importante socio luxemburgués en transporte aéreo." },
+      { "year": "1994", "text": "Implantación de un sistema de comunicación por satélite en línea." },
+      { "year": "1997", "text": "Obtención del certificado de calidad ISO 9002." },
+      { "year": "2000", "text": "Ampliación de servicios a almacenamiento, distribución y trámites aduaneros." },
+      { "year": "2001", "text": "Apertura de sucursal en Núremberg, Alemania. Compra y reforma de instalaciones propias." },
+      { "year": "2003", "text": "Auditoría Lloyd's Register Quality Assurance y obtención del certificado ISO 9001:2000." },
+      { "year": "2009", "text": "Ampliación de la flota con 10 cabezas tractoras DAF. Implantación del sistema de seguimiento ECHOTRACK." },
+      { "year": "2010", "text": "Cambio de forma jurídica — transformación de persona física a sociedad anónima." },
+      { "year": "2012—2016", "text": "Ampliación de la flota con la marca Mercedes-Benz y renovación gradual de los camiones DAF de gran volumen." },
+      { "year": "2016", "text": "25 años desde la fundación de la empresa." },
+      { "year": "2024", "text": "Nuevo diseño de rotulación de los camiones." },
+      { "year": "2026", "text": "{years} años en el mercado." }
+    ],
+    "certificateLabel": "Certificado",
+    "certificates": [
+      { "name": "ISO 9001:2015", "body": "Calidad de servicio auditada por Lloyd's Register Quality Assurance." },
+      { "name": "ADR", "body": "Certificado de consejero para transporte de mercancías peligrosas." },
+      { "name": "Shell", "body": "Certificación de calidad de la flota." }
+    ]
+  },
+  "servicesPage": {
+    "metaTitle": "Nuestros servicios",
+    "metaDescription": "Transporte de gran volumen, transporte por carretera internacional y nacional, tránsito, logística y seguro de mercancía.",
+    "heroEyebrow": "Servicios",
+    "heroTitleLine1": "Seis pilares",
+    "heroTitleLine2Prefix": "de nuestro",
+    "heroTitleLine2Suffix": "transporte.",
+    "heroDescription": "Nos especializamos en transporte de gran volumen entre Estados de la UE, pero también gestionamos envíos nacionales y logística integral."
+  },
+  "serviceDetail": {
+    "labelPrefix": "Servicio",
+    "keyParams": "Parámetros clave",
+    "items": {
+      "velkoobjemova-preprava": {
+        "lede": "Transporte internacional de mercancía de gran volumen con la máxima calidad y en el mínimo tiempo.",
+        "bullets": [
+          "Decenas de camiones DAF y Mercedes modernos",
+          "Despacho propio las 24 horas",
+          "Coordinadores fluidos en CZ / DE / EN",
+          "Información inmediata sobre la posición de los vehículos",
+          "Volumen hasta 120 m³",
+          "Peso de carga hasta 24 t",
+          "Capacidad hasta 38 europalets",
+          "Respaldo estable — desde 1991"
+        ],
+        "body": [
+          "Entre nuestros socios figuran fabricantes de componentes de automoción, neumáticos, electrodomésticos y materiales aislantes. Utilizamos camiones con el mayor espacio de carga permitido en carretera — nuestros vehículos albergan hasta 38 europalets.",
+          "Operamos principalmente transporte internacional por toda Europa. Alemania es dominante, tanto como país de tránsito como destino de gran parte de los envíos. Llevamos también mercancía de gran volumen al Reino Unido, Hungría, Rumanía y los países del Benelux. Recientemente hemos comenzado a viajar regularmente a Escandinavia."
+        ]
+      },
+      "mezinarodni-doprava": {
+        "lede": "Empresa puramente checa J.M.I.T. — fiabilidad en el transporte internacional por carretera.",
+        "bullets": [
+          "Flota moderna de camiones",
+          "Despacho 24 horas (CZ / DE / EN)",
+          "Volúmenes hasta 120 m³",
+          "Capacidad hasta 38 europalets",
+          "Certificación ADR para mercancías peligrosas",
+          "Más de 8,5 millones de km al año"
+        ],
+        "body": [
+          "Realizamos transporte de material y mercancía por Europa central, occidental y septentrional. Lo más habitual es el transporte de gran volumen. En caso de necesidad, también entregamos en modo urgente a otras zonas de la Unión Europea.",
+          "Podemos gestionar envíos desde un kilogramo hasta 24 toneladas. Disponemos también de conductores certificados para mercancías peligrosas — inflamables. La prioridad es entregar la mercancía en el plazo acordado y ofrecer el máximo servicio."
+        ]
+      },
+      "vnitrostatni-doprava": {
+        "lede": "Los camiones de J.M.I.T. cruzan las carreteras de toda la República Checa.",
+        "bullets": [
+          "Transporte hasta 24 t en cualquier punto de Chequia",
+          "Decenas de camiones modernos",
+          "Conductores experimentados",
+          "Cientos de clientes satisfechos",
+          "Seguimiento del envío en línea"
+        ],
+        "body": [
+          "Somos uno de los mayores transportistas por carretera de la región de Olomouc y, desde hace tiempo, ofrecemos servicios al más alto nivel. Nuestra principal especialidad es el transporte de gran volumen.",
+          "Disponemos de camiones especiales con capacidad hasta treinta y ocho europalets. Llevamos mercancía voluminosa al otro extremo del país sin necesidad de permisos de transporte especial — reducimos costes y ahorramos tiempo en el transporte nacional.",
+          "Además del transporte voluminoso, gestionamos también mercancías peligrosas (excepto explosivos). Nuestros conductores se forman regularmente."
+        ]
+      },
+      "spedice": {
+        "lede": "Entregamos su envío rápidamente al destino requerido.",
+        "bullets": ["Red de socios verificados", "Seguimiento del envío", "Tiempos de respuesta rápidos"],
+        "body": [
+          "Llevamos su envío adonde nuestros propios vehículos no llegan. Solo trabajamos con socios verificados para mantener el estándar al que están acostumbrados nuestros clientes."
+        ]
+      },
+      "logistika": {
+        "lede": "Servicio integral en logística y almacenamiento.",
+        "bullets": ["Almacenamiento de mercancías", "Distribución por Chequia y la UE", "Trámites aduaneros", "Instalaciones propias en Hlubočky"],
+        "body": [
+          "Para nuestros clientes gestionamos almacenamiento y, cuando es necesario, los trámites aduaneros de importación o exportación. En la sede de Hlubočky operamos un centro logístico propio."
+        ]
+      },
+      "pojisteni": {
+        "lede": "La carga transportada está protegida con un seguro de hasta 10.000.000 CZK.",
+        "bullets": ["Seguro CMR", "Límite 10 M CZK por envío", "Toda la flota asegurada"],
+        "body": [
+          "Cada envío que circula por nuestra red está asegurado. El límite del seguro es de 10 millones de CZK por transporte. Enviamos los detalles de la póliza al cliente cuando lo solicite."
+        ]
+      }
+    }
+  },
+  "fleetPage": {
+    "metaTitle": "Flota",
+    "metaDescription": "Casi 100 camiones modernos DAF y Mercedes-Benz con seguimiento GPS. Semirremolques con lonas DIN EN 12642 Code XL.",
+    "heroEyebrow": "Flota",
+    "heroTitleLine1": "Casi 100 vehículos.",
+    "heroTitleLine2": "Siempre en estado perfecto.",
+    "heroDescription": "Cabezas tractoras y plataformas DAF y Mercedes-Benz con seguimiento GPS y lonas con certificado DIN EN 12642 Code XL.",
+    "p1": "Disponemos de casi 100 camiones modernos de gran volumen y semirremolque. Predominan las cabezas tractoras y plataformas de las marcas DAF y Mercedes-Benz. Los semirremolques cumplen las estrictas normas europeas y tienen capacidad de hasta 38 europalets. Para envíos pequeños y rápidos utilizamos furgonetas.",
+    "p2": "El uso eficiente de los vehículos depende del despacho. Los coordinadores trabajan 24 horas al día, siete días a la semana. La supervisión continua de los camiones la garantizan los sistemas de seguimiento — ofrecemos información en línea sobre posición, estilo de conducción o velocidad.",
+    "p3": "Técnicos experimentados se ocupan del estado de nuestra flota. Tener los camiones en perfecto estado es la condición básica para una entrega exitosa. No falta tampoco el seguro de la mercancía transportada.",
+    "equipmentTitle": "Equipamiento de los camiones",
+    "equipment": [
+      "Sistemas de seguimiento GPS",
+      "Postes deslizantes",
+      "Anclaje seguro de la carga",
+      "Lonas con certificado DIN EN 12642 Code XL",
+      "Seguro de la mercancía transportada"
+    ]
+  },
+  "referencesPage": {
+    "metaTitle": "Referencias",
+    "metaDescription": "Transportamos para Mora Moravia, Shell, Bridgestone, Whirlpool, Nokian Tyres, Barum, Baumit y otros.",
+    "heroEyebrow": "Referencias",
+    "heroTitleLine1": "Transportamos para los mejores",
+    "heroTitleLine2Prefix": "del",
+    "heroTitleLine2Suffix": "sector.",
+    "heroDescription": "Entre nuestros socios a largo plazo se encuentran fabricantes de componentes de automoción, neumáticos, electrodomésticos y materiales aislantes.",
+    "quote": "„Transporte de mercancía con la máxima calidad y en el mínimo tiempo. Representando a la República Checa por toda Europa.\"",
+    "quoteAuthor": "— Filosofía de J.M.I.T."
+  },
+  "careerPage": {
+    "metaTitle": "Empleo — conductor de transporte internacional",
+    "metaDescription": "Buscamos conductores de transporte internacional. Empresa checa estable, vehículo asignado fijo, sueldo por encima del estándar.",
+    "heroEyebrow": "Empleo",
+    "heroTitleLine1": "Buscamos conductores",
+    "heroTitleLine2": "para transporte internacional.",
+    "heroDescription": "Nuestros conductores recorren cerca de 9 millones de kilómetros al año — equivale a unas doce idas y vueltas a la Luna. Tenemos un equipo estable y muchos conductores llevan 10, 20 o más años con nosotros.",
+    "openPosition": "Puesto vacante",
+    "requirements": "Requisitos",
+    "offers": "Ofrecemos",
+    "contactUs": "Contáctenos",
+    "applyCta": "Aplicar al puesto",
+    "destinationsTitle": "¿Adónde conducirá?",
+    "destinations": "Italia · Alemania · Hungría · Reino Unido",
+    "destinationsBody": "Sobre todo a países de la Unión Europea. ¿Qué camión conducirá? Lo descubrirá en la sección Flota — renovamos regularmente nuestra flota DAF y Mercedes-Benz.",
+    "headquartersLabel": "Central",
+    "positions": [
+      {
+        "title": "Conductor / Conductora internacional",
+        "subtitle": "Transporte internacional por carretera",
+        "requirements": [
+          "Permiso C+E",
+          "Tarjeta CAP",
+          "Flexibilidad, atención al detalle e independencia",
+          "Capacidad de orientación en el extranjero"
+        ],
+        "offers": [
+          "Respaldo estable de una empresa checa fiable",
+          "Vehículo asignado fijo",
+          "Tripulación de un solo conductor",
+          "Sueldo por encima del estándar"
+        ]
+      },
+      {
+        "title": "Conductor / Conductora rotación UE",
+        "subtitle": "Operación por turnos en la UE",
+        "requirements": [
+          "Permiso C+E",
+          "Tarjeta CAP",
+          "Formación básica ADR (puede completarse)",
+          "Orientación y comunicación básica en el extranjero"
+        ],
+        "offers": [
+          "Turno 22 días + 12 días libres (opción de 5 días)",
+          "Tripulaciones de uno o dos conductores",
+          "Salario 28.000 CZK",
+          "Dietas 56 EUR diarios"
+        ]
+      }
+    ]
+  },
+  "contactsPage": {
+    "metaTitle": "Contacto",
+    "metaDescription": "Sede J.M.I.T. a.s.: Olomoucká 15, 783 65 Hlubočky. Teléfono +420 585 206 140. Despacho 24/7.",
+    "heroEyebrow": "Contacto",
+    "heroTitleLine1": "Siempre encontrará a alguien.",
+    "heroTitleLine2": "Despacho 24/7.",
+    "phoneLabel": "Teléfono",
+    "phoneSub": "Despacho 24/7",
+    "emailLabel": "Correo",
+    "emailSub": "Respondemos en una hora",
+    "addressLabel": "Dirección",
+    "addressSub": "Sede de la empresa",
+    "officeEyebrow": "Sede",
+    "departments": [
+      {
+        "title": "Dirección",
+        "members": [
+          { "name": "Jaromír Musil", "role": "Presidente del Consejo" },
+          { "name": "Jarmila Musilová", "role": "Miembro del Consejo" },
+          { "name": "Ondřej Musil, Bc.", "role": "Miembro del Consejo, técnico" }
+        ]
+      },
+      {
+        "title": "Departamento comercial",
+        "description": "Elaboramos presupuestos y soluciones a medida según sus necesidades.",
+        "members": [
+          { "name": "Sabina Artnerová, Ing.", "role": "Directora comercial" }
+        ]
+      },
+      {
+        "title": "Despacho",
+        "description": "Garantizamos cada día el buen desarrollo de los transportes. Hablamos tres idiomas y resolvemos situaciones complejas.",
+        "members": [
+          { "name": "David Vlček, Ing.", "role": "Jefe de despacho" },
+          { "name": "Radomír Ohera, Ing.", "role": "Despachador UE" },
+          { "name": "Tomáš Smékal, Ing.", "role": "Despachador" },
+          { "name": "Jiří Jordán", "role": "Despachador" },
+          { "name": "Helena Lokajíčková", "role": "Despachadora UE" },
+          { "name": "Tomasz Siudut", "role": "Despachador UE" },
+          { "name": "Mína Mungunzul", "role": "Despachadora" }
+        ]
+      },
+      {
+        "title": "Administración",
+        "description": "Menos visibles, pero parte fundamental del equipo. Liquidaciones y todos los trámites.",
+        "members": [
+          { "name": "Eva Palinková, Bc.", "role": "Contable" },
+          { "name": "Jana Čečatková", "role": "Facturación" },
+          { "name": "Eva Navrátilová", "role": "Caja" },
+          { "name": "Hana Čapková, Ing.", "role": "Contable de nóminas" }
+        ]
+      }
+    ]
+  }
+}
