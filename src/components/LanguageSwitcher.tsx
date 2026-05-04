@@ -1,6 +1,7 @@
 "use client";
 
 import { useLocale, useTranslations } from "next-intl";
+import { useParams } from "next/navigation";
 import { useRouter, usePathname } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { useState, useRef, useEffect, useTransition } from "react";
@@ -21,6 +22,7 @@ export function LanguageSwitcher({
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
+  const params = useParams();
   const t = useTranslations("common");
   const [open, setOpen] = useState(false);
   const [isPending, startTransition] = useTransition();
@@ -36,10 +38,14 @@ export function LanguageSwitcher({
     return () => document.removeEventListener("mousedown", onClick);
   }, []);
 
-  const switchTo = (target: string) => {
+  const switchTo = (target: (typeof routing.locales)[number]) => {
     setOpen(false);
     startTransition(() => {
-      router.replace(pathname, { locale: target });
+      router.replace(
+        // @ts-expect-error — runtime params shape matches whichever pathname is active
+        { pathname, params },
+        { locale: target }
+      );
     });
   };
 

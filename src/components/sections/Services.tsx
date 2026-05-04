@@ -28,7 +28,7 @@ export function Services() {
           {serviceSlugs.map((slug, i) => (
             <Link
               key={slug}
-              href={`/sluzby/${slug}`}
+              href={{ pathname: "/sluzby/[slug]", params: { slug } }}
               data-delay={String((i % 4) + 1)}
               className="group service-card relative overflow-hidden rounded-2xl bg-navy text-white aspect-[4/5] md:aspect-[5/6] block reveal"
             >

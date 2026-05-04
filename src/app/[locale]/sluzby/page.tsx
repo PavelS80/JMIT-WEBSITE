@@ -52,7 +52,7 @@ function ServicesContent() {
             {serviceSlugs.map((slug, i) => (
               <Link
                 key={slug}
-                href={`/sluzby/${slug}`}
+                href={{ pathname: "/sluzby/[slug]", params: { slug } }}
                 className="group grid grid-cols-1 lg:grid-cols-12 gap-0 lg:gap-10 items-stretch border border-line rounded-2xl overflow-hidden hover:shadow-lift transition-shadow"
               >
                 <div className="relative lg:col-span-5 aspect-[16/10] lg:aspect-auto bg-navy">

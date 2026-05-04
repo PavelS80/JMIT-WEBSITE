@@ -123,6 +123,7 @@ function CareerContent() {
                   <Button
                     href={`mailto:${contactEmail}`}
                     variant="ghost-light"
+                    external
                   >
                     {t("applyCta")} →
                   </Button>

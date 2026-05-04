@@ -60,7 +60,7 @@ export function Footer() {
               {serviceSlugs.slice(0, 5).map((slug) => (
                 <li key={slug}>
                   <Link
-                    href={`/sluzby/${slug}`}
+                    href={{ pathname: "/sluzby/[slug]", params: { slug } }}
                     className="text-[14px] hover:text-white text-white/70"
                   >
                     {ts(`${slug}.title`)}
