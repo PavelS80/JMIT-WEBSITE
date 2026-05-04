@@ -247,6 +247,20 @@ body {
   opacity: 1;
 }
 
+/* Hero entrance — staggered fade-up */
+.hero-rise {
+  opacity: 0;
+  transform: translateY(18px);
+  animation: hero-rise 900ms cubic-bezier(0.2, 0.7, 0.1, 1) forwards;
+  animation-delay: var(--rise-delay, 0ms);
+}
+@keyframes hero-rise {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* Route ticker marquee */
 .ticker-mask {
   mask-image: linear-gradient(
@@ -267,6 +281,9 @@ body {
 .ticker-track {
   width: max-content;
   animation: ticker-scroll 60s linear infinite;
+}
+.ticker-track--slow {
+  animation-duration: 90s;
 }
 @keyframes ticker-scroll {
   from {
@@ -348,6 +365,11 @@ body {
     animation: none !important;
   }
   .ticker-track {
+    animation: none !important;
+  }
+  .hero-rise {
+    opacity: 1 !important;
+    transform: none !important;
     animation: none !important;
   }
 }

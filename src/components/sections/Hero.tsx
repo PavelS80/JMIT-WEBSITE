@@ -27,21 +27,24 @@ export function Hero() {
 
       <div className="mx-auto max-w-[1440px] px-6 md:px-10 pt-28 md:pt-36 pb-24 md:pb-32 min-h-[88vh] flex flex-col justify-end">
         <div className="max-w-3xl">
-          <div className="inline-flex items-center gap-3 mb-6">
+          <div className="inline-flex items-center gap-3 mb-6 hero-rise" style={{ "--rise-delay": "0ms" } as React.CSSProperties}>
             <span className="h-px w-10 bg-gradient-to-r from-gold to-brand-red" />
             <span className="text-[12px] font-semibold tracking-[0.22em] uppercase text-white/85">
               {t("eyebrow", { year: site.foundedYear, years: site.yearsInBusiness })}
             </span>
           </div>
           <h1 className="font-semibold tracking-tight text-[44px] md:text-[68px] lg:text-[84px] leading-[1.02]">
-            {t("titleLine1")}
-            <br />
-            <span className="serif text-white/85">{t("titleLine2")}</span>
+            <span className="hero-rise block" style={{ "--rise-delay": "120ms" } as React.CSSProperties}>
+              {t("titleLine1")}
+            </span>
+            <span className="hero-rise block serif text-white/85" style={{ "--rise-delay": "240ms" } as React.CSSProperties}>
+              {t("titleLine2")}
+            </span>
           </h1>
-          <p className="mt-7 max-w-xl text-[17px] md:text-[19px] leading-relaxed text-white/80">
+          <p className="mt-7 max-w-xl text-[17px] md:text-[19px] leading-relaxed text-white/80 hero-rise" style={{ "--rise-delay": "380ms" } as React.CSSProperties}>
             {t("body")}
           </p>
-          <div className="mt-10 flex flex-wrap gap-3">
+          <div className="mt-10 flex flex-wrap gap-3 hero-rise" style={{ "--rise-delay": "500ms" } as React.CSSProperties}>
             <Button href="/kontakty">{t("ctaPrimary")} →</Button>
             <Button href="/sluzby" variant="ghost-light">
               {t("ctaSecondary")}

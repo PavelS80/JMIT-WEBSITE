@@ -44,22 +44,50 @@ function ReferencesContent() {
       <section className="py-20 md:py-28">
         <Container>
           <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 border border-line bg-white rounded-2xl overflow-hidden">
-            {references.map((name) => (
+            {references.slice(0, 12).map((name, i) => (
               <li
                 key={name}
-                className="flex items-center justify-center px-6 py-12 border-b border-r border-line text-[15px] md:text-[16px] font-semibold text-ink-muted text-center hover:text-ink hover:bg-surface transition-colors"
+                data-delay={String((i % 4) + 1)}
+                className="reveal flex items-center justify-center px-6 py-12 border-b border-r border-line text-[15px] md:text-[16px] font-semibold text-ink-muted text-center hover:text-ink hover:bg-surface transition-colors"
               >
                 {name}
               </li>
             ))}
           </ul>
+        </Container>
+      </section>
 
-          <blockquote className="mt-20 max-w-3xl mx-auto text-center">
-            <p className="text-[24px] md:text-[28px] leading-[1.3] tracking-tight text-ink">
+      <section
+        aria-label={t("marqueeAria")}
+        className="bg-navy text-white border-y border-white/5 overflow-hidden"
+      >
+        <div className="ticker-mask">
+          <div className="ticker-track ticker-track--slow flex gap-14 py-7 whitespace-nowrap">
+            {[...references, ...references].map((name, i) => (
+              <div key={i} className="flex items-center gap-6 shrink-0">
+                <span className="text-[18px] md:text-[20px] font-semibold tracking-tight text-white/85">
+                  {name}
+                </span>
+                <span className="inline-block h-1 w-1 rounded-full bg-gold/70" />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 md:py-28">
+        <Container>
+          <blockquote className="max-w-3xl mx-auto text-center">
+            <span aria-hidden className="serif block text-[80px] leading-none text-brand-red/20 mb-2">
+              &ldquo;
+            </span>
+            <p className="text-[24px] md:text-[30px] leading-[1.3] tracking-tight text-ink serif italic">
               {t("quote")}
             </p>
-            <footer className="mt-5 text-[13px] tracking-[0.18em] uppercase text-ink-muted">
+            <footer className="mt-6 text-[12px] tracking-[0.22em] uppercase text-ink-muted">
+              <span className="inline-block h-px w-10 bg-gradient-to-r from-transparent via-brand-red to-transparent align-middle mr-3" />
               {t("quoteAuthor")}
+              <span className="inline-block h-px w-10 bg-gradient-to-r from-transparent via-brand-red to-transparent align-middle ml-3" />
             </footer>
           </blockquote>
         </Container>
