@@ -44,7 +44,8 @@ export function FleetTeaser() {
             return (
               <figure
                 key={f.src}
-                className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-surface-2 group"
+                data-delay={String(i + 1)}
+                className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-surface-2 group reveal"
               >
                 <Image
                   src={f.src}

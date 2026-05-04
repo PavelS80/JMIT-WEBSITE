@@ -3,6 +3,7 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import { PageHero } from "@/components/PageHero";
 import { Container } from "@/components/Container";
+import { ContactForm } from "@/components/ContactForm";
 import { site, departmentContacts, teamPortraits } from "@/lib/site";
 import type { Metadata } from "next";
 
@@ -33,6 +34,7 @@ type Department = {
 function ContactsContent() {
   const t = useTranslations("contactsPage");
   const tc = useTranslations("common");
+  const tf = useTranslations("contactForm");
   const departments = t.raw("departments") as Department[];
 
   return (
@@ -171,6 +173,25 @@ function ContactsContent() {
               </div>
             </div>
           ))}
+        </Container>
+      </section>
+
+      <section className="py-20 md:py-24 border-t border-line">
+        <Container>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
+            <div className="lg:col-span-5">
+              <p className="eyebrow">{tf("eyebrow")}</p>
+              <h2 className="mt-4 text-[32px] md:text-[40px] font-semibold tracking-tight leading-[1.05]">
+                {tf("title")}
+              </h2>
+              <p className="mt-5 text-[16px] text-ink-muted leading-relaxed max-w-md">
+                {tf("body")}
+              </p>
+            </div>
+            <div className="lg:col-span-7">
+              <ContactForm />
+            </div>
+          </div>
         </Container>
       </section>
 

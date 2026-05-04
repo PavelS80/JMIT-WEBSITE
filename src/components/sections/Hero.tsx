@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/Button";
+import { CursorGlow } from "@/components/CursorGlow";
 import { site } from "@/lib/site";
 
 export function Hero() {
@@ -21,6 +22,8 @@ export function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-navy/60 via-navy/40 to-navy/95" />
         <div className="absolute inset-0 bg-gradient-to-r from-navy/70 via-transparent to-transparent" />
       </div>
+
+      <CursorGlow />
 
       <div className="mx-auto max-w-[1440px] px-6 md:px-10 pt-28 md:pt-36 pb-24 md:pb-32 min-h-[88vh] flex flex-col justify-end">
         <div className="max-w-3xl">

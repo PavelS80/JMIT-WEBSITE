@@ -9,7 +9,7 @@ export function CareerCTA() {
   return (
     <section className="py-24 md:py-32">
       <Container>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 rounded-3xl overflow-hidden border border-line">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 rounded-3xl overflow-hidden border border-line reveal">
           <div className="relative aspect-[4/3] lg:aspect-auto lg:min-h-[500px] bg-navy">
             <Image
               src="/assets/hero/hero-4.jpg"

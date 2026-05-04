@@ -7,7 +7,7 @@ export function Intro() {
   return (
     <section className="py-24 md:py-32">
       <Container>
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 reveal">
           <div className="lg:col-span-4">
             <p className="eyebrow">{t("eyebrow")}</p>
             <h2 className="mt-4 text-[36px] md:text-[44px] font-semibold leading-[1.05] tracking-tight">

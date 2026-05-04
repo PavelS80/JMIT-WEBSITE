@@ -29,7 +29,8 @@ export function Services() {
             <Link
               key={slug}
               href={`/sluzby/${slug}`}
-              className="group relative overflow-hidden rounded-2xl bg-navy text-white aspect-[4/5] md:aspect-[5/6] block"
+              data-delay={String((i % 4) + 1)}
+              className="group relative overflow-hidden rounded-2xl bg-navy text-white aspect-[4/5] md:aspect-[5/6] block reveal"
             >
               <Image
                 src={serviceImages[slug]}

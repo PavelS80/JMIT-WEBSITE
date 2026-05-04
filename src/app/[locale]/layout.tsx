@@ -6,6 +6,9 @@ import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { DrivingTruck } from "@/components/DrivingTruck";
+import { CookieBanner } from "@/components/CookieBanner";
+import { ScrollProgress } from "@/components/ScrollProgress";
+import { RevealObserver } from "@/components/Reveal";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 
@@ -77,10 +80,13 @@ export default async function LocaleLayout({
     >
       <body className="min-h-full flex flex-col bg-white text-ink">
         <NextIntlClientProvider>
+          <ScrollProgress />
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
           <DrivingTruck />
+          <CookieBanner />
+          <RevealObserver />
         </NextIntlClientProvider>
       </body>
     </html>

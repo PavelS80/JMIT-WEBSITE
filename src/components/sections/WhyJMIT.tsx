@@ -17,7 +17,11 @@ export function WhyJMIT() {
 
         <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-10 md:gap-y-14">
           {items.map((i) => (
-            <li key={i} className="border-t border-line pt-6">
+            <li
+              key={i}
+              className="border-t border-line pt-6 reveal"
+              data-delay={String((i % 4) + 1)}
+            >
               <div className="flex items-baseline gap-3 mb-3">
                 <span className="text-[12px] font-semibold tracking-[0.18em] uppercase text-brand-red tnum">
                   {String(i + 1).padStart(2, "0")}

@@ -153,6 +153,39 @@
     "emailLabel": "Correo",
     "cta": "Escríbanos"
   },
+  "cookies": {
+    "title": "Cookies",
+    "body": "Este sitio utiliza cookies para mejorar tu experiencia y medir el rendimiento. Consulta nuestra política de privacidad para más detalles.",
+    "accept": "Aceptar todas",
+    "reject": "Solo esenciales",
+    "learnMore": "Más información"
+  },
+  "notFound": {
+    "metaTitle": "Página no encontrada",
+    "code": "404",
+    "title": "Envío perdido en tránsito.",
+    "body": "Esta dirección no existe o ha sido redirigida. Vuelve al inicio — nuestra central lo solucionará.",
+    "ctaHome": "Volver al inicio",
+    "ctaContact": "Contactar con central"
+  },
+  "contactForm": {
+    "eyebrow": "Solicitar presupuesto",
+    "title": "Envíanos tu consulta",
+    "body": "Respondemos en una hora en días laborables. Los campos marcados con asterisco son obligatorios.",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "consent": "Acepto el tratamiento de datos personales",
+    "submit": "Enviar consulta",
+    "submitting": "Enviando…",
+    "success": "Gracias — nos pondremos en contacto en breve.",
+    "errorGeneric": "Algo salió mal. Inténtalo de nuevo o llámanos.",
+    "errorRequired": "Por favor, rellena todos los campos obligatorios.",
+    "errorEmail": "Por favor, introduce un correo electrónico válido.",
+    "errorConsent": "El consentimiento es necesario para enviar."
+  },
   "footer": {
     "tagline": "Transportista checo con flota de 100 camiones por toda Europa.\nDesde {year}.",
     "company": "Empresa",

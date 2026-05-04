@@ -186,10 +186,94 @@ body {
   animation: truck-wheel 0.55s linear infinite;
 }
 
+/* Cookie banner — slide up from bottom */
+@keyframes cookie-rise {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes cookie-fall {
+  to {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+}
+.cookie-banner {
+  animation: cookie-rise 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.cookie-banner--closing {
+  animation: cookie-fall 0.35s cubic-bezier(0.45, 0, 0.6, 1) forwards;
+}
+
+/* Scroll progress bar — fixed gold/red sliver across viewport top */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  transform-origin: 0 0;
+  transform: scaleX(var(--scroll, 0));
+  background: linear-gradient(
+    90deg,
+    var(--color-gold) 0%,
+    var(--color-brand-red) 100%
+  );
+  z-index: 80;
+  pointer-events: none;
+  transition: transform 0.06s linear;
+}
+
+/* Cursor glow on hero */
+.cursor-glow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    420px circle at var(--mx, 50%) var(--my, 40%),
+    rgba(201, 169, 106, 0.18),
+    transparent 60%
+  );
+  mix-blend-mode: screen;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+.cursor-glow.is-active {
+  opacity: 1;
+}
+
+/* Reveal stagger helper */
+.reveal[data-delay="1"] {
+  transition-delay: 60ms;
+}
+.reveal[data-delay="2"] {
+  transition-delay: 120ms;
+}
+.reveal[data-delay="3"] {
+  transition-delay: 180ms;
+}
+.reveal[data-delay="4"] {
+  transition-delay: 240ms;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .hero-bg,
   .driving-truck.is-driving .driving-truck__rig,
-  .driving-truck__wheel {
+  .driving-truck__wheel,
+  .cookie-banner,
+  .cookie-banner--closing {
     animation: none !important;
+  }
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  .cursor-glow {
+    display: none !important;
   }
 }

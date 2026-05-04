@@ -153,6 +153,39 @@
     "emailLabel": "Email",
     "cta": "Write to us"
   },
+  "cookies": {
+    "title": "Cookies",
+    "body": "This site uses cookies to enhance your experience and measure performance. See our privacy policy for details.",
+    "accept": "Accept all",
+    "reject": "Essential only",
+    "learnMore": "Learn more"
+  },
+  "notFound": {
+    "metaTitle": "Page not found",
+    "code": "404",
+    "title": "Lost in transit.",
+    "body": "This address doesn't exist or has been re-routed. Head back home — our dispatch will sort it out.",
+    "ctaHome": "Back home",
+    "ctaContact": "Contact dispatch"
+  },
+  "contactForm": {
+    "eyebrow": "Request a quote",
+    "title": "Send us your enquiry",
+    "body": "We respond within an hour on business days. Fields marked with an asterisk are required.",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "subject": "Subject",
+    "message": "Message",
+    "consent": "I agree to the processing of personal data",
+    "submit": "Send enquiry",
+    "submitting": "Sending…",
+    "success": "Thank you — we'll be in touch shortly.",
+    "errorGeneric": "Something went wrong. Please try again, or call us.",
+    "errorRequired": "Please fill in all required fields.",
+    "errorEmail": "Please enter a valid email address.",
+    "errorConsent": "Consent is required to submit."
+  },
   "footer": {
     "tagline": "Czech carrier with a fleet of 100 rigs across Europe.\nSince {year}.",
     "company": "Company",

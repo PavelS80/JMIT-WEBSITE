@@ -153,6 +153,39 @@
     "emailLabel": "E-Mail",
     "cta": "Schreiben Sie uns"
   },
+  "cookies": {
+    "title": "Cookies",
+    "body": "Diese Website verwendet Cookies, um Ihre Erfahrung zu verbessern und die Leistung zu messen. Details finden Sie in unseren Datenschutzbestimmungen.",
+    "accept": "Alle akzeptieren",
+    "reject": "Nur notwendige",
+    "learnMore": "Mehr erfahren"
+  },
+  "notFound": {
+    "metaTitle": "Seite nicht gefunden",
+    "code": "404",
+    "title": "Sendung in Europa verloren.",
+    "body": "Diese Adresse existiert nicht oder wurde umgeleitet. Kehren Sie zur Startseite zurück — unsere Disposition kümmert sich darum.",
+    "ctaHome": "Zur Startseite",
+    "ctaContact": "Disposition kontaktieren"
+  },
+  "contactForm": {
+    "eyebrow": "Anfrage",
+    "title": "Senden Sie uns Ihre Anfrage",
+    "body": "Wir antworten an Werktagen innerhalb einer Stunde. Mit Stern markierte Felder sind Pflichtfelder.",
+    "name": "Name",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "consent": "Ich stimme der Verarbeitung personenbezogener Daten zu",
+    "submit": "Anfrage senden",
+    "submitting": "Wird gesendet…",
+    "success": "Vielen Dank — wir melden uns in Kürze.",
+    "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder rufen Sie uns an.",
+    "errorRequired": "Bitte füllen Sie alle Pflichtfelder aus.",
+    "errorEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "errorConsent": "Zustimmung ist für die Übermittlung erforderlich."
+  },
   "footer": {
     "tagline": "Tschechischer Frachtführer mit 100 Sattelzügen für ganz Europa.\nSeit {year}.",
     "company": "Unternehmen",
