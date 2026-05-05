@@ -2,7 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { renderOg, OG_SIZE, OG_CONTENT_TYPE } from "@/lib/og";
 
-export const alt = "J.M.I.T. a.s.";
+export const alt = "J.M.I.T. a.s. — Fleet";
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
 
@@ -10,19 +10,18 @@ export async function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-export default async function OpenGraphImage({
+export default async function Image({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const hero = await getTranslations({ locale, namespace: "hero" });
-  const meta = await getTranslations({ locale, namespace: "meta" });
-
+  const t = await getTranslations({ locale, namespace: "fleetPage" });
   return renderOg({
-    eyebrow: "Since 1991",
-    titleLine1: hero("titleLine1"),
-    titleLine2: hero("titleLine2"),
-    description: meta("rootOgDescription"),
+    eyebrow: t("heroEyebrow"),
+    titleLine1: t("heroTitleLine1"),
+    titleLine2: t("heroTitleLine2"),
+    description: t("metaDescription"),
+    monogram: "F",
   });
 }
