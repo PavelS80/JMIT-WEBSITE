@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(node:*)",
+      "Bash(/Users/pavelspacek/.nvm/versions/node/v24.15.0/bin/*)",
+      "Bash(/usr/bin/curl:*)",
+      "Bash(/usr/bin/grep:*)",
+      "Bash(/usr/bin/jq:*)",
+      "Bash(/usr/bin/find:*)",
+      "Bash(/usr/bin/head:*)",
+      "Bash(/usr/bin/tail:*)",
+      "Bash(/usr/bin/wc:*)",
+      "Bash(/usr/sbin/lsof:*)",
+      "Bash(/usr/bin/xargs:*)",
+      "Bash(/bin/ls:*)",
+      "Bash(/bin/mkdir:*)",
+      "Bash(/bin/echo:*)",
+      "Bash(/bin/bash:*)",
+      "Bash(which:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(cat:*)",
+      "Edit",
+      "Write",
+      "Read",
+      "Glob",
+      "Grep"
+    ]
+  }
+}
