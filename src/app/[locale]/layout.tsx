@@ -8,6 +8,7 @@ import { Footer } from "@/components/Footer";
 import { DrivingTruck } from "@/components/DrivingTruck";
 import { CookieBanner } from "@/components/CookieBanner";
 import { ScrollProgress } from "@/components/ScrollProgress";
+import { NavProgress } from "@/components/NavProgress";
 import { RevealObserver } from "@/components/Reveal";
 import { BackToTop } from "@/components/BackToTop";
 import { DispatchCall } from "@/components/DispatchCall";
@@ -90,6 +91,7 @@ export default async function LocaleLayout({
           >
             {tc("skipToContent")}
           </a>
+          <NavProgress />
           <ScrollProgress />
           <Header />
           <main id="main" tabIndex={-1} className="flex-1 focus:outline-none">
