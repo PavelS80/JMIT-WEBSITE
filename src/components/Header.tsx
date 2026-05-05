@@ -44,7 +44,12 @@ export function Header() {
           : "bg-white/0 border-b border-transparent"
       )}
     >
-      <div className="mx-auto flex max-w-[1440px] items-center justify-between px-6 md:px-10 h-[72px]">
+      <div
+        className={cn(
+          "mx-auto flex max-w-[1440px] items-center justify-between px-6 md:px-10 transition-[height] duration-300",
+          scrolled ? "h-[60px]" : "h-[78px]"
+        )}
+      >
         <Link href="/" className="flex items-center gap-3" aria-label="J.M.I.T.">
           <Image
             src="/assets/brand/logo.png"
@@ -52,7 +57,10 @@ export function Header() {
             width={140}
             height={42}
             priority
-            className="h-9 w-auto"
+            className={cn(
+              "w-auto transition-[height] duration-300",
+              scrolled ? "h-7 md:h-8" : "h-9 md:h-10"
+            )}
           />
         </Link>
 
