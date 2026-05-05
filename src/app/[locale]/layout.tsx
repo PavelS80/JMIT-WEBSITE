@@ -13,6 +13,7 @@ import { RevealObserver } from "@/components/Reveal";
 import { BackToTop } from "@/components/BackToTop";
 import { DispatchCall } from "@/components/DispatchCall";
 import { StructuredData } from "@/components/StructuredData";
+import { Analytics } from "@/components/Analytics";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 
@@ -104,6 +105,7 @@ export default async function LocaleLayout({
           <BackToTop />
           <DispatchCall />
           <StructuredData />
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>

@@ -504,5 +504,129 @@
         ]
       }
     ]
+  },
+  "legal": {
+    "lastUpdatedLabel": "Updated",
+    "lastUpdatedDate": "April 1, 2026",
+    "tocLabel": "Contents",
+    "draftNotice": "Draft — final legal review pending.",
+    "needHelp": "Have a question?",
+    "needHelpBody": "For privacy or other legal matters, reach us at",
+    "back": "Back to homepage"
+  },
+  "gdprPage": {
+    "metaTitle": "Privacy policy",
+    "metaDescription": "How J.M.I.T. a.s. processes personal data in line with GDPR and applicable Czech law.",
+    "heroEyebrow": "Privacy policy",
+    "heroTitleLine1": "We take your",
+    "heroTitleLine2": "privacy seriously.",
+    "heroDescription": "This policy describes how J.M.I.T. a.s. processes personal data in compliance with the GDPR and the Czech Personal Data Processing Act.",
+    "sections": [
+      {
+        "id": "controller",
+        "title": "Data controller",
+        "body": "The controller is J.M.I.T. a.s., ID 25868462, registered office Olomoucká 15, 783 65 Hlubočky, Czech Republic. Privacy contact: info@jmit.cz, +420 585 206 140."
+      },
+      {
+        "id": "purposes",
+        "title": "Processing purposes",
+        "body": "We process personal data to perform contracts (transport, invoicing), pre-contractual negotiations, statutory obligations (accounting, archiving, tax), legitimate interests (service improvement, defence of legal claims, security) and marketing — only with your consent."
+      },
+      {
+        "id": "scope",
+        "title": "Categories of data",
+        "body": "We process identification data (name, company ID, VAT ID), contact details (address, e-mail, phone), order and invoicing data, and information submitted via contact forms. For employees and applicants we process data within the scope necessary for the employment relationship."
+      },
+      {
+        "id": "retention",
+        "title": "Retention period",
+        "body": "Data is kept for the duration of the contractual relationship and afterwards for the period required by applicable law (typically 10 years for tax and accounting documents). Marketing data is processed until consent is withdrawn."
+      },
+      {
+        "id": "recipients",
+        "title": "Recipients",
+        "body": "Data is shared, only to the necessary extent, with processors (accounting, IT services), banks, public authorities and — within the scope of transport — with business partners (customs, customers, sub-carriers). We do not transfer data to third countries outside the EU."
+      },
+      {
+        "id": "rights",
+        "title": "Your rights",
+        "body": "You have the right of access, rectification, erasure, restriction, portability and to object. Consent can be withdrawn at any time. Complaints can be lodged with the Czech Office for Personal Data Protection (uoou.cz)."
+      },
+      {
+        "id": "security",
+        "title": "Security",
+        "body": "We protect data with technical and organisational measures appropriate to the state of the art. Only authorised persons bound by confidentiality have access."
+      }
+    ]
+  },
+  "cookiesPage": {
+    "metaTitle": "Cookies",
+    "metaDescription": "Information about cookies used on jmit.cz.",
+    "heroEyebrow": "Cookies",
+    "heroTitleLine1": "How we use",
+    "heroTitleLine2": "cookies.",
+    "heroDescription": "This page explains the cookies we use, what they do, and how to manage them.",
+    "sections": [
+      {
+        "id": "what",
+        "title": "What are cookies",
+        "body": "Cookies are small text files stored in your browser when you visit a website. They are used to remember your preferences and to analyse traffic."
+      },
+      {
+        "id": "categories",
+        "title": "Cookie categories",
+        "body": "Necessary cookies — required for basic site functionality (language, consent banner) and cannot be disabled. Analytics cookies — we use lightweight analytics without visitor profiling, activated only after your consent. Marketing cookies — we currently do not use any."
+      },
+      {
+        "id": "consent",
+        "title": "Your consent",
+        "body": "On your first visit we display a banner where you can grant consent for non-essential cookies. You can withdraw consent at any time by clearing cookies in your browser."
+      },
+      {
+        "id": "manage",
+        "title": "Managing cookies",
+        "body": "You can manage cookies in your browser settings (Chrome, Firefox, Safari, Edge). Some site features may not work correctly without cookies."
+      }
+    ]
+  },
+  "imprintPage": {
+    "metaTitle": "Imprint",
+    "metaDescription": "Identification and contact details of the operator of jmit.cz.",
+    "heroEyebrow": "Imprint",
+    "heroTitleLine1": "Operator",
+    "heroTitleLine2": "and contacts.",
+    "heroDescription": "Identification details of J.M.I.T. a.s. and information about the operation of this website.",
+    "sections": [
+      {
+        "id": "operator",
+        "title": "Operator",
+        "body": "J.M.I.T. a.s.\nOlomoucká 15\n783 65 Hlubočky\nCzech Republic\n\nCompany ID: 25868462\nVAT ID: CZ25868462\n\nRegistered with the Regional Court in Ostrava, file no. B 2459."
+      },
+      {
+        "id": "contact",
+        "title": "Contact",
+        "body": "Phone: +420 585 206 140\nE-mail: info@jmit.cz\nDispatch: 24 hours a day, 7 days a week"
+      },
+      {
+        "id": "bank",
+        "title": "Bank details",
+        "body": "Komerční banka, a.s.\nIBAN: CZ00 0100 0000 0000 0000 0000\nSWIFT/BIC: KOMBCZPP"
+      },
+      {
+        "id": "content",
+        "title": "Content and copyright",
+        "body": "All content on this website (text, photography, graphics, structure) is protected by copyright. Reproduction, distribution or commercial use is permitted only with prior written consent of the operator."
+      },
+      {
+        "id": "liability",
+        "title": "Liability",
+        "body": "The operator strives to keep the information up to date and accurate but does not guarantee its completeness, accuracy or timeliness. Responsibility for the content of external links lies with their respective operators."
+      },
+      {
+        "id": "disputes",
+        "title": "Dispute resolution",
+        "body": "Consumer disputes can be resolved out of court via the Czech Trade Inspection (coi.cz) or the European Commission's ODR platform."
+      }
+    ]
   }
 }

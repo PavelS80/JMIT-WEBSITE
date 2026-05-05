@@ -504,5 +504,129 @@
         ]
       }
     ]
+  },
+  "legal": {
+    "lastUpdatedLabel": "Aktualisiert",
+    "lastUpdatedDate": "1. April 2026",
+    "tocLabel": "Inhalt",
+    "draftNotice": "Entwurfsfassung — finale rechtliche Prüfung steht noch aus.",
+    "needHelp": "Eine Frage?",
+    "needHelpBody": "Für Datenschutz- oder andere rechtliche Anliegen erreichen Sie uns unter",
+    "back": "Zurück zur Startseite"
+  },
+  "gdprPage": {
+    "metaTitle": "Datenschutz",
+    "metaDescription": "Wie J.M.I.T. a.s. personenbezogene Daten gemäß DSGVO und tschechischem Recht verarbeitet.",
+    "heroEyebrow": "Datenschutz",
+    "heroTitleLine1": "Ihre Privatsphäre",
+    "heroTitleLine2": "ist uns wichtig.",
+    "heroDescription": "Diese Erklärung beschreibt, wie J.M.I.T. a.s. personenbezogene Daten gemäß der DSGVO und dem tschechischen Datenschutzgesetz verarbeitet.",
+    "sections": [
+      {
+        "id": "verantwortlich",
+        "title": "Verantwortlicher",
+        "body": "Verantwortlich ist J.M.I.T. a.s., ID 25868462, Sitz Olomoucká 15, 783 65 Hlubočky, Tschechische Republik. Datenschutzkontakt: info@jmit.cz, +420 585 206 140."
+      },
+      {
+        "id": "zwecke",
+        "title": "Verarbeitungszwecke",
+        "body": "Wir verarbeiten Daten zur Vertragserfüllung (Transport, Rechnungsstellung), zu vorvertraglichen Verhandlungen, zur Erfüllung gesetzlicher Pflichten (Buchhaltung, Archivierung, Steuerrecht), zur Wahrung berechtigter Interessen (Verbesserung der Dienstleistungen, Rechtsverteidigung, Sicherheit) sowie zu Marketingzwecken — letzteres nur mit Ihrer Einwilligung."
+      },
+      {
+        "id": "umfang",
+        "title": "Datenkategorien",
+        "body": "Wir verarbeiten Identifikationsdaten (Name, IČO, USt-ID), Kontaktdaten (Adresse, E-Mail, Telefon), Auftrags- und Rechnungsdaten sowie Informationen aus Kontaktformularen. Bei Mitarbeitern und Bewerbern werden Daten im für das Arbeitsverhältnis erforderlichen Umfang verarbeitet."
+      },
+      {
+        "id": "dauer",
+        "title": "Speicherdauer",
+        "body": "Daten werden für die Dauer der Vertragsbeziehung sowie anschließend für die gesetzlich vorgeschriebene Frist (in der Regel 10 Jahre für Steuer- und Buchhaltungsunterlagen) gespeichert. Marketingdaten werden bis zum Widerruf der Einwilligung verarbeitet."
+      },
+      {
+        "id": "empfanger",
+        "title": "Empfänger",
+        "body": "Daten werden nur im erforderlichen Umfang an Auftragsverarbeiter (Buchhaltung, IT), Banken, Behörden sowie im Rahmen des Transports an Geschäftspartner (Zoll, Kunden, Subunternehmer) weitergegeben. Eine Übermittlung in Drittländer außerhalb der EU findet nicht statt."
+      },
+      {
+        "id": "rechte",
+        "title": "Ihre Rechte",
+        "body": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit sowie das Widerspruchsrecht. Eine Einwilligung kann jederzeit widerrufen werden. Beschwerden sind an das tschechische Amt für Datenschutz (uoou.cz) zu richten."
+      },
+      {
+        "id": "sicherheit",
+        "title": "Sicherheit",
+        "body": "Wir schützen Daten durch technische und organisatorische Maßnahmen nach dem Stand der Technik. Zugriff haben nur autorisierte und zur Vertraulichkeit verpflichtete Personen."
+      }
+    ]
+  },
+  "cookiesPage": {
+    "metaTitle": "Cookies",
+    "metaDescription": "Informationen zu den auf jmit.cz verwendeten Cookies.",
+    "heroEyebrow": "Cookies",
+    "heroTitleLine1": "Wie wir",
+    "heroTitleLine2": "Cookies einsetzen.",
+    "heroDescription": "Diese Seite erläutert, welche Cookies wir verwenden, wozu sie dienen und wie Sie deren Verarbeitung steuern können.",
+    "sections": [
+      {
+        "id": "was",
+        "title": "Was sind Cookies",
+        "body": "Cookies sind kleine Textdateien, die beim Besuch einer Website in Ihrem Browser gespeichert werden. Sie speichern Präferenzen und ermöglichen die Reichweitenanalyse."
+      },
+      {
+        "id": "kategorien",
+        "title": "Cookie-Kategorien",
+        "body": "Notwendige Cookies — gewährleisten die Grundfunktionen (Sprache, Einwilligungsbanner) und können nicht deaktiviert werden. Analyse-Cookies — wir nutzen schlanke Analytik ohne Profilbildung; aktiviert erst nach Ihrer Einwilligung. Marketing-Cookies — werden derzeit nicht eingesetzt."
+      },
+      {
+        "id": "einwilligung",
+        "title": "Ihre Einwilligung",
+        "body": "Beim ersten Besuch zeigen wir ein Banner, in dem Sie der Verwendung nicht-essenzieller Cookies zustimmen können. Die Einwilligung können Sie jederzeit durch Löschen der Cookies im Browser widerrufen."
+      },
+      {
+        "id": "verwaltung",
+        "title": "Cookies verwalten",
+        "body": "Cookies können Sie in den Einstellungen Ihres Browsers (Chrome, Firefox, Safari, Edge) verwalten. Ohne Cookies funktionieren einige Funktionen möglicherweise nicht korrekt."
+      }
+    ]
+  },
+  "imprintPage": {
+    "metaTitle": "Impressum",
+    "metaDescription": "Identifikations- und Kontaktdaten des Betreibers von jmit.cz.",
+    "heroEyebrow": "Impressum",
+    "heroTitleLine1": "Betreiber",
+    "heroTitleLine2": "und Kontakte.",
+    "heroDescription": "Identifikationsdaten der J.M.I.T. a.s. sowie Hinweise zum Betrieb dieser Website.",
+    "sections": [
+      {
+        "id": "betreiber",
+        "title": "Betreiber",
+        "body": "J.M.I.T. a.s.\nOlomoucká 15\n783 65 Hlubočky\nTschechische Republik\n\nIČO: 25868462\nUSt-ID: CZ25868462\n\nEingetragen beim Kreisgericht Ostrau, Aktenzeichen B 2459."
+      },
+      {
+        "id": "kontakt",
+        "title": "Kontakt",
+        "body": "Telefon: +420 585 206 140\nE-Mail: info@jmit.cz\nDisposition: 24 Stunden täglich, 7 Tage die Woche"
+      },
+      {
+        "id": "bank",
+        "title": "Bankverbindung",
+        "body": "Komerční banka, a.s.\nIBAN: CZ00 0100 0000 0000 0000 0000\nSWIFT/BIC: KOMBCZPP"
+      },
+      {
+        "id": "inhalt",
+        "title": "Inhalt und Urheberrecht",
+        "body": "Alle Inhalte dieser Website (Texte, Fotografien, Grafiken, Struktur) sind urheberrechtlich geschützt. Vervielfältigung, Verbreitung oder kommerzielle Nutzung ist nur mit vorheriger schriftlicher Zustimmung des Betreibers zulässig."
+      },
+      {
+        "id": "haftung",
+        "title": "Haftung",
+        "body": "Der Betreiber ist um Aktualität und Richtigkeit der Inhalte bemüht, übernimmt jedoch keine Gewähr für deren Vollständigkeit, Genauigkeit oder Aktualität. Für externe Links haftet der jeweilige Betreiber."
+      },
+      {
+        "id": "streit",
+        "title": "Streitbeilegung",
+        "body": "Verbraucherstreitigkeiten können außergerichtlich über die tschechische Handelsinspektion (coi.cz) oder die OS-Plattform der Europäischen Kommission beigelegt werden."
+      }
+    ]
   }
 }

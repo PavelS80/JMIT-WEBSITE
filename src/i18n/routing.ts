@@ -55,6 +55,27 @@ export const routing = defineRouting({
       es: "/contacto",
       ru: "/kontakty",
     },
+    "/gdpr": {
+      cs: "/ochrana-osobnich-udaju",
+      en: "/privacy-policy",
+      de: "/datenschutz",
+      es: "/politica-de-privacidad",
+      ru: "/politika-konfidentsialnosti",
+    },
+    "/cookies": {
+      cs: "/cookies",
+      en: "/cookies",
+      de: "/cookies",
+      es: "/politica-de-cookies",
+      ru: "/cookies",
+    },
+    "/tiraz": {
+      cs: "/tiraz",
+      en: "/imprint",
+      de: "/impressum",
+      es: "/aviso-legal",
+      ru: "/vyhodnye-dannye",
+    },
   },
 });
 

@@ -66,7 +66,7 @@ export function CookieBanner() {
             <p className="text-[14px] md:text-[15px] leading-relaxed text-white/80 max-w-2xl">
               {t("body")}{" "}
               <Link
-                href="/"
+                href="/cookies"
                 className="underline underline-offset-4 decoration-white/30 hover:decoration-gold hover:text-white transition-colors"
               >
                 {t("learnMore")}

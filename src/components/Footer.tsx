@@ -111,13 +111,13 @@ export function Footer() {
             })}
           </p>
           <div className="flex gap-5">
-            <Link href="/" className="hover:text-white">
+            <Link href="/gdpr" className="hover:text-white">
               {t("gdpr")}
             </Link>
-            <Link href="/" className="hover:text-white">
+            <Link href="/cookies" className="hover:text-white">
               {t("cookies")}
             </Link>
-            <Link href="/" className="hover:text-white">
+            <Link href="/tiraz" className="hover:text-white">
               {t("imprint")}
             </Link>
           </div>

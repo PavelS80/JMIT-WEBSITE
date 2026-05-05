@@ -504,5 +504,129 @@
         ]
       }
     ]
+  },
+  "legal": {
+    "lastUpdatedLabel": "Aktualizováno",
+    "lastUpdatedDate": "1. dubna 2026",
+    "tocLabel": "Obsah",
+    "draftNotice": "Pracovní verze — připravujeme finální právní revizi.",
+    "needHelp": "Máte dotaz?",
+    "needHelpBody": "Pro otázky k ochraně osobních údajů nebo dalším právním záležitostem nás kontaktujte na",
+    "back": "Zpět na hlavní stránku"
+  },
+  "gdprPage": {
+    "metaTitle": "Ochrana osobních údajů",
+    "metaDescription": "Zásady zpracování osobních údajů J.M.I.T. a.s. v souladu s GDPR a českou legislativou.",
+    "heroEyebrow": "Ochrana osobních údajů",
+    "heroTitleLine1": "Vaše soukromí",
+    "heroTitleLine2": "bereme vážně.",
+    "heroDescription": "Tyto zásady popisují, jak J.M.I.T. a.s. zpracovává osobní údaje v souladu s nařízením GDPR a českým zákonem o zpracování osobních údajů.",
+    "sections": [
+      {
+        "id": "spravce",
+        "title": "Správce údajů",
+        "body": "Správcem osobních údajů je J.M.I.T. a.s., IČO 25868462, se sídlem Olomoucká 15, 783 65 Hlubočky. Kontakt pro otázky ochrany údajů: info@jmit.cz, tel. +420 585 206 140."
+      },
+      {
+        "id": "ucely",
+        "title": "Účely zpracování",
+        "body": "Údaje zpracováváme za účelem plnění uzavřených smluv (přeprava, fakturace), jednání před uzavřením smlouvy, plnění zákonných povinností (účetnictví, archivace, daňové předpisy), oprávněných zájmů (zlepšování služeb, obrana právních nároků, zabezpečení) a marketingu pouze na základě vašeho souhlasu."
+      },
+      {
+        "id": "rozsah",
+        "title": "Rozsah údajů",
+        "body": "Zpracováváme identifikační údaje (jméno, IČO, DIČ), kontaktní údaje (adresa, e-mail, telefon), údaje o objednávkách a fakturaci, případně údaje předané prostřednictvím kontaktních formulářů. U zaměstnanců a uchazečů o zaměstnání zpracováváme údaje v rozsahu nutném pro pracovněprávní vztah."
+      },
+      {
+        "id": "doba",
+        "title": "Doba uchování",
+        "body": "Údaje uchováváme po dobu trvání smluvního vztahu a následně po dobu vyžadovanou platnými právními předpisy (zpravidla 10 let pro daňové a účetní doklady). Údaje pro marketingové účely zpracováváme do odvolání souhlasu."
+      },
+      {
+        "id": "prijemci",
+        "title": "Příjemci údajů",
+        "body": "Údaje předáváme pouze v nezbytném rozsahu zpracovatelům (účetní a IT služby), bankovním institucím, orgánům státní správy a v rámci přepravy obchodním partnerům (celní orgány, zákazníci, další dopravci). Údaje nepředáváme do třetích zemí mimo EU."
+      },
+      {
+        "id": "prava",
+        "title": "Vaše práva",
+        "body": "Máte právo na přístup k údajům, jejich opravu, výmaz, omezení zpracování, přenositelnost a vznesení námitky. Souhlas se zpracováním lze kdykoliv odvolat. Stížnost lze podat u Úřadu pro ochranu osobních údajů (uoou.cz)."
+      },
+      {
+        "id": "zabezpeceni",
+        "title": "Zabezpečení",
+        "body": "Údaje chráníme technickými a organizačními opatřeními odpovídajícími aktuálnímu stavu techniky. K údajům mají přístup pouze pověřené osoby vázané mlčenlivostí."
+      }
+    ]
+  },
+  "cookiesPage": {
+    "metaTitle": "Cookies",
+    "metaDescription": "Informace o souborech cookies používaných na webu jmit.cz.",
+    "heroEyebrow": "Cookies",
+    "heroTitleLine1": "Jak používáme",
+    "heroTitleLine2": "soubory cookies.",
+    "heroDescription": "Tato stránka popisuje, jaké cookies používáme, k čemu slouží a jak jejich zpracování ovlivnit.",
+    "sections": [
+      {
+        "id": "co-jsou",
+        "title": "Co jsou cookies",
+        "body": "Cookies jsou malé textové soubory ukládané ve vašem prohlížeči při návštěvě webových stránek. Slouží k zapamatování vašich preferencí a k analýze návštěvnosti."
+      },
+      {
+        "id": "kategorie",
+        "title": "Kategorie cookies",
+        "body": "Nezbytné cookies — zajišťují základní funkčnost webu (jazyk, banner souhlasu) a nelze je vypnout. Analytické cookies — používáme zjednodušenou analytiku bez profilování návštěvníků; aktivuje se až po vašem souhlasu. Marketingové cookies — momentálně nepoužíváme."
+      },
+      {
+        "id": "souhlas",
+        "title": "Váš souhlas",
+        "body": "Při první návštěvě webu zobrazujeme banner, prostřednictvím kterého udělujete souhlas s nepovinnými cookies. Souhlas můžete kdykoliv odvolat smazáním cookies ve svém prohlížeči."
+      },
+      {
+        "id": "spravu",
+        "title": "Správa cookies",
+        "body": "Cookies můžete spravovat v nastavení vašeho prohlížeče (Chrome, Firefox, Safari, Edge). Některé funkce webu nemusí bez cookies fungovat správně."
+      }
+    ]
+  },
+  "imprintPage": {
+    "metaTitle": "Tiráž",
+    "metaDescription": "Identifikační a kontaktní údaje provozovatele webu jmit.cz.",
+    "heroEyebrow": "Tiráž",
+    "heroTitleLine1": "Provozovatel",
+    "heroTitleLine2": "a kontakty.",
+    "heroDescription": "Identifikační údaje společnosti J.M.I.T. a.s. a informace o provozu těchto webových stránek.",
+    "sections": [
+      {
+        "id": "provozovatel",
+        "title": "Provozovatel",
+        "body": "J.M.I.T. a.s.\nOlomoucká 15\n783 65 Hlubočky\nČeská republika\n\nIČO: 25868462\nDIČ: CZ25868462\n\nSpisová značka: B 2459 vedená u Krajského soudu v Ostravě"
+      },
+      {
+        "id": "kontakt",
+        "title": "Kontakt",
+        "body": "Telefon: +420 585 206 140\nE-mail: info@jmit.cz\nDispečink: 24 hodin denně, 7 dní v týdnu"
+      },
+      {
+        "id": "bankovni",
+        "title": "Bankovní spojení",
+        "body": "Komerční banka, a.s.\nIBAN: CZ00 0100 0000 0000 0000 0000\nSWIFT/BIC: KOMBCZPP"
+      },
+      {
+        "id": "obsah",
+        "title": "Obsah a autorská práva",
+        "body": "Veškerý obsah na tomto webu (texty, fotografie, grafika, struktura) je chráněn autorským zákonem. Reprodukce, šíření nebo komerční využití je možné pouze s předchozím písemným souhlasem provozovatele."
+      },
+      {
+        "id": "odpovednost",
+        "title": "Odpovědnost",
+        "body": "Provozovatel vyvíjí maximální úsilí pro zajištění aktuálnosti a správnosti uváděných informací, neručí však za přesnost, úplnost nebo aktuálnost obsahu. Za obsah externích odkazů nese odpovědnost příslušný provozovatel."
+      },
+      {
+        "id": "spory",
+        "title": "Řešení sporů",
+        "body": "Případné spotřebitelské spory lze řešit mimosoudně prostřednictvím České obchodní inspekce (coi.cz) nebo platformy ODR Evropské komise."
+      }
+    ]
   }
 }
