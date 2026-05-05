@@ -459,6 +459,9 @@
     "addressLabel": "Адрес",
     "addressSub": "Главный офис",
     "officeEyebrow": "Главный офис",
+    "mapEyebrow": "Как нас найти",
+    "mapHint": "Головной офис и логистический комплекс в Глубочках под Оломоуцем.",
+    "mapPinLabel": "Офис",
     "departments": [
       {
         "title": "Руководство",

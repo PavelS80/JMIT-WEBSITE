@@ -459,6 +459,9 @@
     "addressLabel": "Adresa",
     "addressSub": "Sídlo společnosti",
     "officeEyebrow": "Sídlo",
+    "mapEyebrow": "Najdete nás",
+    "mapHint": "Centrála a logistický areál v Hlubočkách u Olomouce.",
+    "mapPinLabel": "Centrála",
     "departments": [
       {
         "title": "Vedení společnosti",

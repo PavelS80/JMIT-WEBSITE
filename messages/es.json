@@ -459,6 +459,9 @@
     "addressLabel": "Dirección",
     "addressSub": "Sede de la empresa",
     "officeEyebrow": "Sede",
+    "mapEyebrow": "Cómo encontrarnos",
+    "mapHint": "Sede central y nave logística en Hlubočky, cerca de Olomouc.",
+    "mapPinLabel": "Sede",
     "departments": [
       {
         "title": "Dirección",

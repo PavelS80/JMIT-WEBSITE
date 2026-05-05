@@ -459,6 +459,9 @@
     "addressLabel": "Address",
     "addressSub": "Headquarters",
     "officeEyebrow": "Headquarters",
+    "mapEyebrow": "Find us",
+    "mapHint": "Headquarters and logistics yard in Hlubočky near Olomouc.",
+    "mapPinLabel": "HQ",
     "departments": [
       {
         "title": "Management",

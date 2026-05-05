@@ -195,9 +195,9 @@ function ContactsContent() {
         </Container>
       </section>
 
-      <section className="bg-surface py-20">
+      <section className="bg-surface py-20 md:py-24">
         <Container>
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 mb-10">
             <div className="lg:col-span-5">
               <p className="eyebrow">{t("officeEyebrow")}</p>
               <h2 className="mt-4 text-[28px] md:text-[34px] font-semibold tracking-tight">
@@ -207,43 +207,86 @@ function ContactsContent() {
                   {site.address.zip} {site.address.city}
                 </span>
               </h2>
-              <dl className="mt-6 space-y-2 text-[15px]">
-                <div className="flex gap-3">
-                  <dt className="w-20 text-ink-muted">IČ</dt>
-                  <dd className="tnum">{site.ico}</dd>
+              <p className="mt-4 text-[15px] text-ink-muted leading-relaxed max-w-md">
+                {t("mapHint")}
+              </p>
+            </div>
+            <div className="lg:col-span-7 lg:pt-2">
+              <dl className="grid grid-cols-2 gap-x-8 gap-y-4 text-[15px]">
+                <div>
+                  <dt className="text-[12px] tracking-[0.18em] uppercase text-ink-muted">
+                    IČ
+                  </dt>
+                  <dd className="mt-1 text-[18px] font-semibold tnum">
+                    {site.ico}
+                  </dd>
                 </div>
-                <div className="flex gap-3">
-                  <dt className="w-20 text-ink-muted">DIČ</dt>
-                  <dd className="tnum">{site.dic}</dd>
+                <div>
+                  <dt className="text-[12px] tracking-[0.18em] uppercase text-ink-muted">
+                    DIČ
+                  </dt>
+                  <dd className="mt-1 text-[18px] font-semibold tnum">
+                    {site.dic}
+                  </dd>
                 </div>
-                <div className="flex gap-3">
-                  <dt className="w-20 text-ink-muted">GPS</dt>
-                  <dd className="tnum">{site.gps.label}</dd>
+                <div>
+                  <dt className="text-[12px] tracking-[0.18em] uppercase text-ink-muted">
+                    GPS
+                  </dt>
+                  <dd className="mt-1 text-[18px] font-semibold tnum">
+                    {site.gps.label}
+                  </dd>
                 </div>
-                <div className="flex gap-3">
-                  <dt className="w-20 text-ink-muted">{tc("fax")}</dt>
-                  <dd className="tnum">{site.phones.fax}</dd>
+                <div>
+                  <dt className="text-[12px] tracking-[0.18em] uppercase text-ink-muted">
+                    {tc("fax")}
+                  </dt>
+                  <dd className="mt-1 text-[18px] font-semibold tnum">
+                    {site.phones.fax}
+                  </dd>
                 </div>
               </dl>
+            </div>
+          </div>
+
+          <div className="relative rounded-3xl overflow-hidden border border-line shadow-luxe bg-navy">
+            <div className="absolute top-5 left-5 z-10 inline-flex items-center gap-2 rounded-full bg-white/95 backdrop-blur px-4 py-2 shadow-soft">
+              <span
+                aria-hidden
+                className="relative flex h-2.5 w-2.5"
+              >
+                <span className="absolute inset-0 rounded-full bg-brand-red animate-ping opacity-60" />
+                <span className="relative h-2.5 w-2.5 rounded-full bg-brand-red" />
+              </span>
+              <span className="text-[12px] font-semibold tracking-[0.18em] uppercase text-ink">
+                {t("mapPinLabel")}
+              </span>
+              <span className="text-[12px] text-ink-muted tnum">
+                {site.gps.label}
+              </span>
+            </div>
+
+            <iframe
+              src={`https://www.google.com/maps?q=${site.gps.lat},${site.gps.lng}&z=15&output=embed`}
+              className="block w-full aspect-[16/10] md:aspect-[21/9] border-0"
+              loading="lazy"
+              title="J.M.I.T. a.s. — Hlubočky"
+            />
+
+            <div className="absolute bottom-5 right-5 z-10">
               <a
                 href={`https://www.google.com/maps/search/?api=1&query=${site.gps.lat},${site.gps.lng}`}
                 target="_blank"
                 rel="noreferrer"
-                className="mt-6 inline-flex items-center gap-2 text-[14px] font-semibold text-brand-red hover:gap-3 transition-all"
+                className="inline-flex items-center gap-2 rounded-full bg-brand-red text-white px-5 py-2.5 text-[13px] font-semibold tracking-wide shadow-lift hover:bg-brand-red-dark transition-colors"
               >
                 {tc("openInMaps")}
                 <span aria-hidden>→</span>
               </a>
             </div>
-            <div className="lg:col-span-7">
-              <iframe
-                src={`https://www.google.com/maps?q=${site.gps.lat},${site.gps.lng}&z=15&output=embed`}
-                className="w-full aspect-[4/3] rounded-2xl border-0 shadow-soft"
-                loading="lazy"
-                title="J.M.I.T. a.s. — Hlubočky"
-              />
-            </div>
           </div>
+
+          <p className="mt-4 text-[12px] text-ink-muted">{t("mapEyebrow")}</p>
         </Container>
       </section>
     </>

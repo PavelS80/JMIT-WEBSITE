@@ -459,6 +459,9 @@
     "addressLabel": "Adresse",
     "addressSub": "Firmensitz",
     "officeEyebrow": "Firmensitz",
+    "mapEyebrow": "So finden Sie uns",
+    "mapHint": "Zentrale und Logistikgelände in Hlubočky bei Olomouc.",
+    "mapPinLabel": "Zentrale",
     "departments": [
       {
         "title": "Geschäftsleitung",
