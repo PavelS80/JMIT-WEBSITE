@@ -169,7 +169,16 @@
     "title": "Envío perdido en tránsito.",
     "body": "Esta dirección no existe o ha sido redirigida. Vuelve al inicio — nuestra central lo solucionará.",
     "ctaHome": "Volver al inicio",
-    "ctaContact": "Contactar con central"
+    "ctaContact": "Contactar con central",
+    "stamp": "Ruta no encontrada",
+    "destinationsEyebrow": "A dónde ahora",
+    "destinationsTitle": "Rutas sugeridas",
+    "destinations": [
+      { "key": "services", "title": "Servicios", "body": "Transporte voluminoso e internacional." },
+      { "key": "fleet", "title": "Flota", "body": "Cien camiones DAF y Mercedes." },
+      { "key": "references", "title": "Referencias", "body": "Socios para los que conducimos." },
+      { "key": "contact", "title": "Contacto", "body": "Central 24/7, +420 585 206 140." }
+    ]
   },
   "ticker": {
     "ariaLabel": "Rutas de transporte activas",

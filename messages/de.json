@@ -169,7 +169,16 @@
     "title": "Sendung in Europa verloren.",
     "body": "Diese Adresse existiert nicht oder wurde umgeleitet. Kehren Sie zur Startseite zurück — unsere Disposition kümmert sich darum.",
     "ctaHome": "Zur Startseite",
-    "ctaContact": "Disposition kontaktieren"
+    "ctaContact": "Disposition kontaktieren",
+    "stamp": "Route nicht gefunden",
+    "destinationsEyebrow": "Weiter",
+    "destinationsTitle": "Empfohlene Routen",
+    "destinations": [
+      { "key": "services", "title": "Leistungen", "body": "Volumen- und internationale Transporte." },
+      { "key": "fleet", "title": "Fuhrpark", "body": "Einhundert DAF- und Mercedes-Züge." },
+      { "key": "references", "title": "Referenzen", "body": "Partner, für die wir langfristig fahren." },
+      { "key": "contact", "title": "Kontakt", "body": "Disposition 24/7, +420 585 206 140." }
+    ]
   },
   "ticker": {
     "ariaLabel": "Aktive Transportrouten",

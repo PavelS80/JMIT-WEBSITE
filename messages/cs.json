@@ -169,7 +169,16 @@
     "title": "Zásilka se ztratila v Evropě.",
     "body": "Adresa neexistuje nebo byla přesměrována. Vraťte se domů — náš dispečink to napraví.",
     "ctaHome": "Zpátky domů",
-    "ctaContact": "Kontaktovat dispečink"
+    "ctaContact": "Kontaktovat dispečink",
+    "stamp": "Trasa nenalezena",
+    "destinationsEyebrow": "Kam dál",
+    "destinationsTitle": "Doporučené trasy",
+    "destinations": [
+      { "key": "services", "title": "Služby", "body": "Velkoobjemová a mezinárodní doprava." },
+      { "key": "fleet", "title": "Vozový park", "body": "Sto soupravek DAF a Mercedes." },
+      { "key": "references", "title": "Reference", "body": "S kým spolupracujeme dlouhodobě." },
+      { "key": "contact", "title": "Kontakty", "body": "Dispečink 24/7, +420 585 206 140." }
+    ]
   },
   "ticker": {
     "ariaLabel": "Aktivní přepravní trasy",

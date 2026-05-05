@@ -13,6 +13,9 @@ const staticRoutes = [
   "/reference",
   "/kariera",
   "/kontakty",
+  "/gdpr",
+  "/cookies",
+  "/tiraz",
 ] as const;
 
 type Locale = (typeof routing.locales)[number];
@@ -38,7 +41,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: url(locale, route),
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
-      priority: route === "/" ? 1 : 0.7,
+      priority:
+        route === "/"
+          ? 1
+          : route === "/gdpr" || route === "/cookies" || route === "/tiraz"
+            ? 0.3
+            : 0.7,
       alternates: {
         languages: Object.fromEntries(
           routing.locales.map((l) => [l, url(l, route)])

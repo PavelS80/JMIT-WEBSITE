@@ -169,7 +169,16 @@
     "title": "Lost in transit.",
     "body": "This address doesn't exist or has been re-routed. Head back home — our dispatch will sort it out.",
     "ctaHome": "Back home",
-    "ctaContact": "Contact dispatch"
+    "ctaContact": "Contact dispatch",
+    "stamp": "Route not found",
+    "destinationsEyebrow": "Where to next",
+    "destinationsTitle": "Suggested routes",
+    "destinations": [
+      { "key": "services", "title": "Services", "body": "High-volume and international freight." },
+      { "key": "fleet", "title": "Fleet", "body": "One hundred DAF and Mercedes rigs." },
+      { "key": "references", "title": "References", "body": "Long-term partners we deliver for." },
+      { "key": "contact", "title": "Contact", "body": "Dispatch 24/7, +420 585 206 140." }
+    ]
   },
   "ticker": {
     "ariaLabel": "Active transport routes",
