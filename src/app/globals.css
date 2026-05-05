@@ -418,6 +418,51 @@ button:focus-visible {
   }
 }
 
+/* Mobile drawer — slide+fade with stagger */
+.mobile-drawer {
+  transition:
+    max-height 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.3s ease;
+}
+.mobile-drawer.is-closed {
+  max-height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+.mobile-drawer.is-open {
+  max-height: 90vh;
+  opacity: 1;
+}
+.mobile-drawer__item {
+  opacity: 0;
+  transform: translateX(-8px);
+  transition:
+    opacity 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.mobile-drawer.is-open .mobile-drawer__item {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Hamburger morphs to X when open */
+.menu-toggle__bars span {
+  transition:
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.2s ease;
+}
+.menu-toggle.is-open .menu-toggle__bars span:nth-child(1) {
+  transform: translateY(0.4rem) rotate(45deg);
+  background: var(--color-brand-red);
+}
+.menu-toggle.is-open .menu-toggle__bars span:nth-child(2) {
+  opacity: 0;
+}
+.menu-toggle.is-open .menu-toggle__bars span:nth-child(3) {
+  transform: translateY(-0.4rem) rotate(-45deg);
+  background: var(--color-brand-red);
+}
+
 /* 404 hazard light flash on parked truck */
 @keyframes hazard-flash {
   0%, 49% {
@@ -473,5 +518,14 @@ button:focus-visible {
   }
   .hazard-flash {
     animation: none !important;
+  }
+  .mobile-drawer,
+  .mobile-drawer__item,
+  .menu-toggle__bars span {
+    transition: none !important;
+  }
+  .mobile-drawer.is-open .mobile-drawer__item {
+    opacity: 1 !important;
+    transform: none !important;
   }
 }
