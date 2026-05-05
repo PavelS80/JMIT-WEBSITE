@@ -25,7 +25,8 @@
     "scrollHint": "Scrollen",
     "language": "Sprache",
     "backToTop": "Nach oben",
-    "skipToContent": "Zum Inhalt springen"
+    "skipToContent": "Zum Inhalt springen",
+    "callDispatch": "Disposition 24/7"
   },
   "hero": {
     "eyebrow": "Seit {year} · {years} Jahre Tradition",

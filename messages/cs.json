@@ -25,7 +25,8 @@
     "scrollHint": "Posuňte",
     "language": "Jazyk",
     "backToTop": "Zpět nahoru",
-    "skipToContent": "Přeskočit na obsah"
+    "skipToContent": "Přeskočit na obsah",
+    "callDispatch": "Dispečink 24/7"
   },
   "hero": {
     "eyebrow": "Od roku {year} · {years} let tradice",

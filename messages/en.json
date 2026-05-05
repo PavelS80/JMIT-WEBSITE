@@ -25,7 +25,8 @@
     "scrollHint": "Scroll",
     "language": "Language",
     "backToTop": "Back to top",
-    "skipToContent": "Skip to content"
+    "skipToContent": "Skip to content",
+    "callDispatch": "24/7 dispatch"
   },
   "hero": {
     "eyebrow": "Since {year} · {years} years of heritage",

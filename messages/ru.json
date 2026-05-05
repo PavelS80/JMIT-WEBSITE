@@ -25,7 +25,8 @@
     "scrollHint": "Прокрутите",
     "language": "Язык",
     "backToTop": "Наверх",
-    "skipToContent": "Перейти к содержимому"
+    "skipToContent": "Перейти к содержимому",
+    "callDispatch": "Диспетчер 24/7"
   },
   "hero": {
     "eyebrow": "С {year} года · {years} лет традиции",

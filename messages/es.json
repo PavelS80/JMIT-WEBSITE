@@ -25,7 +25,8 @@
     "scrollHint": "Desplazar",
     "language": "Idioma",
     "backToTop": "Volver arriba",
-    "skipToContent": "Saltar al contenido"
+    "skipToContent": "Saltar al contenido",
+    "callDispatch": "Despacho 24/7"
   },
   "hero": {
     "eyebrow": "Desde {year} · {years} años de tradición",

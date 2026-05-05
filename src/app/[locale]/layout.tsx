@@ -10,6 +10,7 @@ import { CookieBanner } from "@/components/CookieBanner";
 import { ScrollProgress } from "@/components/ScrollProgress";
 import { RevealObserver } from "@/components/Reveal";
 import { BackToTop } from "@/components/BackToTop";
+import { DispatchCall } from "@/components/DispatchCall";
 import { StructuredData } from "@/components/StructuredData";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
@@ -99,6 +100,7 @@ export default async function LocaleLayout({
           <CookieBanner />
           <RevealObserver />
           <BackToTop />
+          <DispatchCall />
           <StructuredData />
         </NextIntlClientProvider>
       </body>
