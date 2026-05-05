@@ -142,15 +142,27 @@ function AboutContent() {
       <section className="py-24 md:py-32">
         <Container>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {certificates.map((c) => (
+            {certificates.map((c, i) => (
               <div
                 key={c.name}
-                className="border border-line rounded-2xl p-7 bg-surface"
+                data-delay={String((i % 4) + 1)}
+                className="reveal group relative border border-line rounded-2xl p-7 bg-surface overflow-hidden transition-shadow hover:shadow-soft"
               >
-                <div className="text-[12px] font-semibold tracking-[0.18em] uppercase text-brand-red">
-                  {t("certificateLabel")}
+                <span
+                  aria-hidden
+                  className="absolute left-0 top-0 h-1 w-0 bg-gradient-to-r from-brand-red to-gold transition-[width] duration-500 group-hover:w-full"
+                />
+                <div className="flex items-start justify-between gap-4">
+                  <div className="text-[12px] font-semibold tracking-[0.18em] uppercase text-brand-red">
+                    {t("certificateLabel")}
+                  </div>
+                  <span aria-hidden className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-gold/40 bg-white text-gold">
+                    <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                      <path d="m6 12 4 4 8-8" />
+                    </svg>
+                  </span>
                 </div>
-                <h3 className="mt-2 text-[22px] font-semibold tracking-tight">
+                <h3 className="mt-3 text-[22px] font-semibold tracking-tight">
                   {c.name}
                 </h3>
                 <p className="mt-3 text-[15px] text-ink-muted leading-relaxed">
