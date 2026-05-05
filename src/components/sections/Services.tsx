@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Container } from "@/components/Container";
 import { serviceSlugs, serviceImages } from "@/lib/site";
+import { blurData } from "@/lib/blurData";
 
 export function Services() {
   const t = useTranslations("servicesSection");
@@ -37,6 +38,8 @@ export function Services() {
                 alt={ts(`${slug}.title`)}
                 fill
                 sizes="(min-width:1024px) 33vw, (min-width:768px) 50vw, 100vw"
+                placeholder="blur"
+                blurDataURL={blurData[serviceImages[slug]]}
                 className="object-cover transition-transform duration-700 group-hover:scale-[1.04]"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy via-navy/30 to-transparent" />

@@ -11,6 +11,7 @@ import {
   serviceImages,
   type ServiceSlug,
 } from "@/lib/site";
+import { blurData } from "@/lib/blurData";
 import type { Metadata } from "next";
 
 type Props = { params: Promise<{ locale: string; slug: string }> };
@@ -97,6 +98,8 @@ function ServiceDetailContent({ slug }: { slug: ServiceSlug }) {
               alt={title}
               fill
               sizes="100vw"
+              placeholder="blur"
+              blurDataURL={blurData[serviceImages[slug]]}
               className="object-cover"
             />
           </div>
@@ -162,6 +165,8 @@ function ServiceDetailContent({ slug }: { slug: ServiceSlug }) {
                   alt={ts(`${s}.title`)}
                   fill
                   sizes="(min-width:1024px) 18vw, (min-width:640px) 50vw, 100vw"
+                  placeholder="blur"
+                  blurDataURL={blurData[serviceImages[s]]}
                   className="object-cover opacity-80 group-hover:opacity-100 group-hover:scale-[1.04] transition-all duration-500"
                 />
                 <span

@@ -24,7 +24,8 @@
     "readMore": "Číst více",
     "scrollHint": "Posuňte",
     "language": "Jazyk",
-    "backToTop": "Zpět nahoru"
+    "backToTop": "Zpět nahoru",
+    "skipToContent": "Přeskočit na obsah"
   },
   "hero": {
     "eyebrow": "Od roku {year} · {years} let tradice",

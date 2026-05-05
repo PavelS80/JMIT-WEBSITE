@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Container } from "@/components/Container";
+import { blurData } from "@/lib/blurData";
 
 const fleet = [
   { src: "/assets/fleet/fleet-1.jpg", key: "1" as const },
@@ -52,6 +53,8 @@ export function FleetTeaser() {
                   alt={caption}
                   fill
                   sizes="(min-width:1024px) 33vw, 100vw"
+                  placeholder="blur"
+                  blurDataURL={blurData[f.src]}
                   className="object-cover transition-transform duration-700 group-hover:scale-[1.04]"
                   priority={i === 0}
                 />

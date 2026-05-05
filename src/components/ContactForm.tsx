@@ -27,9 +27,15 @@ export function ContactForm() {
         />
       </label>
 
-      <Field label={`${t("name")} *`} name="name" required />
-      <Field label={`${t("email")} *`} name="email" type="email" required />
-      <Field label={t("phone")} name="phone" type="tel" />
+      <Field label={`${t("name")} *`} name="name" required autoComplete="name" />
+      <Field
+        label={`${t("email")} *`}
+        name="email"
+        type="email"
+        required
+        autoComplete="email"
+      />
+      <Field label={t("phone")} name="phone" type="tel" autoComplete="tel" />
       <Field label={t("subject")} name="subject" />
 
       <div className="md:col-span-2">
@@ -79,11 +85,13 @@ function Field({
   name,
   type = "text",
   required,
+  autoComplete,
 }: {
   label: string;
   name: string;
   type?: string;
   required?: boolean;
+  autoComplete?: string;
 }) {
   return (
     <label className="block">
@@ -94,6 +102,7 @@ function Field({
         type={type}
         name={name}
         required={required}
+        autoComplete={autoComplete}
         className="w-full rounded-xl border border-line bg-white px-4 py-3 text-[15px] text-ink focus:outline-none focus:border-brand-red focus:ring-2 focus:ring-brand-red/20 transition-colors"
       />
     </label>

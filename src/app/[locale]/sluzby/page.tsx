@@ -6,6 +6,7 @@ import { PageHero } from "@/components/PageHero";
 import { Container } from "@/components/Container";
 import { ContactCTA } from "@/components/sections/ContactCTA";
 import { serviceSlugs, serviceImages } from "@/lib/site";
+import { blurData } from "@/lib/blurData";
 import type { Metadata } from "next";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -61,6 +62,8 @@ function ServicesContent() {
                     alt={ts(`${slug}.title`)}
                     fill
                     sizes="(min-width:1024px) 40vw, 100vw"
+                    placeholder="blur"
+                    blurDataURL={blurData[serviceImages[slug]]}
                     className="object-cover"
                   />
                 </div>

@@ -74,6 +74,7 @@ export default async function LocaleLayout({
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
+  const tc = await getTranslations({ locale, namespace: "common" });
 
   return (
     <html
@@ -82,9 +83,17 @@ export default async function LocaleLayout({
     >
       <body className="min-h-full flex flex-col bg-white text-ink">
         <NextIntlClientProvider>
+          <a
+            href="#main"
+            className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:rounded-md focus:bg-navy focus:text-white focus:px-4 focus:py-2 focus:text-[14px] focus:font-semibold focus:shadow-lift"
+          >
+            {tc("skipToContent")}
+          </a>
           <ScrollProgress />
           <Header />
-          <main className="flex-1">{children}</main>
+          <main id="main" tabIndex={-1} className="flex-1 focus:outline-none">
+            {children}
+          </main>
           <Footer />
           <DrivingTruck />
           <CookieBanner />

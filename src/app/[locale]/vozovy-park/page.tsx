@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { PageHero } from "@/components/PageHero";
 import { Container } from "@/components/Container";
 import { ContactCTA } from "@/components/sections/ContactCTA";
+import { blurData } from "@/lib/blurData";
 import type { Metadata } from "next";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -111,6 +112,8 @@ function FleetContent() {
                   alt={`J.M.I.T. ${i + 1}`}
                   fill
                   sizes="(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw"
+                  placeholder="blur"
+                  blurDataURL={blurData[src]}
                   className="object-cover transition-transform duration-700 group-hover:scale-[1.04]"
                 />
               </figure>

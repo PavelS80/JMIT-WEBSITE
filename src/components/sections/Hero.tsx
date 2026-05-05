@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import { Button } from "@/components/Button";
 import { CursorGlow } from "@/components/CursorGlow";
 import { site } from "@/lib/site";
+import { blurData } from "@/lib/blurData";
 
 export function Hero() {
   const t = useTranslations("hero");
@@ -17,6 +18,8 @@ export function Hero() {
           fill
           priority
           sizes="100vw"
+          placeholder="blur"
+          blurDataURL={blurData["/assets/hero/hero-1.jpg"]}
           className="object-cover hero-bg"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-navy/60 via-navy/40 to-navy/95" />

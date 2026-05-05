@@ -5,6 +5,7 @@ import { PageHero } from "@/components/PageHero";
 import { Container } from "@/components/Container";
 import { ContactForm } from "@/components/ContactForm";
 import { site, departmentContacts, teamPortraits } from "@/lib/site";
+import { blurData } from "@/lib/blurData";
 import type { Metadata } from "next";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -110,6 +111,8 @@ function ContactsContent() {
                             alt={m.name}
                             fill
                             sizes="64px"
+                            placeholder="blur"
+                            blurDataURL={blurData[portrait]}
                             className="object-cover"
                           />
                         </div>

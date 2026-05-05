@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
+import { blurData } from "@/lib/blurData";
 
 export function CareerCTA() {
   const t = useTranslations("careerCta");
@@ -16,6 +17,8 @@ export function CareerCTA() {
               alt={t("titleLine1")}
               fill
               sizes="(min-width:1024px) 50vw, 100vw"
+              placeholder="blur"
+              blurDataURL={blurData["/assets/hero/hero-4.jpg"]}
               className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-tr from-navy/40 via-transparent to-transparent" />

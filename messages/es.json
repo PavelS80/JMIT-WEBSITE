@@ -24,7 +24,8 @@
     "readMore": "Leer más",
     "scrollHint": "Desplazar",
     "language": "Idioma",
-    "backToTop": "Volver arriba"
+    "backToTop": "Volver arriba",
+    "skipToContent": "Saltar al contenido"
   },
   "hero": {
     "eyebrow": "Desde {year} · {years} años de tradición",

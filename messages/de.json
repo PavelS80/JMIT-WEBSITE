@@ -24,7 +24,8 @@
     "readMore": "Mehr lesen",
     "scrollHint": "Scrollen",
     "language": "Sprache",
-    "backToTop": "Nach oben"
+    "backToTop": "Nach oben",
+    "skipToContent": "Zum Inhalt springen"
   },
   "hero": {
     "eyebrow": "Seit {year} · {years} Jahre Tradition",

@@ -90,8 +90,9 @@ export function Header() {
           type="button"
           onClick={() => setOpen((v) => !v)}
           className="lg:hidden inline-flex h-10 w-10 items-center justify-center rounded-lg border border-line"
-          aria-label={tc("readMore")}
+          aria-label={t("menu")}
           aria-expanded={open}
+          aria-controls="mobile-nav"
         >
           <span className="sr-only">{t("menu")}</span>
           <div className="space-y-1.5">
@@ -103,8 +104,8 @@ export function Header() {
       </div>
 
       {open && (
-        <div className="lg:hidden border-t border-line bg-white">
-          <nav className="flex flex-col px-6 py-4">
+        <div id="mobile-nav" className="lg:hidden border-t border-line bg-white">
+          <nav aria-label="Mobile" className="flex flex-col px-6 py-4">
             {navigation.map((item) => {
               const active = isActive(item.href);
               return (

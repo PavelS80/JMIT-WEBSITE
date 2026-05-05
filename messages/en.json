@@ -24,7 +24,8 @@
     "readMore": "Read more",
     "scrollHint": "Scroll",
     "language": "Language",
-    "backToTop": "Back to top"
+    "backToTop": "Back to top",
+    "skipToContent": "Skip to content"
   },
   "hero": {
     "eyebrow": "Since {year} · {years} years of heritage",

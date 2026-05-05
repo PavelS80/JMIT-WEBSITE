@@ -24,7 +24,8 @@
     "readMore": "Читать далее",
     "scrollHint": "Прокрутите",
     "language": "Язык",
-    "backToTop": "Наверх"
+    "backToTop": "Наверх",
+    "skipToContent": "Перейти к содержимому"
   },
   "hero": {
     "eyebrow": "С {year} года · {years} лет традиции",
